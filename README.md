@@ -11,3 +11,9 @@ For a comprehensive guide and setup instructions, visit [the wiki](https://githu
 - Integration of new red helper blocks.
 - Up-to-date ProGuard version.
 - Ability to declare manifest attributes in AndroidManifest.xml.
+
+## Supported OS
+- Windows
+- Linux
+- MacOS
+- Android (Termux)
