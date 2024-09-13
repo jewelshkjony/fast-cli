@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Zip
+# Base64-encoded URL for the ZIP file
 zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC8xLjAuMC9saW51eG1hYy56aXA="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
@@ -25,11 +25,34 @@ unzip "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-# Update PATH for the user
-if [[ ":$PATH:" != *":$destinationDir:"* ]]; then
-    export PATH="$PATH:$destinationDir"
-    echo "export PATH=\"\$PATH:$destinationDir\"" >> "$HOME/.bashrc" # For bash
-    echo "export PATH=\"\$PATH:$destinationDir\"" >> "$HOME/.zshrc"  # For zsh
+# Add the fast() function to .bashrc and .zshrc for global usage
+fastFunction='
+fast() {
+    java -jar "$HOME/.local/share/Fast/fast.jar" "$@"
+}
+'
+
+# Check if .bashrc exists and the function is not already added
+if [ -f "$HOME/.bashrc" ]; then
+    if ! grep -q "fast()" "$HOME/.bashrc"; then
+        echo "$fastFunction" >> "$HOME/.bashrc"
+        echo "Fast command added to .bashrc"
+    fi
 fi
 
-echo "Fast-1.0.0 has been successfully installed."
+# Check if .zshrc exists and the function is not already added
+if [ -f "$HOME/.zshrc" ]; then
+    if ! grep -q "fast()" "$HOME/.zshrc"; then
+        echo "$fastFunction" >> "$HOME/.zshrc"
+        echo "Fast command added to .zshrc"
+    fi
+fi
+
+# Reload the shell configuration
+if [ -n "$BASH_VERSION" ]; then
+    source "$HOME/.bashrc"
+elif [ -n "$ZSH_VERSION" ]; then
+    source "$HOME/.zshrc"
+fi
+
+echo "Fast-1.0.0 has been successfully installed. You can now use the 'fast' command globally."
