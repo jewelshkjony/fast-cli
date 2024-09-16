@@ -61,4 +61,4 @@ elif [ -f "$HOME/.zshrc" ] && [ -n "$ZSH_VERSION" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-1.0.0 has been successfully installed. You can now use the 'fast' command globally."
+echo "Fast-1.0.1 has been successfully installed. You can now use the 'fast' command globally."
