@@ -41,4 +41,4 @@ if (!(";$Path;".ToLower() -like "*;$destinationDir;*".ToLower())) {
     $Env:Path += ";$destinationDir"
 }
 
-Write-Output "Fast-1.0.0 has been successfully installed."
+Write-Output "Fast-1.0.1 has been successfully installed."
