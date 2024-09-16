@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC8xLjAuMC9mYXN0LnppcA=="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC9WMS9mYXN0LnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the destination path dynamically using the current user's home directory
