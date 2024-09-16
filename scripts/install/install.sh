@@ -53,10 +53,11 @@ if [ -f "$HOME/.zshrc" ]; then
     fi
 fi
 
-# Reload the shell configuration
-if [ -n "$BASH_VERSION" ]; then
+# Reload the appropriate shell configuration
+# First check if the shell config file exists, then check if the shell variable is non-empty
+if [ -f "$HOME/.bashrc" ] && [ -n "$BASH_VERSION" ]; then
     source "$HOME/.bashrc"
-elif [ -n "$ZSH_VERSION" ]; then
+elif [ -f "$HOME/.zshrc" ] && [ -n "$ZSH_VERSION" ]; then
     source "$HOME/.zshrc"
 fi
 
