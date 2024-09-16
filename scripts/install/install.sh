@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC8xLjAuMC9saW51eG1hYy56aXA="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC8xLjAuMC9mYXN0LnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the destination path dynamically using the current user's home directory
@@ -24,6 +24,11 @@ unzip "$zipLocation" -d "$destinationDir"
 
 # Remove the downloaded ZIP file
 rm "$zipLocation"
+
+# Remove the bat file
+if [ -f "$HOME/.local/share/Fast/fast.bat" ]; then
+    rm "$HOME/.local/share/Fast/fast.bat"
+fi
 
 # Add the fast() function to .bashrc and .zshrc for global usage
 fastFunction='
