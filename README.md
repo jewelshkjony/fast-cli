@@ -19,7 +19,7 @@
 - Windows
 - Linux
 - MacOS
-- Android (Termux)
+- Android <small>(Termux/UserLand)</small>
 
 ## Release Notes
 **1.0.1:**
