@@ -11,79 +11,94 @@
     "author": {
       "title": "Developer Name",
       "description": "This extension developer name will be included with the components_build_info.json.",
-      "type": "string"
+      "type": "string",
+      "default": "FAST"
     },
     "auto_version": {
       "title": "Auto-increment version",
       "description": "If enabled, the version number of every component will be increased automatically during build process.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "min_sdk": {
       "title": "Extension's minimum Android SDK",
       "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `7`.",
       "type": "integer",
-      "minimum": 8
+      "minimum": 8,
+      "default": 8
     },
     "kotlin": {
       "title": "Kotlin Support",
       "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension. If you want to add specific Kotlin Standard Libraries so disable it.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "desugar_sources": {
       "title": "Desugaring Sources",
       "description": "If enabled, you will be able to use Java 8 language features in your extension source classes, such as lambda expressions. When you use .kt classes, by default Fast will desugar sources.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "desugar_deps": {
       "title": "Desugaring dependencies",
       "description": "Enable it, if any of your dependencies use Java 8 language features. If kotlin is enabled, by default Fast will desugar dependencies.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "desugar_dex": {
       "title": "Desugaring DEX",
       "description": "If enabled, the D8 tool will generate desugared (classes.jar) classes.dex",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "deannonate": {
       "title": "De-annotate",
       "description": "If enabled, @annotations will not be present in the built extension.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "filter_mit_classes": {
       "title": "Filer MIT App Inventor Classes",
       "description": "If enabled, matching classes provided by MIT will not be included in the built extension.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "optimize": {
       "deprecated": true,
       "title": "ProGuard",
       "description": "This attribute is now replaced by proguard. Please use proguard, otherwise the value will be ignored.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "proguard": {
       "title": "ProGuard",
       "description": "If enabled, it will optimizes the extension with ProGuard.",
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "dependencies": {
       "title": "Extension dependencies",
       "description": "JAR dependencies of the extension. Only add the JARs that are needed during runtime here. Compile-time dependencies are not required to be added; they should only be present in the `deps` directory.",
-      "type": "array"
+      "type": "array",
+      "default": []
     },
     "assets": {
       "title": "Extension assets",
       "description": "Should be present into assets directory.",
-      "type": "array"
+      "type": "array",
+      "default": []
     },
     "mock_js": {
       "title": "Mock JS for each Component.",
       "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
-      "type": "array"
+      "type": "array",
+      "default": {}
     },
     "mock_css": {
       "title": "Mock Css for each Component.",
       "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory.",
-      "type": "array"
+      "type": "array",
+      "default": {}
     }
   }
 }
