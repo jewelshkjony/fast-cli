@@ -54,6 +54,12 @@
       "description": "If enabled, matching classes provided by MIT will not be included in the built extension.",
       "type": "boolean"
     },
+    "optimize": {
+      "deprecated": true,
+      "title": "ProGuard",
+      "description": "This attribute is now replaced by proguard. Please use proguard, otherwise the value will be ignored.",
+      "type": "boolean"
+    },
     "proguard": {
       "title": "ProGuard",
       "description": "If enabled, it will optimizes the extension with ProGuard.",
