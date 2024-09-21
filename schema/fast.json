@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json",
-  "title": "Fast Build Configuration",
+  "title": "Fast Build Config",
   "description": "This file contains author name, min_sdk, dependencies, assets, and various build configurations. It also includes support for Kotlin, Java 8 features, and optimization settings.",
   "type": "object",
   "required": [
@@ -22,7 +22,7 @@
     },
     "min_sdk": {
       "title": "Extension's minimum Android SDK",
-      "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `7`.",
+      "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `8`.",
       "type": "integer",
       "minimum": 8,
       "default": 8
@@ -65,7 +65,7 @@
     },
     "optimize": {
       "deprecated": true,
-      "title": "ProGuard",
+      "title": "ProGuard Deprecated",
       "description": "This attribute is now replaced by proguard. Please use proguard, otherwise the value will be ignored.",
       "type": "boolean",
       "default": true
@@ -92,13 +92,13 @@
       "title": "Mock JS for each Component.",
       "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
       "type": "array",
-      "default": {}
+      "default": []
     },
     "mock_css": {
       "title": "Mock Css for each Component.",
       "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory.",
       "type": "array",
-      "default": {}
+      "default": []
     }
   }
 }
