@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9FeHRlbnNpb25zL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjAuMy9mYXN0LnppcA=="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9FeHRlbnNpb25zL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjAuNC9mYXN0LnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the destination path dynamically using the current user's home directory
@@ -61,4 +61,4 @@ elif [ -f "$HOME/.zshrc" ] && [ -n "$ZSH_VERSION" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-1.0.3 has been successfully installed. You can now use the 'fast' command globally."
+echo "Fast-1.0.4 has been successfully installed. You can now use the 'fast' command globally."
