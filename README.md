@@ -37,3 +37,6 @@
 - Added a new attribute by name `filter_mit_classes` to produce a smaller aix size.
 - Added a new argument `-o` to optimize that aix size when proguard is disabled. It's useful when you use Kotlin libraries without ProGuard.
 - Enhanced the VSCode code suggestion feature.
+
+**1.0.4:**
+- Fixed compiling issues on Linux/Mac/Android.
