@@ -17,7 +17,7 @@ fi
 mkdir -p "$destinationDir"
 
 # Download ZIP file to the specified location
-curl -L "$zipUrl" -o "$zipLocation"
+curl -L "$zipUrl" -o "$zipLocation" -#
 
 # Extract the ZIP file
 unzip "$zipLocation" -d "$destinationDir"
