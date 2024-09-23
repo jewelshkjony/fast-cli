@@ -16,7 +16,7 @@ fi
 
 # Download the new ZIP file to the specified location
 echo "Downloading the update for Fast tool..."
-curl -L "$zipUrl" -o "$zipLocation"
+curl -L "$zipUrl" -o "$zipLocation" -#
 
 # Check if the ZIP file was downloaded successfully
 if [ ! -f "$zipLocation" ]; then
