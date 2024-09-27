@@ -22,13 +22,16 @@
 - Android <small>(Termux/UserLand)</small>
 
 ## Release Notes
-**1.0.1:**
-- Fixed code suggestion for Android Studio & IntelliJ IDEA.
+**1.0.6:**
+- Added the `ai2` migrate command to migrate App Inventor source's extension project to FAST.
+- Error messages are now more meaningful.
 
-**1.0.2:**
-- Fixed compiling issue if space is present in file or directory path.
-- Added `propfix` command to automatically add the `category` attribute on @SimpleProperty where missing.
-- The author's name also be included in AndroidRuntime.jar.
+**1.0.5:**
+- Added the `template` migrate command to migrate extension-template project to FAST.
+- Some internal changes to make it more faster on Android/Linux/MacOS.
+
+**1.0.4:**
+- Fixed compiling issues on Linux/Mac/Android.
 
 **1.0.3:**
 - Fixed the manifest issue.
@@ -38,5 +41,13 @@
 - Added a new argument `-o` to optimize that aix size when proguard is disabled. It's useful when you use Kotlin libraries without ProGuard.
 - Enhanced the VSCode code suggestion feature.
 
-**1.0.4:**
-- Fixed compiling issues on Linux/Mac/Android.
+**1.0.2:**
+- Fixed compiling issue if space is present in file or directory path.
+- Added `propfix` command to automatically add the `category` attribute on @SimpleProperty where missing.
+- The author's name also be included in AndroidRuntime.jar.
+
+**1.0.1:**
+- Fixed code suggestion for Android Studio & IntelliJ IDEA.
+
+**1.0.0:**
+- Initial release.
