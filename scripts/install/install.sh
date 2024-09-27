@@ -65,4 +65,4 @@ if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-1.0.4 has been successfully installed. You can now use the 'fast' command globally."
+echo "Fast-1.0.6 has been successfully installed. You can now use the 'fast' command globally."
