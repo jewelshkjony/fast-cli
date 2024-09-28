@@ -39,4 +39,4 @@ else {
 # Remove the downloaded ZIP file
 Remove-Item $zipLocation
 
-Write-Output "Fast has been successfully updated to v1.0.7!"
+Write-Output "Fast has been successfully updated to v1.0.6"
