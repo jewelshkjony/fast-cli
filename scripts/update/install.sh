@@ -31,4 +31,4 @@ unzip -o "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-echo "Fast has been successfully updated to v1.0.6"
+echo "Fast has been successfully updated to v1.0.8"
