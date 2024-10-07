@@ -22,6 +22,14 @@
 - Android <small>(Termux/UserLand)</small>
 
 ## Release Notes
+**1.0.8:**
+- Updated the ProGuard library to the latest v7.6.0
+- Some internal changes on the core program of FAST to make it more faster & stable.
+
+**1.0.7:**
+- Redesiged the compiler to compile sources faster.
+- Fixed compilation issue while compiling a large amount of sources.
+
 **1.0.6:**
 - Added the `ai2` migrate command to migrate App Inventor source's extension project to FAST.
 - Error messages are now more meaningful.
