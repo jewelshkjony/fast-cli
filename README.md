@@ -4,7 +4,7 @@
 
 ## Features
 - Java 8 support, including lambda expressions (`()->`).
-- Kotlin support for non-component classes.
+- Kotlin language support.
 - Multi-component support for extensions.
 - Integration of new red helper blocks.
 - Up-to-date ProGuard version.
@@ -22,6 +22,9 @@
 - Android <small>(Termux/UserLand)</small>
 
 ## Release Notes
+**1.0.9:**
+- Added full kotlin language support.
+
 **1.0.8:**
 - Updated the ProGuard library to the latest v7.6.0
 - Some internal changes on the core program of FAST to make it more faster & stable.
