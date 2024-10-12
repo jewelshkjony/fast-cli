@@ -24,6 +24,7 @@
 ## Release Notes
 **1.0.9:**
 - Added full kotlin language support.
+- Added built date with the version name.
 
 **1.0.8:**
 - Updated the ProGuard library to the latest v7.6.0
