@@ -22,6 +22,10 @@
 - Android <small>(Termux/UserLand)</small>
 
 ## Release Notes
+**1.1.0:**
+- A major bug fixed for Java compilation.
+- Informative logs on error prints.
+
 **1.0.9:**
 - Added full kotlin language support.
 - Added built date with the version name.
