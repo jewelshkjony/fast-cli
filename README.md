@@ -7,7 +7,7 @@
 - Kotlin language support.
 - Multi-component support for extensions.
 - Integration of new red helper blocks.
-- Up-to-date ProGuard version.
+- Up-to-date ProGuard library 7.6.0.
 - Optimizer to optimize aix size even without ProGuard.
 - Ability to declare manifest attributes in AndroidManifest.xml.
 - Code suggestions for VSCode, Eclipse, IntelliJ IDEA and Android Studio.
@@ -21,7 +21,22 @@
 - MacOS
 - Android <small>(Termux/UserLand)</small>
 
+## Requirements
+1. Only JDK is required to run the FAST. (JDK 8 is recommended).
+
+## Installation
+#### Windows Only
+1. Run the the below command on Windows PowerShell.
+````.ps1
+iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/win.ps1 -useb | iex
+````
+2. The installation is successful. You're now good to use the FAST CLI.
+
 ## Release Notes
+**1.1.1:**
+- Colorful logs added on prints.
+- A minor bug is fixed.
+
 **1.1.0:**
 - A major bug fixed for Java compilation.
 - Informative logs on error prints.
