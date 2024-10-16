@@ -1,12 +1,11 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-🏃‍♂️‍➡️ A Smarter and More Efficient Way to Develop MIT App Inventor 2 Extensions. Say good bye to @annotations.
-
 ![Version](https://img.shields.io/badge/Latest_Version-1.1.2-green?labelColor=gray) ![Date](https://img.shields.io/badge/-16.10.2024.10.02-blue?logoColor=blue)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
+- Annotations less source codes.
 - Java 8 support, including lambda expressions (`()->`).
 - Support for Kotlin language to writte extension components.
 - Support for Multi-component in extension.
