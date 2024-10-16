@@ -2,6 +2,8 @@
 
 🏃‍♂️‍➡️ A Smarter and More Efficient Way to Develop MIT App Inventor 2 Extensions. Say good bye to @annotations.
 
+🔰 **Latest version:** 1.1.2 16.10.2024.10.02
+
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
@@ -12,6 +14,7 @@
 - Up-to-date ProGuard library 7.6.0.
 - All @annotations will be removed from build aix.
 - Optimizer to optimize aix size even without ProGuard.
+- It generates a smaller size of extension.
 - Ability to declare manifest attributes in AndroidManifest.xml.
 - Support for Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
 - Filter Mit App Inventor provided classes to reduce the aix size.
