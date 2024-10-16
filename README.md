@@ -73,6 +73,22 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update
 4. Enter author name.
 5. Done.
 
+## 🤔 How to declare the component class
+1. You need to annotate with @DesignerComponent to declare extension component classes.\
+Example:
+````.java
+@DesignerComponent(
+  version = 1,
+  versionName = "1.0",
+  description = "Developed by JEWEL by Fast.",
+  iconName = "icon.png"
+)
+````
+
+- Required attributes: `version`, `iconName`
+- Optional attributes: `versionName`, `description`, `designerHelpDescription`, `helpUrl`, `licenseName`
+- Ignored attributes: `category`, `androidMinSdk`
+
 ## 🤔 How to build a FAST project
 1. Open termanl at where the FAST project is.
 2. Run `fast build` to build the project.
