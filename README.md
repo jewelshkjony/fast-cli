@@ -2,6 +2,8 @@
 
 🏃‍♂️‍➡️ A Smarter and More Efficient Way to Develop MIT App Inventor 2 Extensions. Say good bye to @annotations.
 
+> Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
+
 ## 🌟 Features
 - Java 8 support, including lambda expressions (`()->`).
 - Support for Kotlin language to writte extension components.
@@ -23,10 +25,11 @@
 - Android <small>(Termux/UserLand, etc)</small>
 
 ## ❓ Requirements
-1. Only JDK is required to run the FAST. (JDK 8 or 11 is recommended).
+1. Only Java is required to run the FAST. (JDK 8 or 11 is recommended).
 
 ## 🤔 How to install?
 #### 🖥️ Windows Only
+---
 1. Run the the below command on Windows PowerShell.
 ````.ps1
 iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/win.ps1 -useb | iex
@@ -34,6 +37,7 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 2. The installation is successful. You're now good to use the FAST CLI.
 
 #### 💻 Linux, MacOS & Android Termux
+---
 1. Run the the below command on terminal.
 ````.sh
 curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
@@ -42,6 +46,7 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/instal
 
 ## ❓ How to update the FAST
 #### 🖥️ Windows Only
+---
 1. Make sure that FAST is already installed on your system.
 2. Run the the below command on Windows PowerShell.
 ````.ps1
@@ -50,6 +55,7 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/
 3. Done. Check the version of updated FAST.
 
 #### 💻 Linux, MacOS & Android Termux
+---
 1. Make sure that FAST is already installed on your system.
 2. Run the the below command on terminal.
 ````.sh
@@ -68,6 +74,15 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/instal
 1. Open termanl at where the FAST project is.
 2. Run `fast build` to build the project.
 3. Done. The compiled extension should be inside the out directory.
+
+## 💡 Want to share an idea?
+Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
+
+## 🐛 Getting issues?
+Please open an issue [here](https://github.com/jewelshkjony/fast-cli/issues).
+
+## 🤝 For additional support
+Please text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
 
 ## 📝 Release Notes
 <details>
