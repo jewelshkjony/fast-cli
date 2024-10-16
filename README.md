@@ -47,7 +47,7 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/instal
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
 
-## ❓ How to update the FAST
+## ❓ How to update the installed version
 #### 🖥️ Windows Only
 ---
 1. Make sure that FAST is already installed on your system.
