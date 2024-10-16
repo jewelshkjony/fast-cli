@@ -78,6 +78,10 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update
 2. Run `fast build` to build the project.
 3. Done. The compiled extension should be inside the out directory.
 
+## 🤔 How to compile with ProGuard?
+1. Make sure that the proguard attribute is enabled on the `fast.yml` config file. Ex. `proguard: true`
+2. Run the build command with `-r` as an additional argument. Ex. `fast build -r`
+
 ## 💡 Want to share an idea?
 Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
 
