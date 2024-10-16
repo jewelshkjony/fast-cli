@@ -1,5 +1,5 @@
-# Scripts to install Fast CLI, Windows Only
-$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjEvd2luLnppcA=="
+# Scripts to install Fast CLI for Windows
+$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjIvZmFzdC56aXA="
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
 $zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
 
@@ -33,16 +33,17 @@ else {
 }
 Remove-Item $zipLocation
 
-# Set FAST_HOME environment variable for the user
+# User environment
 $User = [EnvironmentVariableTarget]::User
+
+# Set FAST_HOME environment variable for the user
 [Environment]::SetEnvironmentVariable('FAST_HOME', $destinationDir, $User)
 
 # Update PATH for the user
-$User = [EnvironmentVariableTarget]::User
 $Path = [Environment]::GetEnvironmentVariable('Path', $User)
 if (!(";$Path;".ToLower() -like "*;$destinationDir;*".ToLower())) {
     [Environment]::SetEnvironmentVariable('Path', "$Path;$destinationDir", $User)
     $Env:Path += ";$destinationDir"
 }
 
-Write-Output "Fast-1.1.1 has been successfully installed."
+Write-Output "Fast-1.1.2 has been successfully installed."
