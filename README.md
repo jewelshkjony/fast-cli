@@ -33,6 +33,9 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 2. The installation is successful. You're now good to use the FAST CLI.
 
 ## Release Notes
+**1.1.2:**
+- No more need to declare the category attribute on the @SimpleProperty annotation.
+
 **1.1.1:**
 - Colorful logs added on prints.
 - A minor bug is fixed.
