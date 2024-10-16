@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9FeHRlbnNpb25zL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjAuOS91cGRhdGUuemlw"
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjIvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the location to store the ZIP file and the destination directory
@@ -31,4 +31,4 @@ unzip -o "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-echo "Fast has been successfully updated to v1.1.0"
+echo "Fast has been successfully updated to v1.1.2"
