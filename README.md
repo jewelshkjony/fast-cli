@@ -32,6 +32,30 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
 
+#### Linux, MacOS & Android Termux
+1. Run the the below command on terminal.
+````.sh
+curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
+````
+2. The installation is successful. You're now good to use the FAST CLI.
+
+## How to update the FAST
+#### Windows Only
+1. Make sure that FAST is already installed on your system.
+2. Run the the below command on Windows PowerShell.
+````.ps1
+iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/win.ps1 -useb | iex
+````
+3. Done. Check the version of updated FAST.
+
+#### Linux, MacOS & Android Termux
+1. Make sure that FAST is already installed on your system.
+2. Run the the below command on terminal.
+````.sh
+curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
+````
+3. Done. Check the version of FAST.
+
 ## Release Notes
 **1.1.2:**
 - No more need to declare the category attribute on the @SimpleProperty annotation.
