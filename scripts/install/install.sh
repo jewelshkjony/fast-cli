@@ -38,11 +38,16 @@ fast() {
 }
 '
 
+# Set FAST_HOME environment variable
+fastHomeExport="export FAST_HOME=$destinationDir"
+
 # Check if .bashrc exists and the function is not already added
 if [ -f "$HOME/.bashrc" ]; then
     if ! grep -q "fast()" "$HOME/.bashrc"; then
         echo "$fastFunction" >> "$HOME/.bashrc"
         echo "Fast command added to .bashrc"
+        echo "$fastHomeExport" >> "$HOME/.bashrc"
+        echo "FAST_HOME environment variable added to .bashrc"
     fi
 fi
 
@@ -51,6 +56,8 @@ if [ -f "$HOME/.zshrc" ]; then
     if ! grep -q "fast()" "$HOME/.zshrc"; then
         echo "$fastFunction" >> "$HOME/.zshrc"
         echo "Fast command added to .zshrc"
+        echo "$fastHomeExport" >> "$HOME/.zshrc"
+        echo "FAST_HOME environment variable added to .zshrc"
     fi
 fi
 
