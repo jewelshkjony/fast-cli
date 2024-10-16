@@ -11,7 +11,7 @@
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
 - Up-to-date ProGuard library 7.6.0.
-- All @annotations will be removed from build aix.
+- All @annotations will be removed from built aix.
 - Optimizer to optimize aix size even without ProGuard.
 - It generates a smaller size of extension.
 - Ability to declare manifest attributes in AndroidManifest.xml.
@@ -46,7 +46,7 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/instal
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
 
-## ❓ How to update the installed version
+## 🤔 How to update the installed version
 #### 🖥️ Windows Only
 ---
 1. Make sure that FAST is already installed on your system.
