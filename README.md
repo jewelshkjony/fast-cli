@@ -66,7 +66,7 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update
 ````
 3. Done. Check the version of updated FAST.
 
-## 🤔 How to create FAST project
+## 🤔 How to create a new FAST project
 1. Open terminal at where you want to create a new FAST project.
 2. Run `fast create <ProjectName>`
 3. Enter the package name.
