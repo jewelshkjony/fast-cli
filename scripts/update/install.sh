@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Update scripts for Linux, MacOS and Android Termux
 # Base64-encoded URL for the ZIP file
 zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjIvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
