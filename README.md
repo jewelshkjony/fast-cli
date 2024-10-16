@@ -24,7 +24,7 @@
 - Windows
 - Linux
 - MacOS
-- Android <small>(Termux/UserLand, etc)</small>
+- Android <small>(Termux, UserLand, etc)</small>
 
 ## ❓ Requirements
 1. Only Java is required to run the FAST. (JDK 8 or 11 is recommended).
