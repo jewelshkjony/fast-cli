@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/8009e7f8-0634-4fcb-93d5-293faa2527cf)
 
-⚡ A Smarter and More Efficient Way to Develop MIT App Inventor 2 Extensions. Say good bye to @annotations.
+🏃‍♂️‍➡️ A Smarter and More Efficient Way to Develop MIT App Inventor 2 Extensions. Say good bye to @annotations.
 
 ## 🌟 Features
 - Java 8 support, including lambda expressions (`()->`).
@@ -56,6 +56,18 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/
 curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
 ````
 3. Done. Check the version of updated FAST.
+
+## 🤔 How to create FAST project
+1. Open terminal at where you want to create a new FAST project.
+2. Run `fast create <ProjectName>`
+3. Enter the package name.
+4. Enter author name.
+5. Done.
+
+## 🤔 How to build a FAST project
+1. Open termanl at where the FAST project is.
+2. Run `fast build` to build the project.
+3. Done. The compiled extension should be inside the out directory.
 
 ## 📝 Release Notes
 <details>
