@@ -2,7 +2,7 @@
 
 # Installation scripts for Linux, MacOS and Android Termux
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjIvZmFzdC56aXA="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjMvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the destination path dynamically using the current user's home directory
@@ -73,4 +73,4 @@ if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-1.1.2 has been successfully installed."
+echo "Fast-1.1.3 has been successfully installed."
