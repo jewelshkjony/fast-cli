@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-1.1.2-green?labelColor=gray) ![Date](https://img.shields.io/badge/-16.10.2024.10.02-blue?logoColor=blue)
+![Version](https://img.shields.io/badge/Latest_Version-1.1.3-green?labelColor=gray) ![Date](https://img.shields.io/badge/-17.10.2024.06.21-blue?logoColor=blue)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -107,6 +107,14 @@ Please open an issue [here](https://github.com/jewelshkjony/fast-cli/issues).
 Please text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
 
 ## 📝 Release Notes
+<details>
+<summary>1.1.3</summary>
+
+- Added support for using a default `icon.png`.
+- By default `desugar_sources` is now enabled.
+- Removed mock related attributes from the `fast.yml` config.
+</details>
+
 <details>
 <summary>1.1.2</summary>
 
