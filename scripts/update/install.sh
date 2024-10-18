@@ -2,7 +2,7 @@
 
 # Update scripts for Linux, MacOS and Android Termux
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjMvdXBkYXRlLnppcA=="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjQvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Define the location to store the ZIP file and the destination directory
@@ -32,4 +32,4 @@ unzip -o "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-echo "Fast has been successfully updated to v1.1.3"
+echo "Fast has been successfully updated to v1.1.4"
