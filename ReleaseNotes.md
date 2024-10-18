@@ -1,4 +1,10 @@
 ## 📝 Release Notes
+**1.1.4:**
+- Fixed Java 8 sources compiling issues even desugaring is disabled.
+- Added custom bootclasspath support for targeting Java 8 on JDK8+
+- Now you can see all the printed logs on logs.txt file at the installed location of FAST.
+- Changed title color and some prints color.
+
 **1.1.3:**
 - Added support for using a default `icon.png`.
 - By default, `desugar_sources` is now enabled.
