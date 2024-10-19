@@ -3,9 +3,15 @@ $zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9k
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
 $zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
 
-# Define the destination path dynamically using the current user's profile path
-$zipLocation = "$env:LOCALAPPDATA\Fast\Fast.zip"
-$destinationDir = "$env:LOCALAPPDATA\Fast"
+# Check if FAST_HOME environment variable exists and use it, otherwise fallback to LOCALAPPDATA\Fast
+if ($env:FAST_HOME) {
+    $destinationDir = $env:FAST_HOME
+} else {
+    $destinationDir = "$env:LOCALAPPDATA\Fast"
+}
+
+# Define the path for the downloaded zip file
+$zipLocation = "$destinationDir\Fast.zip"
 
 # Delete the destination directory if it already exists
 if (Test-Path -Path $destinationDir) {
