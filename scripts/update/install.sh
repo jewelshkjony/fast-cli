@@ -5,9 +5,15 @@
 zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjQvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
-# Define the location to store the ZIP file and the destination directory
-zipLocation="$HOME/.local/share/Fast/Fast.zip"
-destinationDir="$HOME/.local/share/Fast"
+# Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
+if [ -n "$FAST_HOME" ]; then
+    destinationDir="$FAST_HOME"
+else
+    destinationDir="$HOME/.local/share/Fast"
+fi
+
+# Define the location to store the ZIP file
+zipLocation="$destinationDir/Fast.zip"
 
 # Check if the destination directory exists, if not, exit with an error
 if [ ! -d "$destinationDir" ]; then
