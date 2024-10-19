@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Installation scripts for Linux, MacOS and Android Termux
+# Installation script for Linux, MacOS, and Android Termux
 # Base64-encoded URL for the ZIP file
 zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4xLjQvZmFzdC56aXA="
 zipUrl=$(echo "$zipBase" | base64 --decode)
@@ -32,7 +32,7 @@ unzip "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-# Remove the bat file
+# Remove the .bat file if it exists
 if [ -f "$destinationDir/fast.bat" ]; then
     rm "$destinationDir/fast.bat"
 fi
@@ -40,7 +40,7 @@ fi
 # Add the fast() function to .bashrc and .zshrc for global usage
 fastFunction='
 fast() {
-    java -jar "$destinationDir/fast.jar" "$@"
+    java -jar "$HOME/.local/share/Fast/fast.jar" "$@"
 }
 '
 
@@ -50,31 +50,32 @@ fastHomeExport="export FAST_HOME=$destinationDir"
 # Check if .bashrc exists and the function is not already added
 if [ -f "$HOME/.bashrc" ]; then
     if ! grep -q "fast()" "$HOME/.bashrc"; then
-        echo "$fastFunction" >> "$HOME/.bashrc"
-        echo "Fast command added to .bashrc"
-        echo "$fastHomeExport" >> "$HOME/.bashrc"
-        echo "FAST_HOME environment variable added to .bashrc"
+        if [ -z "$FAST_HOME" ]; then
+            echo "$fastFunction" >> "$HOME/.bashrc"
+            echo "Fast command added to .bashrc"
+            echo "$fastHomeExport" >> "$HOME/.bashrc"
+            echo "FAST_HOME environment variable added to .bashrc"
+        fi
     fi
 fi
 
 # Check if .zshrc exists and the function is not already added
 if [ -f "$HOME/.zshrc" ]; then
     if ! grep -q "fast()" "$HOME/.zshrc"; then
-        echo "$fastFunction" >> "$HOME/.zshrc"
-        echo "Fast command added to .zshrc"
-        echo "$fastHomeExport" >> "$HOME/.zshrc"
-        echo "FAST_HOME environment variable added to .zshrc"
+        if [ -z "$FAST_HOME" ]; then
+            echo "$fastFunction" >> "$HOME/.zshrc"
+            echo "Fast command added to .zshrc"
+            echo "$fastHomeExport" >> "$HOME/.zshrc"
+            echo "FAST_HOME environment variable added to .zshrc"
+        fi
     fi
 fi
 
 # Reload the appropriate shell configuration
-# First check if the shell config file exists
 if [ -f "$HOME/.bashrc" ]; then
     source "$HOME/.bashrc"
 fi
 
-# Reload the appropriate shell configuration
-# First check if the shell config file exists
 if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
