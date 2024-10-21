@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-1.1.5-green?labelColor=gray) ![Date](https://img.shields.io/badge/-19.10.2024.23.55-blue?logoColor=blue)
+![Version](https://img.shields.io/badge/Latest_Version-1.1.6-green?labelColor=gray) ![Date](https://img.shields.io/badge/-22.10.24.01.43-blue?logoColor=blue)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
