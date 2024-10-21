@@ -1,4 +1,16 @@
 ## 📝 Release Notes
+**1.1.6:**
+- FAST now relies on the system's Java compiler.
+- The Kotlin compiler has been optimized.
+- A few compilation bugs have been fixed.
+- The Desugar tool is optimized to fully support JDK8 & 11.
+- The D8 tool has been optimized.
+- A few modifications to the logging system.
+
+**1.1.5:**
+- Fixed DEX bytecode generating stuck issue.
+- More debug information will be written to logs.txt
+
 **1.1.4:**
 - Fixed Java 8 sources compiling issues even desugaring is disabled.
 - Added custom bootclasspath support for targeting Java 8 on JDK8+
