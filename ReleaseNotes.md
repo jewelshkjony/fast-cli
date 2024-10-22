@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.1.7:**
+- The D8 tool is optimized to make it cross-platform compatible.
+
 **1.1.6:**
 - FAST now relies on the system's Java compiler.
 - The Kotlin compiler has been optimized.
