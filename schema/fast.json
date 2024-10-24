@@ -24,8 +24,8 @@
       "title": "Extension's minimum Android SDK",
       "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `8`.",
       "type": "integer",
-      "minimum": 8,
-      "default": 8
+      "minimum": 7,
+      "default": 7
     },
     "kotlin": {
       "title": "Kotlin Support",
@@ -49,7 +49,7 @@
       "title": "Desugaring DEX",
       "description": "If enabled, the D8 tool will generate desugared (classes.jar) classes.dex",
       "type": "boolean",
-      "default": false
+      "default": true
     },
     "deannonate": {
       "title": "De-annotate",
@@ -75,6 +75,12 @@
       "description": "If enabled, it will optimizes the extension with ProGuard.",
       "type": "boolean",
       "default": true
+    },
+    "proguard": {
+      "title": "R8",
+      "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
+      "type": "boolean",
+      "default": false
     },
     "dependencies": {
       "title": "Extension dependencies",
