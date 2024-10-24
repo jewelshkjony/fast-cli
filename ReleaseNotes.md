@@ -1,4 +1,10 @@
 ## 📝 Release Notes
+**1.1.8:**
+- Added R8 tool as an optional optimizer. Use `-s` to run R8.
+- Changed proguard-rules.pro to be compatible with R8.
+- Simplified proguard-rules.pro.
+- A few minor bugs have been fixed.
+
 **1.1.7:**
 - The D8 tool is optimized to make it cross-platform compatible.
 
