@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.1.9:**
+- Changes in the printing process on the terminal.
+
 **1.1.8:**
 - Added R8 tool as an optional optimizer. Use `-s` to run R8.
 - Changed proguard-rules.pro to be compatible with R8.
