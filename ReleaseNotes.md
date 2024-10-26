@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.2.0:**
+- Rearranged the blocks in order to the source code.
+
 **1.1.9:**
 - Changes in the printing process on the terminal.
 
