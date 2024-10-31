@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.2.1:**
+- FAST will print warnings if naming conventions are not followed.
+
 **1.2.0:**
 - Rearranged the blocks in order to the source code.
 
