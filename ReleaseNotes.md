@@ -1,4 +1,8 @@
 ## 📝 Release Notes
+**1.2.2:**
+- Resolved an issue impacting the R8 dexer and shrinker.
+- Included naming conventions warnings for helper-blocks, arguments of choices, parameters of functions and events.
+
 **1.2.1:**
 - FAST will print warnings if naming conventions are not followed.
 
