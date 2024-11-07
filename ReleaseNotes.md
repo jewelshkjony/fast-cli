@@ -1,4 +1,12 @@
 ## 📝 Release Notes
+**1.2.3:**
+- A few compilation bugs have been fixed.
+- Optimized the Java compiler.
+- Optimized the Kotlin comliler.
+- Optimized the desugar process.
+- Issue regarding space has been fixed.
+- Terminal prints style has changed.
+
 **1.2.2:**
 - Resolved an issue impacting the R8 dexer and shrinker.
 - Included naming conventions warnings for helper-blocks, arguments of choices, parameters of functions and events.
