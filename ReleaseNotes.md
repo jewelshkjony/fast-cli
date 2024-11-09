@@ -1,4 +1,8 @@
 ## 📝 Release Notes
+**1.2.4:**
+- Added a new feature that allows to select a language when creating a new project.
+- Changes in terminal prints.
+
 **1.2.3:**
 - A few compilation bugs have been fixed.
 - Optimized the Java compiler.
