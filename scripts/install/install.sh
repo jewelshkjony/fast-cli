@@ -2,7 +2,7 @@
 
 # Installation script for Linux, MacOS, and Android Termux
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjQvZmFzdC56aXA="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjUvZmFzdC56aXA="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
@@ -80,4 +80,4 @@ if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-v1.2.4 08.11.24.22.50 has been successfully installed."
+echo "Fast-v1.2.5 10.11.24.23.22 has been successfully installed."
