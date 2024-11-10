@@ -1,4 +1,9 @@
 ## 📝 Release Notes
+**1.2.5:**
+- The project sync issue has been successfully resolved.
+- Enhanced the code recommendations classpath.
+- The R8 optimizer has been deprecated and will be removed in the next update.
+
 **1.2.4:**
 - Added a new feature that allows to select a language when creating a new project.
 - Changes in terminal prints.
