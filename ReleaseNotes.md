@@ -1,7 +1,7 @@
 ## 📝 Release Notes
 **🔥 1.2.6:**
 - The `.aar` file is now supported to use as dependencies. Run `fast sync` to parse AARs.
-- A few minor bugs has been fixed.
+- A few minor bugs have been fixed.
 - Added some extra prints into the `logs.txt`.
 - Changes in IDE classpath.
 
