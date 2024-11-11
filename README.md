@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-1.2.5-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-10.11.24.23.22-gray?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-1.2.6-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-11.11.24.21.56-gray?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -10,6 +10,7 @@
 - Support for Kotlin language to writte extension components.
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
+- Support for `.aar` files as dependencies.
 - Up-to-date ProGuard library 7.6.0.
 - All @annotations will be removed from built aix.
 - Optimizer to optimize aix size even without ProGuard.
