@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.2.7:**
+- Fixed warnings for kapt-compiler when using JDK11
+
 **🔥 1.2.6:**
 - The `.aar` file is now supported to use as dependencies. Run `fast sync` to parse AARs.
 - A few minor bugs have been fixed.
