@@ -1,4 +1,7 @@
 ## 📝 Release Notes
+**1.2.8:**
+- Modified the default ProGuard rules to keep all required methods and values from helper classes.
+
 **1.2.7:**
 - Fixed warnings for kapt-compiler when using JDK11
 
