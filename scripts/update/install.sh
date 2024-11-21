@@ -2,7 +2,7 @@
 
 # Update scripts for Linux, MacOS and Android Termux
 # Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjgvdXBkYXRlLnppcA=="
+zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjAvdXBkYXRlLnppcA=="
 zipUrl=$(echo "$zipBase" | base64 --decode)
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
@@ -38,4 +38,4 @@ unzip -o "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-echo "Fast has been successfully updated to v1.2.8 13.11.24.15.09"
+echo "Fast has been successfully updated to v2.0.0 22.11.24.00.52"
