@@ -35,13 +35,13 @@
     },
     "desugar_sources": {
       "title": "Desugaring Sources",
-      "description": "If enabled, you will be able to use Java 8 language features in your extension source classes, such as lambda expressions. When you use .kt classes, by default Fast will desugar sources.",
+      "description": "If enabled, you will be able to use Java 8 language features in your extension source code.",
       "type": "boolean",
       "default": false
     },
     "desugar_deps": {
       "title": "Desugaring dependencies",
-      "description": "Enable it, if any of your dependencies use Java 8 language features. If kotlin is enabled, by default Fast will desugar dependencies.",
+      "description": "Enable it, if any of your dependencies use Java 8 language features.",
       "type": "boolean",
       "default": false
     },
@@ -69,15 +69,29 @@
       "type": "boolean",
       "default": true
     },
-    "R8": {
-      "title": "R8",
-      "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
-      "type": "boolean",
-      "default": false
+    "repositories": {
+      "title": "Remote Repositories",
+      "description": "Default repositories are Maven Central, Google Maven, JCenter and JitPack. If the library you want to use is not available in these repositories, add here by specifying their URLs.",
+      "type": "array",
+      "default": []
+    },
     },
     "dependencies": {
-      "title": "Extension dependencies",
-      "description": "JAR dependencies of the extension. Only add the JARs that are needed during runtime here. Compile-time dependencies are not required to be added; they should only be present in the `deps` directory.",
+      "title": "Runtime dependencies",
+      "description": "Extension dependencies [JAR & AAR Should be present into deps directory]",
+      "type": "array",
+      "default": []
+    },
+    "compile_time": {
+      "title": "Compile-time dependencies",
+      "description": "Define compile-time dependencies only [Remote only]",
+      "type": "array",
+      "default": []
+    },
+    },
+    "excludes": {
+      "title": "Exclusions dependencies",
+      "description": "Define dependencies those are should be skipped during resolving. [Remote only]",
       "type": "array",
       "default": []
     },
@@ -86,6 +100,12 @@
       "description": "Should be present into assets directory.",
       "type": "array",
       "default": []
+    },
+    "R8": {
+      "title": "R8",
+      "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
+      "type": "boolean",
+      "default": false
     },
     "mock_js": {
       "title": "Mock JS for each Component.",
