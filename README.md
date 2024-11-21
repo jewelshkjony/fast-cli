@@ -1,16 +1,17 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-1.2.8-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-13.11.24.15.09-gray?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-22.11.24.00.52-gray?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
+- 🔥 Maven dependency resolver.
+- 🔥 Support for `.aar` files as dependencies.
 - Annotations less source codes.
 - Java 8 support, including lambda expressions (`()->`).
 - Support for Kotlin language to writte extension components.
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
-- Support for `.aar` files as dependencies.
 - Up-to-date ProGuard library 7.6.0.
 - All @annotations will be removed from built aix.
 - Optimizer to optimize aix size even without ProGuard.
@@ -74,7 +75,7 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update
 5. Done.
 
 ## 🤔 How to declare the component class
-1. You need to annotate with @DesignerComponent to declare extension component classes.\
+1. You need to annotate with `@DesignerComponent` to declare extension component classes.\
 Example:
 ````.java
 @DesignerComponent(
