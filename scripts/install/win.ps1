@@ -1,5 +1,5 @@
 # Scripts to install Fast CLI for Windows
-$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92MS4yLjgvZmFzdC56aXA="
+$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjAvZmFzdC56aXA="
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
 $zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
 
@@ -52,4 +52,4 @@ if (!(";$Path;".ToLower() -like "*;$destinationDir;*".ToLower())) {
     $Env:Path += ";$destinationDir"
 }
 
-Write-Output "Fast-v1.2.8 13.11.24.15.09 has been successfully installed."
+Write-Output "Fast-v2.0.0 22.11.24.00.52 has been successfully installed."
