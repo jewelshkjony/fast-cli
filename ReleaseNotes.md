@@ -1,4 +1,11 @@
 ## 📝 Release Notes
+**🔥2.0.0:**
+- Added Maven dependency resolver.
+- The `sync` command has been optimized.
+- Removed some duplicate libraries to optimize ProGuard task.
+- The `.gitignore` file has been modified.
+- Remove comments from default project.
+
 **1.2.8:**
 - Modified the default ProGuard rules to keep all required methods and values from helper classes.
 
