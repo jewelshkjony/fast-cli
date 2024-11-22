@@ -1,4 +1,10 @@
 ## 📝 Release Notes
+**2.0.1:**
+- Fixed dependency resolving for JDK11
+- Changes on terminal prints (debug info).
+- Downgraded Java version to `1.8` for `testing-support-R-classes.jar` to be compatible with JDK8 and above.
+- Added a few more debug info.
+
 **🔥2.0.0:**
 - Added Maven dependency resolver.
 - The `sync` command has been optimized.
