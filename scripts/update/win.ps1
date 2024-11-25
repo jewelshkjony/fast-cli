@@ -1,6 +1,6 @@
 # Update scripts for Windows
 # Base64-encoded URL for the ZIP file
-$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjEvdXBkYXRlLnppcA=="
+$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjIvdXBkYXRlLnppcA=="
 $zipBytes = [System.Convert]::FromBase64String($zipBase)
 $zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
 
@@ -46,4 +46,4 @@ else {
 # Remove the downloaded ZIP file
 Remove-Item $zipLocation
 
-Write-Output "Fast has been successfully updated to v2.0.1 22.11.24.21.37"
+Write-Output "Fast has been successfully updated to v2.0.2 23.11.24.20.35"
