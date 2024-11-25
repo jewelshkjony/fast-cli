@@ -1,4 +1,10 @@
 ## 📝 Release Notes
+**2.0.2:**
+- Added a few more additional debug logs into the `logs.txt`.
+- Modified the by default created project.
+- Compiling `R.class` from `R.txt` for remote AAR dependencies.
+- This [exception](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/155?u=jewel) is now handled and prints the root cause.
+
 **2.0.1:**
 - Fixed dependency resolving for JDK11
 - Changes on terminal prints (debug info).
