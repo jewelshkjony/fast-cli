@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.1-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-22.11.24.21.37-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.2-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-23.11.24.20.35-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -81,7 +81,7 @@ Example:
 @DesignerComponent(
   version = 1,
   versionName = "1.0",
-  description = "Developed by JEWEL by Fast.",
+  description = "Developed by JEWEL using Fast.",
   iconName = "icon.png"
 )
 ````
