@@ -11,7 +11,7 @@
 
 ---
 
-# License for FAST CLI  
+# ⚖️ License for FAST CLI  
 
 **Version 1.0**  
 **Effective Date: 29 November 2024**  
