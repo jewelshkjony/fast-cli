@@ -1,4 +1,9 @@
 ## 📝 Release Notes
+
+**2.0.3:**
+- The processing of AAR has been optimized.
+- Updated compiler info.
+
 **2.0.2:**
 - Added a few more additional debug info into the `logs.txt`.
 - Modified the by default created project.
