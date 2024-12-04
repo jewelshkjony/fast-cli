@@ -44,7 +44,7 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 ---
 1. Run the the below command on terminal.
 ````.sh
-curl -fsSL https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh | sh
+curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
 
