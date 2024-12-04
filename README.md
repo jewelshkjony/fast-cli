@@ -44,7 +44,7 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 ---
 1. Run the the below command on terminal.
 ````.sh
-curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
+curl -fsSL https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh | sh
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
 
@@ -63,7 +63,7 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/
 1. Make sure that FAST is already installed on your system.
 2. Run the the below command on terminal.
 ````.sh
-curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/install.sh -fsSL | sh
+curl -fsSL https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/install.sh | sh
 ````
 3. Done. Check the version of updated FAST.
 
