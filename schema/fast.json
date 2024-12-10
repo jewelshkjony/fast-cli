@@ -1,123 +1,122 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json",
-  "title": "Fast Build Config",
-  "description": "This file contains author name, min_sdk, dependencies, assets, and various build configurations. It also includes support for Kotlin, Java 8 features, and optimization settings.",
-  "type": "object",
-  "required": [
-    "min_sdk"
-  ],
-  "properties": {
-    "author": {
-      "title": "Developer Name",
-      "description": "This extension developer name will be included with the components_build_info.json.",
-      "type": "string",
-      "default": "FAST"
-    },
-    "auto_version": {
-      "title": "Auto-increment version",
-      "description": "If enabled, the version number of every component will be increased automatically during build process.",
-      "type": "boolean",
-      "default": true
-    },
-    "min_sdk": {
-      "title": "Extension's minimum Android SDK",
-      "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `7`.",
-      "type": "integer",
-      "minimum": 7,
-      "default": 7
-    },
-    "kotlin": {
-      "title": "Kotlin Support",
-      "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension. If you want to add specific Kotlin Standard Libraries so disable it.",
-      "type": "boolean",
-      "default": false
-    },
-    "desugar_sources": {
-      "title": "Desugaring Sources",
-      "description": "If enabled, you will be able to use Java 8 language features in your extension source code.",
-      "type": "boolean",
-      "default": false
-    },
-    "desugar_deps": {
-      "title": "Desugaring dependencies",
-      "description": "Enable it, if any of your dependencies use Java 8 language features.",
-      "type": "boolean",
-      "default": false
-    },
-    "desugar_dex": {
-      "title": "Desugaring DEX",
-      "description": "If enabled, the D8 tool will generate desugared (classes.jar) classes.dex",
-      "type": "boolean",
-      "default": true
-    },
-    "deannonate": {
-      "title": "De-annotate",
-      "description": "If enabled, @annotations will not be present in the built extension.",
-      "type": "boolean",
-      "default": true
-    },
-    "filter_mit_classes": {
-      "title": "Filer MIT App Inventor Classes",
-      "description": "If enabled, matching classes provided by MIT will not be included in the built extension.",
-      "type": "boolean",
-      "default": false
-    },
-    "proguard": {
-      "title": "ProGuard",
-      "description": "If enabled, it will optimizes the extension with ProGuard.",
-      "type": "boolean",
-      "default": true
-    },
-    "repositories": {
-      "title": "Remote Repositories",
-      "description": "Default repositories are Maven Central, Google Maven, JCenter and JitPack. If the library you want to use is not available in these repositories, add here by specifying their URLs.",
-      "type": "array",
-      "default": []
-    },
-    },
-    "dependencies": {
-      "title": "Runtime dependencies",
-      "description": "Extension dependencies [JAR & AAR Should be present into deps directory]",
-      "type": "array",
-      "default": []
-    },
-    "compile_time": {
-      "title": "Compile-time dependencies",
-      "description": "Define compile-time dependencies only [Remote only]",
-      "type": "array",
-      "default": []
-    },
-    },
-    "excludes": {
-      "title": "Exclusions dependencies",
-      "description": "Define dependencies those are should be skipped during resolving. [Remote only]",
-      "type": "array",
-      "default": []
-    },
-    "assets": {
-      "title": "Extension assets",
-      "description": "Should be present into assets directory.",
-      "type": "array",
-      "default": []
-    },
-    "R8": {
-      "title": "R8",
-      "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
-      "type": "boolean",
-      "default": false
-    },
-    "mock_js": {
-      "title": "Mock JS for each Component.",
-      "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
-      "type": "array",
-      "default": []
-    },
-    "mock_css": {
-      "title": "Mock Css for each Component.",
-      "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory.",
-      "type": "array",
-      "default": []
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json",
+    "title": "Fast Build Config",
+    "description": "This file contains author name, min_sdk, dependencies, assets, and various build configurations. It also includes support for Kotlin, Java 8 features, and optimization settings.",
+    "type": "object",
+    "required": [
+        "author",
+        "min_sdk"
+    ],
+    "properties": {
+        "author": {
+            "title": "Developer Name",
+            "description": "This extension developer name will be included with the components_build_info.json.",
+            "type": "string",
+            "default": "FAST"
+        },
+        "min_sdk": {
+            "title": "Extension's minimum Android SDK",
+            "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `7`.",
+            "type": "integer",
+            "minimum": 7,
+            "default": 7
+        },
+        "auto_version": {
+            "title": "Auto-increment version",
+            "description": "If enabled, the version number of every component will be increased automatically during build process.",
+            "type": "boolean",
+            "default": true
+        },
+        "kotlin": {
+            "title": "Kotlin Support",
+            "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension. If you want to add specific Kotlin Standard Libraries so disable it.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_sources": {
+            "title": "Desugaring Sources",
+            "description": "If enabled, you will be able to use Java 8 language features in your extension source code.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_deps": {
+            "title": "Desugaring dependencies",
+            "description": "Enable it, if any of your dependencies use Java 8 language features.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_dex": {
+            "title": "Desugaring DEX",
+            "description": "If enabled, the D8 tool will generate desugared (classes.jar) classes.dex",
+            "type": "boolean",
+            "default": true
+        },
+        "deannonate": {
+            "title": "De-annotate",
+            "description": "If enabled, @annotations will not be present in the built extension.",
+            "type": "boolean",
+            "default": true
+        },
+        "filter_mit_classes": {
+            "title": "Filer MIT App Inventor Classes",
+            "description": "If enabled, matching classes provided by MIT will not be included in the built extension.",
+            "type": "boolean",
+            "default": false
+        },
+        "proguard": {
+            "title": "ProGuard",
+            "description": "If enabled, it will optimizes the extension with ProGuard.",
+            "type": "boolean",
+            "default": true
+        },
+        "repositories": {
+            "title": "Remote Repositories",
+            "description": "Default repositories are Maven Central, Google Maven, JCenter and JitPack. If the library you want to use is not available in these repositories, add here by specifying their URLs.",
+            "type": "array",
+            "default": []
+        },
+        "dependencies": {
+            "title": "Runtime dependencies",
+            "description": "Extension dependencies [JAR & AAR Should be present into deps directory]",
+            "type": "array",
+            "default": []
+        },
+        "compile_time": {
+            "title": "Compile-time dependencies",
+            "description": "Define compile-time dependencies only [Remote only]",
+            "type": "array",
+            "default": []
+        },
+        "excludes": {
+            "title": "Exclusions dependencies",
+            "description": "Define dependencies those are should be skipped during resolving. [Remote only]",
+            "type": "array",
+            "default": []
+        },
+        "assets": {
+            "title": "Extension assets",
+            "description": "Should be present into assets directory.",
+            "type": "array",
+            "default": []
+        },
+        "R8": {
+            "title": "R8",
+            "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
+            "type": "boolean",
+            "default": false
+        },
+        "mock_js": {
+            "title": "Mock JS for each Component.",
+            "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
+            "type": "array",
+            "default": []
+        },
+        "mock_css": {
+            "title": "Mock Css for each Component.",
+            "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory.",
+            "type": "array",
+            "default": []
+        }
     }
-  }
 }
