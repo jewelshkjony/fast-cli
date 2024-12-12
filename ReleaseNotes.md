@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**2.0.4:**
+- R8 Shriker has been optimized.
+- Changed some comments in `fast.yml`.
+- Fixed some minor bugs.
+- Migrators have been updated for compatibility with version 2.0.4 and later.
+
 **2.0.3:**
 - The processing of AAR has been optimized.
 - Updated compiler info.
