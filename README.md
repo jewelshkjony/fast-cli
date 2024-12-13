@@ -13,6 +13,7 @@
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
 - Up-to-date ProGuard library 7.6.0.
+- Integration of R8 Shrinker.
 - All @annotations will be removed from built aix.
 - Optimizer to optimize aix size even without ProGuard.
 - It generates a smaller size of extension.
