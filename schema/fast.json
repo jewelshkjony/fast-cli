@@ -22,15 +22,21 @@
             "minimum": 7,
             "default": 7
         },
-        "auto_version": {
-            "title": "Auto-increment version",
-            "description": "If enabled, the version number of every component will be increased automatically during build process.",
+        "proguard": {
+            "title": "ProGuard",
+            "description": "If enabled, extension will be optimized using ProGuard.",
+            "type": "boolean",
+            "default": true
+        },
+        "R8": {
+            "title": "R8",
+            "description": "If enabled, extension will be optimized using R8.",
             "type": "boolean",
             "default": true
         },
         "kotlin": {
             "title": "Kotlin Support",
-            "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension. If you want to add specific Kotlin Standard Libraries so disable it.",
+            "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension.",
             "type": "boolean",
             "default": false
         },
@@ -48,25 +54,7 @@
         },
         "desugar_dex": {
             "title": "Desugaring DEX",
-            "description": "If enabled, the D8 tool will generate desugared (classes.jar) classes.dex",
-            "type": "boolean",
-            "default": true
-        },
-        "deannonate": {
-            "title": "De-annotate",
-            "description": "If enabled, @annotations will not be present in the built extension.",
-            "type": "boolean",
-            "default": true
-        },
-        "filter_mit_classes": {
-            "title": "Filer MIT App Inventor Classes",
-            "description": "If enabled, matching classes provided by MIT will not be included in the built extension.",
-            "type": "boolean",
-            "default": false
-        },
-        "proguard": {
-            "title": "ProGuard",
-            "description": "If enabled, it will optimizes the extension with ProGuard.",
+            "description": "If enabled, the D8 tool will generate desugared jar (classes.dex). If R8 also enabled with it, so the R8 shriker will generate desugared jar.",
             "type": "boolean",
             "default": true
         },
@@ -78,19 +66,19 @@
         },
         "dependencies": {
             "title": "Runtime dependencies",
-            "description": "Extension dependencies [JAR & AAR Should be present into deps directory]",
+            "description": "Extension dependencies [JAR & AAR Should be present into deps directory]. NOTE: Run `fast sync` command before building the extension when you're using local .aar or any remote dependencies.",
             "type": "array",
             "default": []
         },
         "compile_time": {
             "title": "Compile-time dependencies",
-            "description": "Define compile-time dependencies only [Remote only]",
+            "description": "Define compile-time dependencies only [Remote only]. NOTE: Run `fast sync` command before building the extension.",
             "type": "array",
             "default": []
         },
         "excludes": {
             "title": "Exclusions dependencies",
-            "description": "Define dependencies those are should be skipped during resolving. [Remote only]",
+            "description": "Define dependencies those are should be skipped during resolving. [Remote only]. NOTE: Run `fast sync` command before building the extension.",
             "type": "array",
             "default": []
         },
@@ -100,9 +88,21 @@
             "type": "array",
             "default": []
         },
-        "R8": {
-            "title": "R8",
-            "description": "If enabled, R8 will be used instead of ProGuard and D8 dexer. NOTE: It's an experimental feature.",
+        "auto_version": {
+            "title": "Auto-increment version",
+            "description": "Enable to incrementing the version number of each component during build.",
+            "type": "boolean",
+            "default": true
+        },
+        "deannonate": {
+            "title": "De-annotate",
+            "description": "Enable to remove @annotations from the extension.",
+            "type": "boolean",
+            "default": true
+        },
+        "filter_mit_classes": {
+            "title": "Filer MIT App Inventor Classes",
+            "description": "Enable to skip matching classes provided by AI2.",
             "type": "boolean",
             "default": false
         },
