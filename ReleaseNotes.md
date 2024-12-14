@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**2.0.5:**
+- FAST will prioritize the `androidMinSdk` value specified in `fast.yml` or `@DesignerComponent` or `AndroidManifest.xml`, applying the higher value during the build process.
+- A few minor bugs have been fixed.
+
 **2.0.4:**
 - R8 Shriker has been optimized.
 - Changed some comments in `fast.yml`.
