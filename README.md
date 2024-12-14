@@ -8,15 +8,15 @@
 - 🔥 Integration of R8 Shrinker.
 - 🔥 Maven dependency resolver.
 - 🔥 Support for `.aar` files as dependencies.
-- Annotations less source codes.
 - Java 8 support, including lambda expressions (`()->`).
 - Support for Kotlin language to writte extension components.
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
-- Up-to-date ProGuard library 7.6.0.
-- All @annotations will be removed from built aix.
-- Optimizer to optimize aix size even no ProGuard.
+- Up-to-date ProGuard library 7.6.1.
 - Generates a smaller size of extension.
+- `@annotations` less source codes.
+- All `@annotations` will be removed from built aix.
+- Optimizer to optimize aix size even no ProGuard.
 - Ability to declare manifest attributes in AndroidManifest.xml.
 - Support for Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
 - Filter Mit App Inventor provided classes to reduce the aix size.
@@ -96,9 +96,13 @@ Example:
 2. Run `fast build` to build the project.
 3. Done. The compiled extension should be inside the out directory.
 
-## 🤔 How to compile with ProGuard?
-1. Make sure that the proguard attribute is enabled on the `fast.yml` config file. Ex. `proguard: true`
+## 🤔 How to optimize using ProGuard?
+1. Make sure that the `proguard` attribute is enabled in the `fast.yml` config file. Ex. `proguard: true`
 2. Run the build command with `-r` as an additional argument. Ex. `fast build -r`
+
+## 🤔 How to optimize using R8?
+1. Make sure that the `R8` attribute is enabled in the `fast.yml` config file. Ex. `R8: true`
+2. Run the build command with `-s` as an additional argument. Ex. `fast build -s`
 
 ## 💡 Want to share an idea?
 Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
