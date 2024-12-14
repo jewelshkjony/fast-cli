@@ -1,10 +1,11 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.4-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-12.12.24.22.43-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.5-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-14.12.24.13.02-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
+- 🔥 Integration of R8 Shrinker.
 - 🔥 Maven dependency resolver.
 - 🔥 Support for `.aar` files as dependencies.
 - Annotations less source codes.
@@ -13,10 +14,9 @@
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
 - Up-to-date ProGuard library 7.6.0.
-- Integration of R8 Shrinker.
 - All @annotations will be removed from built aix.
-- Optimizer to optimize aix size even without ProGuard.
-- It generates a smaller size of extension.
+- Optimizer to optimize aix size even no ProGuard.
+- Generates a smaller size of extension.
 - Ability to declare manifest attributes in AndroidManifest.xml.
 - Support for Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
 - Filter Mit App Inventor provided classes to reduce the aix size.
@@ -88,8 +88,8 @@ Example:
 ````
 
 - Required attributes: `version`, `iconName`
-- Optional attributes: `versionName`, `description`, `designerHelpDescription`, `helpUrl`, `licenseName`
-- Ignored attributes: `category`, `androidMinSdk`
+- Optional attributes: `versionName`, `description`, `designerHelpDescription`, `helpUrl`, `licenseName`, `androidMinSdk`
+- Ignored attributes: `category`
 
 ## 🤔 How to build a FAST project
 1. Open termanl at where the FAST project is.
