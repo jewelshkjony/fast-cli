@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**2.0.6:**
+- Added `fast upgrade` command to update FAST to latest version.
+- Added `fast sync build` command to run sync and build commands simultaneously.
+- The Java compiler will generate debugging information if `-d` is passed.
+- Fixed some dependency resolution bugs.
+- Added missing argument to default prompt.
+
 **2.0.5:**
 - The ProGuard library has been updated to version 7.6.1.
 - FAST will prioritize the `androidMinSdk` value specified in `fast.yml` or `@DesignerComponent` or `AndroidManifest.xml`, applying the higher value during the build process.
