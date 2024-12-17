@@ -1,6 +1,6 @@
 ## 📝 Release Notes
 
-**2.0.6:**
+**🔥2.0.6:**
 - Added `fast upgrade` command to update FAST to latest version.
 - Added `fast sync build` command to run sync and build commands simultaneously.
 - The Java compiler will generate debugging information if `-d` is passed.
