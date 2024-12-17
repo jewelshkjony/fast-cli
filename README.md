@@ -112,14 +112,14 @@ Example:
 1. Make sure that the `R8` attribute is enabled in the `fast.yml` config file. Ex. `R8: true`
 2. Run the build command with `-s` as an additional argument. Ex. `fast build -s`
 
-## 💡 Want to share an idea?
+### 💡 Want to share an idea?
 Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
 
-## 🐛 Getting issues?
+### 🐛 Getting issues?
 Please open an issue [here](https://github.com/jewelshkjony/fast-cli/issues).
 
-## 🤝 For additional support
+### 🤝 For additional support
 Please text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
 
-## 📝 Release Notes
+### 📝 Release Notes
 Please read the release notes from [here](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md).
