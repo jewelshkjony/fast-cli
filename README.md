@@ -1,8 +1,8 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.5-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-14.12.24.13.02-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.6-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-17.12.24.23.12-gold?logoColor=yellow)
 
-> Credit: The idea of the installation process and the project structures is inspired by [RUSH](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
+> Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
 - 🔥 Integration of R8 Shrinker.
@@ -50,6 +50,13 @@ curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/instal
 2. The installation is successful. You're now good to use the FAST CLI.
 
 ## 🤔 How to update the installed version
+#### 📩 Using Fast Command
+---
+1. Open terminal and run `fast upgrade`.
+2. If an update is available it will ask to download it. Enter `Yes` to download the latest update.
+3. It will download the latest version. Wait while it downloads.
+4. Done.
+
 #### 🖥️ Windows Only
 ---
 1. Make sure that FAST is already installed on your system.
@@ -73,7 +80,8 @@ curl -fsSL https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/
 2. Run `fast create <ProjectName>`
 3. Enter the package name.
 4. Enter author name.
-5. Done.
+5. Select language.
+6. Done.
 
 ## 🤔 How to declare the component class
 1. You need to annotate with `@DesignerComponent` to declare extension component classes.\
