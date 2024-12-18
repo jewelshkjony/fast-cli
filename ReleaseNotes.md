@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**2.0.7:**
+- The exception catcher will print the line number of the source.
+- A few debug prints have been changed.
+- Optimized the Maven resolver.
+
 **🔥2.0.6:**
 - Added `fast upgrade` command to update FAST to latest version.
 - Added `fast sync build` command to run sync and build commands simultaneously.
