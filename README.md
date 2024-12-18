@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.6-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-17.12.24.23.12-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.7-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-18.12.24.21.32-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -97,7 +97,7 @@ Example:
 
 - Required attributes: `version`, `iconName`
 - Optional attributes: `versionName`, `description`, `designerHelpDescription`, `helpUrl`, `licenseName`, `androidMinSdk`
-- Ignored attributes: `category`
+- Ignored attributes: `category`, `nonVisible`
 
 ## 🤔 How to build a FAST project
 1. Open termanl at where the FAST project is.
