@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.7-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-18.12.24.21.32-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.0.8-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-23.12.24.20.59-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -18,10 +18,10 @@
 - All `@annotations` will be removed from built aix.
 - Optimizer to optimize aix size even no ProGuard.
 - Ability to declare manifest attributes in AndroidManifest.xml.
-- Support for Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
+- Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
 - Filter Mit App Inventor provided classes to reduce the aix size.
-- Support for project migration to FAST from Rush, extension-template & App Inventor source based extension.
-- Support for Jetifier to make Android Support libraries compatible with AndroidX.
+- Project migration to FAST from Rush, extension-template & MIT AI2 source based extension.
+- Jetifier to make Android Support libraries compatible with AndroidX.
 
 ## 🤝 Supported OS
 - Windows
@@ -48,6 +48,15 @@ iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install
 curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
 ````
 2. The installation is successful. You're now good to use the FAST CLI.
+
+#### ⚙️ Manual Process for Windows
+---
+1. Download the `fast.zip` [from here](https://github.com/jewelshkjony/fast-cli/releases/latest).
+2. Unzip it, at where you want.
+3. Copy the absolute directory of the unzipped Fast folder.
+4. Create FAST_HOME environment variable with the copied value (Optional).
+5. Set the copied value to path. mandatory
+6. Done. Now open the terminal and write fast -v to check the installed version.
 
 ## 🤔 How to update the installed version
 #### 📩 Using Fast Command
@@ -111,7 +120,7 @@ Example:
 ## 🤔 How to optimize using R8?
 1. Make sure that the `R8` attribute is enabled in the `fast.yml` config file. Ex. `R8: true`
 2. Run the build command with `-s` as an additional argument. Ex. `fast build -s`
-
+* **
 ### 💡 Want to share an idea?
 Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
 
