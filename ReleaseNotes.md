@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**2.0.9:**
+- Added select update type feature to `upgrade` command.
+- Optimized the `upgrade` feature.
+
 **2.0.8:**
 - Fixed a reported bug for the Maven resolver. [(Reported here)](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/190?u=jewel)
 - Modified `fast.bat` to work with relative `fast.jar`.
