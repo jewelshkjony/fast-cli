@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Update scripts for Linux, MacOS and Android Termux
-# Base64-encoded URL for the ZIP file
-zipBase="aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjkvdXBkYXRlLnppcA=="
-zipUrl=$(echo "$zipBase" | base64 --decode)
+zipUrl= "https://github.com/jewelshkjony/fast-cli/releases/download/v2.0.9/update.zip"
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
 if [ -n "$FAST_HOME" ]; then
