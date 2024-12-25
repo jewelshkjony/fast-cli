@@ -1,7 +1,5 @@
 # Scripts to install Fast CLI for Windows
-$zipBase = "aHR0cHM6Ly9naXRodWIuY29tL2pld2Vsc2hram9ueS9mYXN0LWNsaS9yZWxlYXNlcy9kb3dubG9hZC92Mi4wLjkvZmFzdC56aXA="
-$zipBytes = [System.Convert]::FromBase64String($zipBase)
-$zipUrl = [System.Text.Encoding]::UTF8.GetString($zipBytes)
+$zipUrl = "https://github.com/jewelshkjony/fast-cli/releases/download/v2.1.0/fast.zip"
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to LOCALAPPDATA\Fast
 if ($env:FAST_HOME) {
@@ -52,4 +50,4 @@ if (!(";$Path;".ToLower() -like "*;$destinationDir;*".ToLower())) {
     $Env:Path += ";$destinationDir"
 }
 
-Write-Output "Fast-v2.0.9 24.12.24.10.35 has been successfully installed."
+Write-Output "Fast-v2.1.0 25.12.24.22.58 has been successfully installed."
