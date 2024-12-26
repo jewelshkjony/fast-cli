@@ -40,6 +40,13 @@
             "type": "boolean",
             "default": false
         },
+        },
+        "kotlin_version": {
+            "title": "Kotlin Compiler version",
+            "description": "Set the version of kotlin-compiler. NOTE: Run `fast sync` command before building the extension.",
+            "type": "string",
+            "default": "1.9.24"
+        },
         "desugar_sources": {
             "title": "Desugaring Sources",
             "description": "If enabled, you will be able to use Java 8 language features in your extension source code.",
