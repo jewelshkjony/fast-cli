@@ -40,7 +40,6 @@
             "type": "boolean",
             "default": false
         },
-        },
         "kotlin_version": {
             "title": "Kotlin Compiler version",
             "description": "Set the version of kotlin-compiler. NOTE: Run `fast sync` command before building the extension.",
