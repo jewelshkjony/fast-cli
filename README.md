@@ -1,15 +1,16 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.0.9-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-24.12.24.10.35-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.1.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-26.12.24.20.37-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
 ## 🌟 Features
+- 🔥 Dynamic Kotlin Compiler.
 - 🔥 Integration of R8 Shrinker.
 - 🔥 Maven dependency resolver.
-- 🔥 Support for `.aar` files as dependencies.
+- Support for `.aar` files as dependencies.
 - Java 8 support, including lambda expressions (`()->`).
-- Support for Kotlin language to writte extension components.
+- Seamless support for Java and Kotlin languages.
 - Support for Multi-component in extension.
 - Integration of new red helper/drop-down blocks.
 - Up-to-date ProGuard library 7.6.1.
