@@ -36,7 +36,7 @@
         },
         "kotlin": {
             "title": "Kotlin Support",
-            "description": "If enabled, Kotlin Standard Libraries (V1.9.24) will be included with the extension.",
+            "description": "If enabled, Kotlin Standard Libraries will be included with the extension.",
             "type": "boolean",
             "default": false
         },
