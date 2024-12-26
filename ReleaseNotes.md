@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**🔥2.1.0:**
+- Added `kotlin_version` attribute in the `fast.yml`.
+- kotlin-compiler version can be changed from `fast.yml` dynamically.
+- Added support for single line commands for `fast create`.
+
 **2.0.9:**
 - Added select update type feature to `upgrade` command.
 - Optimized the `upgrade` feature.
