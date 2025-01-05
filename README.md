@@ -1,32 +1,31 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.1.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-26.12.24.20.37-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.2.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-05.01.25.20.51-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
-🏃‍♂️ An Efficient Way to Build MIT App Inventor 2 Extensions.
+🏃‍♂️ **FAST** is An Efficient Way to Build App Inventor Extensions For MIT App Inventor 2.<br>
+With **FAST**, you no longer need to use any class level annotations except `@DesignerComponent`.
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
 ### 🌟 Features
+- 🔥 Maven dependency resolver.
 - 🔥 Dynamic Kotlin Compiler.
 - 🔥 Integration of R8 Shrinker.
-- 🔥 Maven dependency resolver.
-- Support for `.aar` files as dependencies.
-- Java 8 support, including lambda expressions (`()->`).
+- 🔥 Support `AAR` as dependencies.
+- Java 8 support, including lambda expressions `()->`.
 - Seamless support for Java and Kotlin languages.
 - Support for Multi-component in extension.
-- Integration of new red helper/drop-down blocks.
+- Integration of new red drop-down helper blocks.
 - Up-to-date ProGuard library 7.6.1.
 - Generates a smaller size of extension.
-- `@annotations` less source codes.
-- All `@annotations` will be removed from built aix.
-- Optimizer to optimize aix size even no ProGuard.
-- Ability to declare manifest attributes in AndroidManifest.xml.
-- Code suggestions on VSCode, Eclipse, IntelliJ IDEA and Android Studio.
-- Filter Mit App Inventor provided classes to reduce the aix size.
-- Project migration to FAST from Rush, extension-template & MIT AI2 source based extension.
-- Jetifier to make Android Support libraries compatible with AndroidX.
+- All `@annotations` will be removed from built AIX.
+- Ability to declare manifest in AndroidManifest.xml.
+- Code suggestions on VSCode, Eclipse, IntelliJ IDEA & Android Studio.
+- Ability to filter AI2 provided classes to reduce the AIX size.
+- Auto Project migration from Rush, extension-template & AI2 source based project.
+- Jetifier to migrate Android support libraries to Androidx.
 
 #### 🤝 Supported OS
 - Windows
