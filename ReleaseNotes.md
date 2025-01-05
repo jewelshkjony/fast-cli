@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**2.2.0:**
+- Jetifier is now accepts remote dependencies to process.
+- Added `-f` argument to `fast upgrade` command to force a clean install.
+- Added `-dir` as global argument to define working directory manually.
+- Renamed a few JARs in tools directory.
+- A typo is corrected in default README.md
+
 **🔥2.1.0:**
 - Added `kotlin_version` attribute in the `fast.yml`.
 - kotlin-compiler version can be changed from `fast.yml` dynamically.
