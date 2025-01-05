@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installation script for Linux, MacOS, and Android Termux
-zipUrl="https://github.com/jewelshkjony/fast-cli/releases/download/v2.1.0/fast.zip"
+zipUrl="https://github.com/jewelshkjony/fast-cli/releases/download/v2.2.0/fast.zip"
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
 if [ -n "$FAST_HOME" ]; then
@@ -78,4 +78,4 @@ if [ -f "$HOME/.zshrc" ]; then
     source "$HOME/.zshrc"
 fi
 
-echo "Fast-v2.1.0 26.12.24.20.37 has been successfully installed."
+echo "Fast-v2.2.0 05.01.25.20.51 has been successfully installed."
