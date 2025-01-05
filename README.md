@@ -62,6 +62,7 @@ Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Upgradation) 
 2. Run the [build command](https://github.com/jewelshkjony/fast-cli/wiki/Build%E2%80%90Command) with `-s`.
 * **
 
+* 💰 Donations are welcome [here](https://buymeacoffee.com/jewelshkjony)
 * 📝 Release notes are [here](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md).
 * 💡 Ideas are welcome [here](https://github.com/jewelshkjony/fast-cli/discussions).
 * 🐛 Submit issues [here](https://github.com/jewelshkjony/fast-cli/issues).
