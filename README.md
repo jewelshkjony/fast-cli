@@ -4,7 +4,11 @@
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
-## 🌟 Features
+🏃‍♂️ An Efficient Way to Build MIT App Inventor 2 Extensions.
+
+Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
+
+### 🌟 Features
 - 🔥 Dynamic Kotlin Compiler.
 - 🔥 Integration of R8 Shrinker.
 - 🔥 Maven dependency resolver.
@@ -24,112 +28,41 @@
 - Project migration to FAST from Rush, extension-template & MIT AI2 source based extension.
 - Jetifier to make Android Support libraries compatible with AndroidX.
 
-## 🤝 Supported OS
+#### 🤝 Supported OS
 - Windows
 - Linux
 - MacOS
-- Android <small>(Termux, UserLand, etc)</small>
+- Android <small>(Termux)</small>
 
-## ❓ Requirements
-1. Only Java is required to run the FAST. (JDK 8 or 11 is recommended).
+#### 🤔 How to install?
+Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Installation) to  install the FAST on your system.
 
-## 🤔 How to install?
-#### 🖥️ Windows Only
----
-1. Run the the below command on Windows PowerShell.
-````.ps1
-iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/win.ps1 -useb | iex
-````
-2. The installation is successful. You're now good to use the FAST CLI.
+#### 🤔 How to Update?
+Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Upgradation) to update the FAST to the latest version.
 
-#### 💻 Linux, MacOS & Android Termux
----
-1. Run the the below command on terminal.
-````.sh
-curl https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/install/install.sh -fsSL | sh
-````
-2. The installation is successful. You're now good to use the FAST CLI.
-
-#### ⚙️ Manual Process for Windows
----
-1. Download the `fast.zip` [from here](https://github.com/jewelshkjony/fast-cli/releases/latest).
-2. Unzip it, at where you want.
-3. Copy the absolute directory of the unzipped Fast folder.
-4. Create FAST_HOME environment variable with the copied value (Optional).
-5. Set the copied value to path. mandatory
-6. Done. Now open the terminal and write fast -v to check the installed version.
-
-## 🤔 How to update the installed version
-#### 📩 Using Fast Command
----
-1. Open terminal and run `fast upgrade`.
-2. If an update is available it will ask to download it. Enter `Yes` to download the latest update.
-3. It will download the latest version. Wait while it downloads.
-4. Done.
-
-#### 🖥️ Windows Only
----
-1. Make sure that FAST is already installed on your system.
-2. Run the the below command on Windows PowerShell.
-````.ps1
-iwr https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/win.ps1 -useb | iex
-````
-3. Done. Check the version of updated FAST.
-
-#### 💻 Linux, MacOS & Android Termux
----
-1. Make sure that FAST is already installed on your system.
-2. Run the the below command on terminal.
-````.sh
-curl -fsSL https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/scripts/update/install.sh | sh
-````
-3. Done. Check the version of updated FAST.
-
-## 🤔 How to create a new FAST project
-1. Open terminal at where you want to create a new FAST project.
+#### 🤔 How to create a new FAST project
+1. Open or navigate terminal at where you want to create your extension project.
 2. Run `fast create <ProjectName>`
 3. Enter the package name.
 4. Enter author name.
 5. Select language.
 6. Done.
 
-## 🤔 How to declare the component class
-1. You need to annotate with `@DesignerComponent` to declare extension component classes.\
-Example:
-````.java
-@DesignerComponent(
-  version = 1,
-  versionName = "1.0",
-  description = "Developed by JEWEL using Fast.",
-  iconName = "icon.png"
-)
-````
-
-- Required attributes: `version`, `iconName`
-- Optional attributes: `versionName`, `description`, `designerHelpDescription`, `helpUrl`, `licenseName`, `androidMinSdk`
-- Ignored attributes: `category`, `nonVisible`
-
-## 🤔 How to build a FAST project
-1. Open termanl at where the FAST project is.
+#### 🤔 How to build a FAST project
+1. Open or navigate termanl at where the FAST project is.
 2. Run `fast build` to build the project.
-3. Done. The compiled extension should be inside the out directory.
+3. Done. The compiled extension should be inside the `out` directory.
 
-## 🤔 How to optimize using ProGuard?
-1. Make sure that the `proguard` attribute is enabled in the `fast.yml` config file. Ex. `proguard: true`
-2. Run the build command with `-r` as an additional argument. Ex. `fast build -r`
+#### 🤔 How to optimize using ProGuard?
+1. Make sure that **ProGuard** is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml)).
+2. Run the [build command](https://github.com/jewelshkjony/fast-cli/wiki/Build%E2%80%90Command) with `-r`.
 
-## 🤔 How to optimize using R8?
-1. Make sure that the `R8` attribute is enabled in the `fast.yml` config file. Ex. `R8: true`
-2. Run the build command with `-s` as an additional argument. Ex. `fast build -s`
+#### 🤔 How to optimize using R8?
+1. Make sure that **R8** is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml))
+2. Run the [build command](https://github.com/jewelshkjony/fast-cli/wiki/Build%E2%80%90Command) with `-s`.
 * **
-### 💡 Want to share an idea?
-Please share your ideas [here](https://github.com/jewelshkjony/fast-cli/discussions).
 
-### 🐛 Getting issues?
-Please open an issue [here](https://github.com/jewelshkjony/fast-cli/issues).
-
-### 🤝 For additional support
-Please text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
-
-### 📝 Release Notes
-Please read the release notes from [here](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md).
+* 📝 Release notes are [here](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md).
+* 💡 Ideas are welcome [here](https://github.com/jewelshkjony/fast-cli/discussions).
+* 🐛 Submit issues [here](https://github.com/jewelshkjony/fast-cli/issues).
+* 🤝 For getting additional supports, text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
