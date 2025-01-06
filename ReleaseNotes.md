@@ -2,6 +2,7 @@
 
 **2.2.0:**
 - Jetifier is now accepts remote dependencies to process.
+- Jetifier is now accepts AAR dependencies to process.
 - Added `-f` argument to `fast upgrade` command to force a clean install.
 - Added `-dir` as global argument to define working directory manually.
 - Renamed a few JARs in tools directory.
