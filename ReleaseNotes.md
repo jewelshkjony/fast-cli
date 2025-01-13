@@ -1,8 +1,8 @@
 ## 📝 Release Notes
 
 **🔥2.3.0:**
-- FAST will now write docs for your extension during build when `gen_docs` is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml))
-- If specific component is not defined in manifest for multi-component, FAST will include manifest elements to the default component.
+- **FAST** will generates docs for your extension during build if `gen_docs` is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml))
+- If [component specific](https://github.com/jewelshkjony/fast-cli/wiki/Android%E2%80%90Manifest%E2%80%90File#component-specific) elements are not defined, **FAST** will include manifest elements to the default component.
 
 **2.2.0:**
 - Jetifier is now accepts remote dependencies to process.
