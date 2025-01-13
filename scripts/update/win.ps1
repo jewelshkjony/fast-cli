@@ -1,5 +1,5 @@
 # Update scripts for Windows
-$zipUrl = "https://github.com/jewelshkjony/fast-cli/releases/download/v2.2.0/update.zip"
+$zipUrl = "https://github.com/jewelshkjony/fast-cli/releases/download/v2.3.0/update.zip"
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to LOCALAPPDATA\Fast
 if ($env:FAST_HOME) {
@@ -43,4 +43,4 @@ else {
 # Remove the downloaded ZIP file
 Remove-Item $zipLocation
 
-Write-Output "Fast has been successfully updated to v2.2.0 05.01.25.20.51"
+Write-Output "Fast has been successfully updated to v2.3.0 13.01.25.19.56"
