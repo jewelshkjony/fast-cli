@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update scripts for Linux, MacOS and Android Termux
-zipUrl= "https://github.com/jewelshkjony/fast-cli/releases/download/v2.2.0/update.zip"
+zipUrl= "https://github.com/jewelshkjony/fast-cli/releases/download/v2.3.0/update.zip"
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
 if [ -n "$FAST_HOME" ]; then
@@ -36,4 +36,4 @@ unzip -o "$zipLocation" -d "$destinationDir"
 # Remove the downloaded ZIP file
 rm "$zipLocation"
 
-echo "Fast has been successfully updated to v2.2.0 05.01.25.20.51"
+echo "Fast has been successfully updated to v2.3.0 13.01.25.19.56"
