@@ -26,13 +26,13 @@
             "title": "ProGuard",
             "description": "If enabled, extension will be optimized using ProGuard.",
             "type": "boolean",
-            "default": true
+            "default": false
         },
         "R8": {
             "title": "R8",
             "description": "If enabled, extension will be optimized using R8.",
             "type": "boolean",
-            "default": true
+            "default": false
         },
         "kotlin": {
             "title": "Kotlin Support",
@@ -62,7 +62,7 @@
             "title": "Desugaring DEX",
             "description": "If enabled, the D8 tool will generate desugared jar (classes.dex). If R8 also enabled with it, so the R8 shriker will generate desugared jar.",
             "type": "boolean",
-            "default": true
+            "default": false
         },
         "repositories": {
             "title": "Remote Repositories",
@@ -94,17 +94,23 @@
             "type": "array",
             "default": []
         },
+        "gen_docs": {
+            "title": "Docs Generator",
+            "description": "Enable to generate documentation in Markdown for your extension during build.",
+            "type": "boolean",
+            "default": false
+        },
         "auto_version": {
             "title": "Auto-increment version",
             "description": "Enable to incrementing the version number of each component during build.",
             "type": "boolean",
-            "default": true
+            "default": false
         },
         "deannonate": {
             "title": "De-annotate",
             "description": "Enable to remove @annotations from the extension.",
             "type": "boolean",
-            "default": true
+            "default": false
         },
         "filter_mit_classes": {
             "title": "Filer MIT App Inventor Classes",
