@@ -1,6 +1,6 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
-![Version](https://img.shields.io/badge/Latest_Version-2.2.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-06.01.25.15.03-gold?logoColor=yellow)
+![Version](https://img.shields.io/badge/Latest_Version-2.3.0-blue?labelColor=orange) ![Date](https://img.shields.io/badge/-13.01.25.19.56-gold?logoColor=yellow)
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
@@ -9,6 +9,7 @@
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
 ### 🌟 Features
+- 🔥 Generates docs in Markdown.
 - 🔥 Maven dependency resolver.
 - 🔥 Dynamic Kotlin Compiler.
 - 🔥 Integration of R8 Shrinker.
