@@ -9,16 +9,6 @@ if ($env:FAST_HOME) {
 # Define the path for the downloaded zip file
 $zipLocation = "$destinationDir\Fast.zip"
 
-# Delete the destination directory if it already exists
-if (Test-Path -Path $destinationDir) {
-    Remove-Item -Path $destinationDir -Recurse -Force
-}
-
-# Create the directory if it doesn't exist
-if (-not (Test-Path -Path $destinationDir)) {
-    New-Item -ItemType Directory -Path $destinationDir -Force
-}
-
 # GitHub requires TLS 1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
@@ -43,9 +33,21 @@ foreach ($asset in $response.assets) {
 # Check if the URL was found
 if (-not $zipUrl) {
     Write-Output "fast.zip not found in the release assets."
-    return
+    exit 1
 }
 
+# Delete the destination directory if it already exists
+if (Test-Path -Path $destinationDir) {
+    Write-Output "Removing the previous installation of FAST"
+    Remove-Item -Path $destinationDir -Recurse -Force
+}
+
+# Create the directory if it doesn't exist
+if (-not (Test-Path -Path $destinationDir)) {
+    New-Item -ItemType Directory -Path $destinationDir -Force
+}
+
+Write-Output "Downloading FAST $($response.tag_name)"
 # Download zip to path location
 Invoke-WebRequest -Uri $zipUrl -OutFile $zipLocation -UseBasicParsing
 
