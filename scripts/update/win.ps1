@@ -1,5 +1,30 @@
 # Update scripts for Windows
-$zipUrl = "https://github.com/jewelshkjony/fast-cli/releases/download/v2.3.0/update.zip"
+# Download URL for the latest version of FAST
+$zipUrl = ""
+
+# Define the API URL
+$apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
+
+# GitHub requires TLS 1.2
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+# Fetch the JSON response from the API
+$response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+
+# Loop through the assets array to find the desired asset
+foreach ($asset in $response.assets) {
+    if ($asset.name -eq "update.zip") {
+        # Store the browser_download_url in the variable
+        $zipUrl = $asset.browser_download_url
+        break
+    }
+}
+
+# Check if the URL was found
+if (-not $zipUrl) {
+    Write-Output "update.zip not found in the release assets."
+    exit 1
+}
 
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to LOCALAPPDATA\Fast
 if ($env:FAST_HOME) {
@@ -17,11 +42,8 @@ if (-not (Test-Path -Path $destinationDir)) {
     exit 1
 }
 
-# GitHub requires TLS 1.2
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-
 # Download the new ZIP file to the specified location
-Write-Output "Downloading the update for Fast tool..."
+Write-Output "Updating FAST to the latest $($response.tag_name)"
 Invoke-WebRequest -Uri $zipUrl -OutFile $zipLocation -UseBasicParsing
 
 # Check if the ZIP file was downloaded successfully
@@ -31,7 +53,7 @@ if (-not (Test-Path -Path $zipLocation)) {
 }
 
 # Extract the ZIP file, replacing the existing files
-Write-Output "Updating Fast tool..."
+Write-Output "Extracting files..."
 if (Get-Command Expand-Archive -ErrorAction SilentlyContinue) {
     Expand-Archive -Path $zipLocation -DestinationPath $destinationDir -Force
 }
@@ -43,4 +65,4 @@ else {
 # Remove the downloaded ZIP file
 Remove-Item $zipLocation
 
-Write-Output "Fast has been successfully updated to v2.3.0 13.01.25.19.56"
+Write-Output "Fast has been successfully updated to $($response.tag_name)"
