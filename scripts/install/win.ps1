@@ -1,6 +1,4 @@
 # Scripts to install Fast CLI for Windows
-$zipUrl = "https://github.com/jewelshkjony/fast-cli/releases/download/v2.3.0/fast.zip"
-
 # Check if FAST_HOME environment variable exists and use it, otherwise fallback to LOCALAPPDATA\Fast
 if ($env:FAST_HOME) {
     $destinationDir = $env:FAST_HOME
@@ -23,6 +21,30 @@ if (-not (Test-Path -Path $destinationDir)) {
 
 # GitHub requires TLS 1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+# Download URL for the latest version of FAST
+$zipUrl = ""
+
+# Define the API URL
+$apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
+
+# Fetch the JSON response from the API
+$response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+
+# Loop through the assets array to find the desired asset
+foreach ($asset in $response.assets) {
+    if ($asset.name -eq "fast.zip") {
+        # Store the browser_download_url in the variable
+        $zipUrl = $asset.browser_download_url
+        break
+    }
+}
+
+# Check if the URL was found
+if (-not $zipUrl) {
+    Write-Output "fast.zip not found in the release assets."
+    return
+}
 
 # Download zip to path location
 Invoke-WebRequest -Uri $zipUrl -OutFile $zipLocation -UseBasicParsing
@@ -50,4 +72,4 @@ if (!(";$Path;".ToLower() -like "*;$destinationDir;*".ToLower())) {
     $Env:Path += ";$destinationDir"
 }
 
-Write-Output "Fast-v2.3.0 13.01.25.19.56 has been successfully installed."
+Write-Output "Fast $($response.tag_name) has been successfully installed."
