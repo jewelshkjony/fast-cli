@@ -1,7 +1,4 @@
 # Update scripts for Windows
-# Download URL for the latest version of FAST
-$zipUrl = ""
-
 # Define the API URL
 $apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
 
@@ -9,7 +6,15 @@ $apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 # Fetch the JSON response from the API
-$response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+try {
+    $response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+} catch {
+    Write-Output "Failed to fetch data from the GitHub API. Check your internet connection or the API URL."
+    exit 1
+}
+
+# Initialize the download URL
+$zipUrl = $null
 
 # Loop through the assets array to find the desired asset
 foreach ($asset in $response.assets) {
@@ -20,7 +25,7 @@ foreach ($asset in $response.assets) {
     }
 }
 
-# Check if the URL was found
+# Check if the URL was not found
 if (-not $zipUrl) {
     Write-Output "update.zip not found in the release assets."
     exit 1
@@ -53,7 +58,7 @@ if (-not (Test-Path -Path $zipLocation)) {
 }
 
 # Extract the ZIP file, replacing the existing files
-Write-Output "Extracting files..."
+Write-Output "Extracting the update..."
 if (Get-Command Expand-Archive -ErrorAction SilentlyContinue) {
     Expand-Archive -Path $zipLocation -DestinationPath $destinationDir -Force
 }
