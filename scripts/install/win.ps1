@@ -12,14 +12,19 @@ $zipLocation = "$destinationDir\Fast.zip"
 # GitHub requires TLS 1.2
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-# Download URL for the latest version of FAST
-$zipUrl = ""
-
 # Define the API URL
 $apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
 
 # Fetch the JSON response from the API
-$response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+try {
+    $response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
+} catch {
+    Write-Output "Failed to fetch data from the GitHub API. Check your internet connection."
+    exit 1
+}
+
+# Initialize the download URL
+$zipUrl = $null
 
 # Loop through the assets array to find the desired asset
 foreach ($asset in $response.assets) {
