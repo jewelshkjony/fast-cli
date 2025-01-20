@@ -13,13 +13,13 @@ if [ $? -ne 0 ] || [ -z "$response" ]; then
 fi
 
 # Extract the URL for fast.zip using grep and sed
-zipUrl=$(echo "$response" | grep -o '"browser_download_url": *"[^"]*update.zip"' | sed 's/"browser_download_url": *"//;s/"$//')
+zipUrl=$(echo "$response" | grep -o '"browser_download_url": *"[^"]*fast.zip"' | sed 's/"browser_download_url": *"//;s/"$//')
 
 # Check if the URL was found
 if [ -z "$zipUrl" ]; then
-    echo "update.zip not found in the release assets."
+    echo "fast.zip not found in the release assets."
     exit 1
 fi
 
 # Output the URL
-echo "Download URL: $zipUrl"
+echo "Fast Download URL: $zipUrl"
