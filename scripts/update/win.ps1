@@ -9,7 +9,7 @@ $apiUrl = "https://api.github.com/repos/jewelshkjony/fast-cli/releases/latest"
 try {
     $response = Invoke-RestMethod -Uri $apiUrl -UseBasicParsing
 } catch {
-    Write-Output "Failed to fetch data from the GitHub API. Check your internet connection or the API URL."
+    Write-Output "Failed to fetch data from the GitHub API. Check your internet connection."
     exit 1
 }
 
