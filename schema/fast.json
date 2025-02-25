@@ -118,6 +118,12 @@
             "type": "boolean",
             "default": false
         },
+        "xmls": {
+            "title": "Attach custom XML",
+            "description": "Attach custom XML to bundle it with APK. It should be present into assets directory within relative child directory.",
+            "type": "array",
+            "default": []
+        },
         "mock_js": {
             "title": "Mock JS for each Component.",
             "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
