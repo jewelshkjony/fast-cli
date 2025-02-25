@@ -1,7 +1,7 @@
 ## 📝 Release Notes
 
 **🔥2.4.0:**
-- Added support for attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
+- Added support for attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK. <mark>(Will be working from [nb201](https://github.com/mit-cml/appinventor-sources/milestone/46))</mark>
 - The Maven resolver has been updated to the latest version.
 
 **2.3.1:**
