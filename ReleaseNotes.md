@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**🔥2.4.0:**
+- Added support for attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
+- The Maven resolver has been updated to the latest version.
+
+**2.3.1:**
+- The Maven resolver has been updated to the latest version.
+- A few minor tweaks to optimize overall performance.
+
 **🔥2.3.0:**
 - **FAST** will generates docs for your extension during build if `gen_docs` is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml))
 - If [component specific](https://github.com/jewelshkjony/fast-cli/wiki/Android%E2%80%90Manifest%E2%80%90File#component-specific) elements are not defined, **FAST** will include manifest elements to the default component.
