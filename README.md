@@ -9,7 +9,7 @@
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
 ### 🌟 Features
-- 🔥 Attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
+- 🔥 Attach custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
 - 🔥 Generates docs in Markdown.
 - 🔥 Maven dependency resolver.
 - 🔥 Dynamic Kotlin Compiler.
