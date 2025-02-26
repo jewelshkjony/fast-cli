@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**2.4.1:**
+- Skips writing docs for deprecated events, methods & block properties.
+- Fixed some Maven Resolver related bugs.
+- Maven Resolver stores compressed JARs.
+- Added a `.readme` file.
+
 **🔥2.4.0:**
 - Added support for attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK. <mark>(Will be working from [nb201](https://github.com/mit-cml/appinventor-sources/milestone/46))</mark>
 - The Maven resolver has been updated to the latest version.
