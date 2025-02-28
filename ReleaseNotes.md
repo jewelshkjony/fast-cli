@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**2.4.2:**
+- Added multi-threaded downloading technique on `fast upgrade`.
+
 **2.4.1:**
 - Skips writing docs for deprecated events, methods & block properties.
 - Fixed some Maven Resolver related bugs.
