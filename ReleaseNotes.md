@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**2.5.0:**
+- AnnotationProcessors now also allows non-YailType parameters. ([ref](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/337?u=jewel))
+- The Maven resolver has been updated to the latest version.
+
 **2.4.2:**
 - Added multi-threaded downloading technique on `fast upgrade`.
 
