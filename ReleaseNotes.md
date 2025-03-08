@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**🔥2.6.0:**
+- Added blocks generator for `AppInventor`, `Kodular`, `Niotron` & `AndroidBuilder` by [Patryk_F](https://community.appinventor.mit.edu/u/patryk_f/summary).
+- `UTF-8` encoding issues have been resolved.
+
 **2.5.0:**
 - AnnotationProcessors now also allows non-YailType parameters. ([ref](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/337?u=jewel))
 - The Maven resolver has been updated to the latest version.
