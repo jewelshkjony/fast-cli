@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="260" height="30">
+<svg xmlns="http://www.w3.org/2000/svg" width="217" height="25">
     <!-- Latest Version Section -->
-    <rect x="0" y="0" width="110" height="30" rx="5" ry="5" fill="#E76F51"/>
-    <text x="10" y="20" font-family="Arial" font-size="14" fill="white">Latest Version</text>
+    <rect x="0" y="0" width="100" height="25" rx="5" ry="5" fill="#E76F51"/>
+    <text x="10" y="17" font-family="Arial" font-size="12" fill="white">Latest Version</text>
 
     <!-- Version Number Section -->
-    <rect x="105" y="0" width="70" height="30" fill="#277DA1"/>
-    <text x="115" y="20" font-family="monospace" font-size="14" fill="white">2.6.0</text>
+    <rect x="95" y="0" width="70" height="25" fill="#277DA1"/>
+    <text x="100" y="17" font-family="monospace" font-size="12" fill="white">2.6.0</text>
 
     <!-- Date-Time Section -->
-    <rect x="165" y="0" width="95" height="30" fill="#F4A261"/>
-    <text x="170" y="20" font-family="ans-serif" font-size="14" fill="black">08.03.25.15.34</text>
+    <rect x="140" y="0" width="80" height="25" fill="#F4A261"/>
+    <text x="145" y="17" font-family="ans-serif" font-size="11" fill="black">08.03.25.15.34</text>
 </svg>
