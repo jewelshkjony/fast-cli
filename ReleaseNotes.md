@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**2.7.0:**
+- Removed manifest related annotations from runtime jar.
+- Uses custom annotation processor to generate JSONs.
+- A few changes in default proguard rules.
+- Fixed colorized print issue for Termux.
+
 **🔥2.6.0:**
 - Added blocks generator for `AppInventor`, `Kodular`, `Niotron` & `AndroidBuilder` by [Patryk_F](https://community.appinventor.mit.edu/u/patryk_f/summary).
 - `UTF-8` encoding issues have been resolved.
