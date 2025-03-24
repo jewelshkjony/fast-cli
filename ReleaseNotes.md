@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**2.8.0:**
+- The Maven resolver has been optimized.
+- `fast sync` now recommends the minimum SDK if the user is using lower than that.
+- The default ProGuard rules have been modified.
+
 **2.7.0:**
 - Removed manifest related annotations from runtime jar.
 - Uses custom annotation processor to generate JSONs.
