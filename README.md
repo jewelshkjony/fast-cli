@@ -20,7 +20,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Seamless support for Java and Kotlin languages.
 - Support for Multi-component in extension.
 - Integration of new red drop-down helper blocks.
-- Up-to-date ProGuard library 7.6.1.
+- Up-to-date ProGuard library 7.7.0.
 - Generates a smaller size of extension.
 - All `@annotations` will be removed from built AIX.
 - Ability to declare manifest in AndroidManifest.xml.
