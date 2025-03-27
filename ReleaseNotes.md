@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**2.8.1:**
+- Updated the ProGuard library version to 7.7.0.
+
 **2.8.0:**
 - The Maven resolver has been optimized.
 - `fast sync` now recommends the minimum SDK if the user is using lower than that.
