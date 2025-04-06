@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**2.8.2:**
+- The `AnnotationProcessor` now skips missing default value exceptions.
+
 **2.8.1:**
 - Updated the ProGuard library version to 7.7.0.
 
