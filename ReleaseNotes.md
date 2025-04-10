@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**2.8.4:**
+- Fixed a bug for the Docs Generator.
+- Docs Generator does not add emojis for events, methods, and properties.
+
 **2.8.3:**
 - Added support for assets & helper blocks to the docs generator.
 - Updated the `AnnotationProcessor` to accepts category for property and generate JSON in order to source by default.
