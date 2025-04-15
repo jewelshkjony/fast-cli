@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update scripts for Linux, MacOS and Android Termux
-# Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/.local/share/Fast
+# Check if FAST_HOME environment variable exists and use it, otherwise fallback to $HOME/Fast
 if [ -n "$FAST_HOME" ]; then
     destinationDir="$FAST_HOME"
 else
-    destinationDir="$HOME/.local/share/Fast"
+    destinationDir="$HOME/Fast"
 fi
 
 # Define the location to store the ZIP file
