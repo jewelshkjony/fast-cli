@@ -1,5 +1,22 @@
 ## 📝 Release Notes
 
+**❤️‍🔥3.0.0:**
+- Added `GradleResolver` as default resolver to fetch transitive dependencies.
+- Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
+- Added support for using bundled JDK/JRE version 8.
+- Updated `MavenResolver` to be compatible with v3.
+- Updated `jetifier` to be compatible with v3.
+- Added `mavenLocal` repository to Gradle.
+- R8 dexer relevant issues have been fixed.
+- The default `icon.png` have been changed.
+- Added multi-threaded downloader to kotlin compiler resolver.
+- ProGuard and R8 both can be called together.
+- Updated `upgrade.jar` to remove old files during clean install.
+- The `MavenResolver` have been updated to v2.0.8.
+- Moved `AnnotationProcessors.jar` to `$FAST_HOME/lib/tools/processor.jar` directory.
+- Modified the `processor.jar`.
+- Moved `android.jar` to `$FAST_HOME/lib/android/android.jar` directory.
+
 **2.8.4:**
 - Fixed a bug for the Docs Generator.
 - Docs Generator does not add emojis for events, methods, and properties.
