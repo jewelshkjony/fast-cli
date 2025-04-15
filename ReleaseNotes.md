@@ -1,7 +1,7 @@
 ## 📝 Release Notes
 
 **❤️‍🔥3.0.0:**
-- Added `GradleResolver` as default resolver to fetch transitive dependencies.
+- Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
 - Added support for using bundled JDK/JRE version 8.
 - Updated `MavenResolver` to be compatible with v3.
