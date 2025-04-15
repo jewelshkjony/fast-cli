@@ -5,7 +5,7 @@
 if [ -n "$FAST_HOME" ]; then
     destinationDir="$FAST_HOME"
 else
-    destinationDir="$HOME/.local/share/Fast"
+    destinationDir="$HOME/Fast"
 fi
 
 # Define the location to store the ZIP file
@@ -69,7 +69,7 @@ fi
 # Add the fast() function to .bashrc and .zshrc for global usage
 fastFunction='
 fast() {
-    java -jar "$HOME/.local/share/Fast/fast.jar" "$@"
+    java -jar "$HOME/Fast/fast.jar" "$@"
 }
 '
 
