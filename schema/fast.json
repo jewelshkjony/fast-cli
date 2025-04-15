@@ -100,6 +100,12 @@
             "type": "array",
             "default": []
         },
+        "xmls": {
+            "title": "Attach custom XML",
+            "description": "Attach custom XML to bundle it with APK. It should be present into assets directory within relative child directory.",
+            "type": "array",
+            "default": []
+        },
         "aars": {
             "title": "Attach AARs Libraries",
             "description": "Define AAR libraries to attach with extension. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies.",
@@ -129,12 +135,6 @@
             "description": "Enable to skip matching classes provided by AI2.",
             "type": "boolean",
             "default": false
-        },
-        "xmls": {
-            "title": "Attach custom XML",
-            "description": "Attach custom XML to bundle it with APK. It should be present into assets directory within relative child directory.",
-            "type": "array",
-            "default": []
         },
         "mock_js": {
             "title": "Mock JS for each Component.",
