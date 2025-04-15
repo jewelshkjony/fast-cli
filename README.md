@@ -8,6 +8,11 @@
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
+### 🪶 Features of V3
+- 🔥 Gradle Dependency Resolver.
+- 🔥 Attaching [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
+- 🔥 Support for bundled JDK/JRE version 8.
+
 ### 🌟 Features
 - 🔥 Generates blocks as `PNG` for each builder.
 - 🔥 Attach custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
