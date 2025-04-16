@@ -13,7 +13,8 @@
 - ProGuard and R8 both can be called together.
 - Updated `upgrade.jar` to remove old files during clean install.
 - The `MavenResolver` have been updated to v2.0.8.
-- The JavaCompiler have been updated.
+- Updated `JavaCompiler` to be compatible with JDK24+.
+- Added a separate D8 tool for JDK21+.
 - Moved `AnnotationProcessors.jar` to `$FAST_HOME/lib/tools/processor.jar` directory.
 - Modified the `processor.jar`.
 - Moved `android.jar` to `$FAST_HOME/lib/android/android.jar` directory.
