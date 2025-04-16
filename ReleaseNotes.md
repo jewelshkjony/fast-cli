@@ -1,9 +1,9 @@
 ## 📝 Release Notes
 
-**❤️‍🔥3.0.0:**
+**❤️‍🔥3.0.0:** <kbd>Breaking changes;</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
-- Added support for using bundled JDK/JRE version 8.
+- Added support for using bundled JDK/JRE <small>(version 8)</small>.
 - Updated `MavenResolver` to be compatible with v3.
 - Updated `jetifier` to be compatible with v3.
 - Added `mavenLocal` repository to Gradle.
@@ -18,6 +18,7 @@
 - Moved `AnnotationProcessors.jar` to `$FAST_HOME/lib/tools/processor.jar` directory.
 - Modified the `processor.jar`.
 - Moved `android.jar` to `$FAST_HOME/lib/android/android.jar` directory.
+- Non-premium users can use basic functions as usual.
 
 **2.8.4:**
 - Fixed a bug for the Docs Generator.
