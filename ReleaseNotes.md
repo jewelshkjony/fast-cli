@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**3.1.0:**
+- Fixed compile-time dependencies resolving issues for `GradleResolver`.
+- Added support for using the system's `GRADLE_HOME` if the bundle home is missing.
+- Fixed duplicates classes notes while using local JARs.
+- Optimized attaching AARs feature.
+- Added `collect_rules` attribute to `fast.yml` to use ProGuard rules from runtime AARs.
+- The default `icon.png` have been changed.
+
 **❤️‍🔥3.0.0:** <kbd>Breaking changes;</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
