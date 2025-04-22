@@ -5,7 +5,7 @@
 - Added support for using the system's `GRADLE_HOME` if the bundle home is missing.
 - Fixed duplicates classes notes while using local JARs.
 - Optimized attaching AARs feature.
-- Added `collect_rules` attribute to `fast.yml` to use ProGuard rules from runtime AARs.
+- Added `collect_rules` attribute in `fast.yml` to use ProGuard rules from runtime AARs.
 - The default `icon.png` have been changed.
 
 **❤️‍🔥3.0.0:** <kbd>Breaking changes;</kdb>
