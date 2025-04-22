@@ -8,10 +8,10 @@
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
-### 🪶 Features of V3 <kbd>(Premium)</kbd>
+### 🪶 Features of V3 <small>(<kbd>Premium</kbd>)</small>
 - 🔥 Gradle Dependency Resolver.
 - 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
-- 🔥 Support for bundled JDK/JRE <kbd><small>(version 8)</small></kbd>.
+- 🔥 Support for bundled JDK8/JRE8.
 - 🔥 Maven Dependency Resolver.
 - 🔥 Attach custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
 - 🔥 Ability to use ProGuard rules from runtime AARs.
@@ -24,7 +24,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - 🔥 Support `AAR` as dependencies.
 - 🔥 Seamless support for Java and Kotlin languages.
 - 🔥 Support for Multi-component in extension.
-- 🔥 Integration of new red <kbd>drop-down</kbd> helper blocks.
+- 🔥 Integration of new red <small><kbd>drop-down</kbd></small> helper blocks.
 - 🔥 All `@annotations` will be removed from built AIX even no ProGuard.
 - Up-to-date ProGuard library 7.7.0.
 - Java 8 support, including lambda expressions `()->`.
