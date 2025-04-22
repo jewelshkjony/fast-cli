@@ -8,26 +8,27 @@
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
-### 🪶 Features of V3 (Premium)
+### 🪶 Features of V3 <kbd>(Premium)</kbd>
 - 🔥 Gradle Dependency Resolver.
 - 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
-- 🔥 Support for bundled JDK/JRE (version 8).
-
-### 🌟 Features
-- 🔥 Generates blocks as `PNG` for each builder.
+- 🔥 Support for bundled JDK/JRE <kbd><small>(version 8)</small></kbd>.
+- 🔥 Maven Dependency Resolver.
 - 🔥 Attach custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
+- 🔥 Ability to use ProGuard rules from runtime AARs.
+
+## 🌟 Features
+- 🔥 Generates blocks as PNG for each builder.
 - 🔥 Generates docs in Markdown.
-- 🔥 Maven dependency resolver.
 - 🔥 Dynamic Kotlin Compiler.
 - 🔥 Integration of R8 Shrinker.
 - 🔥 Support `AAR` as dependencies.
-- Java 8 support, including lambda expressions `()->`.
-- Seamless support for Java and Kotlin languages.
-- Support for Multi-component in extension.
-- Integration of new red drop-down helper blocks.
+- 🔥 Seamless support for Java and Kotlin languages.
+- 🔥 Support for Multi-component in extension.
+- 🔥 Integration of new red <kbd>drop-down</kbd> helper blocks.
+- 🔥 All `@annotations` will be removed from built AIX even no ProGuard.
 - Up-to-date ProGuard library 7.7.0.
+- Java 8 support, including lambda expressions `()->`.
 - Generates a smaller size of extension.
-- All `@annotations` will be removed from built AIX.
 - Ability to declare manifest in AndroidManifest.xml.
 - Code suggestions on VSCode, Eclipse, IntelliJ IDEA & Android Studio.
 - Ability to filter AI2 provided classes to reduce the AIX size.
