@@ -42,7 +42,7 @@ fi
 # Add the fast() function to .bashrc and .zshrc for global usage
 fastFunction='
 fast() {
-    java -jar "$HOME/Fast/fast.jar" "$@"
+    java -jar "$FAST_HOME/fast.jar" "$@"
 }
 '
 
