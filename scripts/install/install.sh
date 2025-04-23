@@ -69,7 +69,7 @@ fi
 # Add the fast() function to .bashrc and .zshrc for global usage
 fastFunction='
 fast() {
-    java -Xmx1024M -Xms512M -XX:+UseG1GC -jar "$FAST_HOME/fast.jar" "$@"
+    java -jar "$FAST_HOME/fast.jar" "$@"
 }
 '
 
