@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**3.2.0:**
+- Optimized `Gradle` & `Maven` resolver.
+- Optimized code suggestion feature for IntelliJ IDEA.
+- Corrected a few typo.
+- Renamed `$FAST_HOME/lib/tools/d821+.jar` to `$FAST_HOME/lib/tools/d8_11+.jar`.
+- Optimized `R8` Shrinker & Dexer.
+- Added `android-javadoc.jar` to `provided-deps.xml`.
+
 **3.1.0:**
 - Fixed compile-time dependencies resolving issues for `GradleResolver`.
 - Added support for using the system's `GRADLE_HOME` if the bundle home is missing.
