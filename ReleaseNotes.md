@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**3.2.1:**
+- Updated `Gradle` resolver to latest version 8.14.
+- Optimized project synchronization tasks.
+- Updated logs.txt writer.
+
 **3.2.0:**
 - Optimized `Gradle` & `Maven` resolver.
 - Optimized code suggestion feature for IntelliJ IDEA.
