@@ -4,6 +4,8 @@
 - Updated `Gradle` resolver to latest version 8.14.
 - Optimized project synchronization tasks.
 - Updated logs.txt writer.
+- Updated bundled-jre to `JRE11`.
+- Added support for handle executable permission on bundled-jre.
 
 **3.2.0:**
 - Optimized `Gradle` & `Maven` resolver.
