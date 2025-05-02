@@ -21,7 +21,7 @@
 - Fixed duplicates classes notes while using local JARs.
 - Optimized attaching AARs feature.
 - Added `collect_rules` attribute in `fast.yml` to use ProGuard rules from runtime AARs.
-- The default `icon.png` have been changed.
+- The default `icon.png` have been changed by [Joe J. Sanchez](https://github.com/Joejsanz).
 
 **❤️‍🔥3.0.0:** <kbd>Breaking changes;</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
@@ -31,7 +31,7 @@
 - Updated `jetifier` to be compatible with v3.
 - Added `mavenLocal` repository to Gradle.
 - R8 dexer relevant issues have been fixed.
-- The default `icon.png` have been changed.
+- The default `icon.png` have been changed by [Kiran Madde](https://github.com/TheKStudio25).
 - Added multi-threaded downloader to kotlin compiler resolver.
 - ProGuard and R8 both can be called together.
 - Updated `upgrade.jar` to remove old files during clean install.
@@ -69,7 +69,7 @@
 - Fixed colorized print issue for Termux.
 
 **🔥2.6.0:**
-- Added blocks generator for `AppInventor`, `Kodular`, `Niotron` & `AndroidBuilder` by [Patryk_F](https://community.appinventor.mit.edu/u/patryk_f/summary).
+- Added blocks generator for `AppInventor`, `Kodular`, `Niotron` & `AndroidBuilder` by [patryk84a](https://github.com/patryk84a).
 - `UTF-8` encoding issues have been resolved.
 
 **2.5.0:**
