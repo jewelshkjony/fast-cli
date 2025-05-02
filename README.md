@@ -10,11 +10,11 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 ### 🪶 Features of V3 <small>(<kbd>Premium</kbd>)</small>
 - 🔥 Gradle Dependency Resolver.
-- 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
-- 🔥 Support for bundled JDK8/JRE8.
 - 🔥 Maven Dependency Resolver.
-- 🔥 Attach custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK.
-- 🔥 Ability to use ProGuard rules from runtime AARs.
+- 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
+- 🔥 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
+- 🔥 Support for bundled `JRE11`.
+- 🔥 Ability to apply ProGuard rules from runtime AARs.
 
 ## 🌟 Features
 - 🔥 Generates blocks as PNG for each builder.
@@ -74,3 +74,7 @@ Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Upgradation) 
 * 💡 Ideas are welcome [here](https://github.com/jewelshkjony/fast-cli/discussions).
 * 🐛 Submit issues [here](https://github.com/jewelshkjony/fast-cli/issues).
 * 🤝 For getting additional supports, text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
+
+### Contributors <kbd>4</kbd>
+<a href="https://github.com/jewelshkjony" target="_blank"><img src="https://avatars.githubusercontent.com/u/75406851?s=48&v=4" alt="Jewel" width="48" height="48"/></a> <a href="https://github.com/patryk84a" target="_blank"><img src="https://avatars.githubusercontent.com/u/62844519?s=48&v=4" alt="patryk84a" width="48" height="48"/></a> <a href="https://github.com/TheKStudio25" target="_blank"><img src="https://avatars.githubusercontent.com/u/209989050?s=48&v=4" alt="
+Kiran Madde" width="48" height="48"/></a> <a href="https://github.com/Joejsanz" target="_blank"><img src="https://avatars.githubusercontent.com/u/175358888?s=48&v=4" alt="Joe J. Sanchez" width="48" height="48"/></a>
