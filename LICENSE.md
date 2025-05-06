@@ -34,7 +34,7 @@ This license governs the use of the CLI tool (referred to as "the Tool") designe
 
 ### 4. Support
 - After purchasing premium version, if you encounter any issues related to the tool during testing, the author may take the necessary time to investigate and fix the reported issues promptly.
-- If the reported issues are determined to be unrelated to the tool, the author may exercise the right to decline providing updates or support without any additional cost. As mentioned in Terms no. [#1](#2), the No Return, No Refund Policy will remain in effect for all purchases.
+- If the reported issues are determined to be unrelated to the tool, the author may exercise the right to decline providing updates or support without any additional cost. As mentioned in Terms no. [#1](#1-no-return-no-refund-policy), the No Return, No Refund Policy will remain in effect for all purchases.
 
 ### 5. **Distribution Restrictions**  
 - You are **not allowed** to distribute, share, or make the Tool publicly available, in any form, without explicit written consent from the author.  
