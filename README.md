@@ -8,15 +8,14 @@
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
-### 🪶 Features of V3 <small>(<kbd>Premium</kbd>)</small>
-- 🔥 Gradle Dependency Resolver.
-- 🔥 Maven Dependency Resolver.
-- 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries.
-- 🔥 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
-- 🔥 Support for bundled `JRE11`.
-- 🔥 Ability to apply ProGuard rules from runtime AARs.
-
-## 🌟 Features
+### 🪶 Features
+- 🔥 Added support for GitHub Actions workflows.
+- 🔥 Gradle Dependency Resolver (<kbd>Premium</kbd>).
+- 🔥 Maven Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
+- 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries (<kbd>Premium</kbd>).
+- 🔥 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) (<kbd>Premium</kbd>).
+- 🔥 Support for bundled `JRE11` (<kbd>Premium</kbd>).
+- 🔥 Ability to apply ProGuard rules from runtime AARs (<kbd>Premium</kbd>).
 - 🔥 Generates blocks as PNG for each builder.
 - 🔥 Generates docs in Markdown.
 - 🔥 Dynamic Kotlin Compiler.
