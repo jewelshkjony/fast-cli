@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**3.3.0:**
+- Performance have been optimized.
+- Added support for GitHub Actions workflows.
+
+**3.2.2:**
+- Fixed a null pointer issue during debug build.
+- Fixed duplicate library resolving for Gradle Resolver.
+
 **3.2.1:**
 - Updated `Gradle` resolver to latest version 8.14.
 - Optimized project synchronization tasks.
