@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**3.3.2:**
+- Prints the extension size in terminal.
+
+**3.3.1:**
+- Fixed dependencies resolve issues for Action workflows.
+- Custom repositories are now given first priority.
+- A single change in terminal output.
+
 **3.3.0:**
 - Performance have been optimized.
 - Added support for GitHub Actions workflows.
