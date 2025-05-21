@@ -10,13 +10,13 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 🏅 If you are interested in accessing its premium features, please consider making a [request for premium](https://buymeacoffee.com/jewelshkjony/e/412700) access.
 
-### 🪶 Features
-- 🔥 Gradle Dependency Resolver (<kbd>Premium</kbd>).
-- 🔥 Maven Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
-- 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries (<kbd>Premium</kbd>).
-- 🔥 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) (<kbd>Premium</kbd>).
-- 🔥 Support for bundled `JRE11` (<kbd>Premium</kbd>).
-- 🔥 Ability to apply ProGuard rules from runtime AARs (<kbd>Premium</kbd>).
+## 🪶 Features
+- 🏅 Gradle Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
+- 🏅 Maven Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
+- 🏅 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries <small>(<kbd>Premium</kbd>)</small>.
+- 🏅 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) <small>(<kbd>Premium</kbd>)</small>.
+- 🏅 Support for bundled `JRE11` <small>(<kbd>Premium</kbd>)</small>.
+- 🏅 Ability to apply ProGuard rules from runtime AARs <small>(<kbd>Premium</kbd>)</small>.
 - 🔥 Added support for GitHub Actions workflows.
 - 🔥 Generates blocks as PNG for each builder.
 - 🔥 Generates docs in Markdown.
