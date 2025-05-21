@@ -11,13 +11,13 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 🏅 If you are interested in accessing its premium features, please consider making a [request for premium](https://buymeacoffee.com/jewelshkjony/e/412700) access.
 
 ### 🪶 Features
-- 🔥 Added support for GitHub Actions workflows.
 - 🔥 Gradle Dependency Resolver (<kbd>Premium</kbd>).
 - 🔥 Maven Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
 - 🔥 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries (<kbd>Premium</kbd>).
 - 🔥 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) (<kbd>Premium</kbd>).
 - 🔥 Support for bundled `JRE11` (<kbd>Premium</kbd>).
 - 🔥 Ability to apply ProGuard rules from runtime AARs (<kbd>Premium</kbd>).
+- 🔥 Added support for GitHub Actions workflows.
 - 🔥 Generates blocks as PNG for each builder.
 - 🔥 Generates docs in Markdown.
 - 🔥 Dynamic Kotlin Compiler.
