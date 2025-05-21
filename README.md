@@ -8,6 +8,8 @@
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
+🏅 If you are interested in accessing its premium features, please consider making a [request for premium](https://buymeacoffee.com/jewelshkjony/e/412700) access.
+
 ### 🪶 Features
 - 🔥 Added support for GitHub Actions workflows.
 - 🔥 Gradle Dependency Resolver (<kbd>Premium</kbd>).
