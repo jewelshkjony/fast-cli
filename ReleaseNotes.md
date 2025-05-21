@@ -1,7 +1,13 @@
 ## 📝 Release Notes
 
+**3.4.0:**
+- Updated the naming convention verifier.
+- Modified the `logs.txt` writer.
+
 **3.3.2:**
 - Prints the extension size in terminal.
+- Prints `R8` & `D8` versions in terminal.
+- Updated the `logs.txt` writer.
 
 **3.3.1:**
 - Fixed dependencies resolve issues for Action workflows.
