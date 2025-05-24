@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**3.4.1:**
+- The `GradleResolver` have been updated to v4.14.1
+- Log writer writes logs to `$PROJECT/.fast/.locks/logs.txt`.
+- Prints `Gradle` version in terminal.
+- The `MavenResolver` have been updated to v2.0.9
+- Changes in `proguard-rules.pro` writer.
+
 **3.4.0:**
 - Updated the naming convention verifier.
 - Modified the `logs.txt` writer.
