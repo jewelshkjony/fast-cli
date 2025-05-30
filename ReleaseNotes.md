@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**❤️‍🔥3.5.0:**
+- Generate all blocks in a single PNG as `blocks.png`.
+- Modified naming convention verifier.
+- Modified writing model of docs writer.
+- Docs writer won't skip deprecated blocks.
+- Generates PNGs for designer properties.
+
 **3.4.1:**
 - The `GradleResolver` have been updated to v4.14.1
 - Log writer writes logs to `$PROJECT/.fast/.locks/logs.txt`.
