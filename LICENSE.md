@@ -14,7 +14,7 @@
 # ⚖️ License for FAST CLI  
 
 **Version 3.0**  
-**Effective Date: 07 May 2025**  
+**Effective Date: 06 June 2025**  
 
 This license governs the use of the CLI tool (referred to as "the Tool") designed for building MIT App Inventor 2 (AI2) extensions. By purchasing and using the tool, you agree to the following terms and conditions:
 
@@ -44,7 +44,14 @@ This license governs the use of the CLI tool (referred to as "the Tool") designe
 - You are **not permitted** to modify, reverse engineer, or create derivative works based on the Tool without explicit written permission from the author.  
 
 ### 7. **Credits for Built Extensions**  
-- **Giving credits** to the Tool is **mandatory**.
+- **Giving credits** to the tool is **mandatory**.
+- Follow below manners to provide credits:
+
+**Built using:** [FAST](https://github.com/jewelshkjony/fast-cli)
+
+If documented with FAST, so:
+
+**Built & documented using:** [FAST](https://github.com/jewelshkjony/fast-cli)
 
 ### 8. **No Warranties**  
 - The Tool is provided "as is," without any warranties of any kind, express or implied.  
