@@ -45,11 +45,11 @@ This license governs the use of the CLI tool (referred to as "the Tool") designe
 
 ### 7. **Credits for Built Extensions**  
 - **Giving credits** to the tool is **mandatory**.
-- Follow below manners to provide credits:
+- Following the guidelines below for providing credits would be greatly appreciated:
 
 **Built using:** [FAST](https://github.com/jewelshkjony/fast-cli)
 
-If documented with FAST, so:
+If also documented with FAST, so:
 
 **Built & documented using:** [FAST](https://github.com/jewelshkjony/fast-cli)
 
