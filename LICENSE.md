@@ -1,6 +1,6 @@
 | Permission          | IsAllowed | Conditions                      |
 |-|-|-|
-| Personal use        | ✅       | ✳️ Requires credit                |
+| Personal use        | ✅       | ✅️ No conditions                |
 | Commercial use      | ❌       | ✳️ Requires explicit permission |
 | Trademark use       | ❌       | ✳️ Requires explicit permission |
 | Modification        | ❌       | ✳️ Requires explicit permission |
@@ -13,8 +13,8 @@
 
 # ⚖️ License for FAST CLI  
 
-**Version 3.0**  
-**Effective Date: 06 June 2025**  
+**Version 3.5**  
+**Effective Date: 09 June 2025**  
 
 This license governs the use of the CLI tool (referred to as "the Tool") designed for building MIT App Inventor 2 (AI2) extensions. By purchasing and using the tool, you agree to the following terms and conditions:
 
@@ -43,8 +43,8 @@ This license governs the use of the CLI tool (referred to as "the Tool") designe
 ### 6. **Modification Prohibition** 
 - You are **not permitted** to modify, reverse engineer, or create derivative works based on the Tool without explicit written permission from the author.  
 
-### 7. **Credits for Built Extensions**  
-- **Giving credits** to the tool is **mandatory**.
+### 7. **Credits for Built Extensions**
+- While giving credits to the tool is appreciated, it is **optional** for extensions built using this tool.
 - Following the guidelines below for providing credits would be greatly appreciated:
 
 **Built using:** [FAST](https://github.com/jewelshkjony/fast-cli)
