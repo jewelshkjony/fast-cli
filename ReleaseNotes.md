@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**3.5.2:**
+- Updated `GradleResolver` to the latest version 4.14.2.
+- Removed large watermark from `blocks.png`.
+- A few bugs have been fixed.
+
+**3.5.1:**
+- A minor bug have been fixed.
+
 **❤️‍🔥3.5.0:**
 - Generate all blocks in a single PNG as `blocks.png`.
 - Modified naming convention verifier.
