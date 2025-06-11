@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**3.6.0:**
+- Executes blocks generator with the `-b` argument.
+- Generates `components.png` for each builder.
+
 **3.5.2:**
 - Updated `GradleResolver` to the latest version 4.14.2.
 - Removed large watermark from `blocks.png`.
