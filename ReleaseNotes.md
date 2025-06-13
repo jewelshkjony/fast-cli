@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**3.6.1:**
+- Some changes have been made to the default ProGuard rules writer to produce smaller extension.
+
 **3.6.0:**
 - Executes blocks generator with the `-b` argument.
 - Generates `components.png` for each builder.
