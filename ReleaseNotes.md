@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**3.6.2:**
+- Fixed a minor bug in PNG generation for designer properties.
+
 **3.6.1:**
 - Some changes have been made to the default ProGuard rules writer to produce smaller extension.
 
