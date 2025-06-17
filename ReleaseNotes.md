@@ -1,10 +1,13 @@
 ## 📝 Release Notes
 
+**3.7.0:**
+- Manifest entries can now use shorthand class names `(e.g., .MyService)` for classes in the base package.
+
 **3.6.2:**
 - Fixed a minor bug in PNG generation for designer properties.
 
 **3.6.1:**
-- Some changes have been made to the default ProGuard rules writer to produce smaller extension.
+- Some changes have been made to the default ProGuard rules writer to produce smaller extension. `❌`
 
 **3.6.0:**
 - Executes blocks generator with the `-b` argument.
