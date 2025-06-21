@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**3.7.1:**
+- Generates PNG for `typeface` & `float` types of designer properties.
+- Removed `kodular`, `niotron` & `androidbuilder` from `.gitignore`.
+
 **3.7.0:**
 - Manifest entries can now use shorthand class names `(e.g., .MyService)` for classes in the base package.
 
