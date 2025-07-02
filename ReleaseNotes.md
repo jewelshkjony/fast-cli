@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**3.7.2:**
+- No watermark for `premium` users & reduced opacity for non-premium users.
+- Updated `Maven` resolver to version `2.0.10`.
+- Added `androidbuilder` to `.gitignore`.
+
 **3.7.1:**
 - Generates PNG for `typeface` & `float` types of designer properties.
 - Removed `kodular`, `niotron` & `androidbuilder` from `.gitignore`.
