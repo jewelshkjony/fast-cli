@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**3.8.0:**
+- No watermark for non-premium user.
+- Updated `GradleResolver` to the latest version 4.14.3.
+- FAST is now compatible with JDK 26+.
+
 **3.7.2:**
 - No watermark for `premium` users & reduced opacity for non-premium users.
 - Updated `Maven` resolver to version `2.0.10`.
