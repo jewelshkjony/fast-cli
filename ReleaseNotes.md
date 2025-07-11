@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**3.8.1:**
+- Automatically trigger `-o` command when necessary.
+- Accept non-class files from runtime dependencies.
+- Pass `.kt` as an argument to accept `.kotlin_builtins`, `.kotlin_module` & `.kotlin_metadata` files.
+
 **3.8.0:**
 - No watermark for non-premium user.
 - Updated `GradleResolver` to the latest version 4.14.3.
