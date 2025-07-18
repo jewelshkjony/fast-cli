@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**🩸4.0.0:** <kbd>Breaking changes:</kdb>
+- Bump default min SDK to 14.
+- Pass `-m` to keep `activity`, `service`, `receiver`, `provider` classes declared in manifest.
+- No need to specify the main component when uses multi-component elements in manifest.
+- The build process has been accelerated.
+- Dynamic Android compile SDK API level.
+
 **3.8.1:**
 - Automatically trigger `-o` command when necessary.
 - Accept non-class files from runtime dependencies.
@@ -99,7 +106,7 @@
 - Added `collect_rules` attribute in `fast.yml` to use ProGuard rules from runtime AARs.
 - The default `icon.png` have been changed by [Joe J. Sanchez](https://github.com/Joejsanz).
 
-**❤️‍🔥3.0.0:** <kbd>Breaking changes;</kdb>
+**❤️‍🔥3.0.0:** <kbd>Breaking changes:</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
 - Added support for using bundled JDK/JRE <small>(version 8)</small>.
