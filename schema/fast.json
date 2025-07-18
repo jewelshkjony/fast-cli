@@ -16,11 +16,18 @@
             "default": "FAST"
         },
         "min_sdk": {
-            "title": "Extension's minimum Android SDK",
+            "title": "Android minimum SDK API Level",
             "description": "The minimum version number of the Android SDK the extension needs in order to function properly. This MUST be greater than or equal to `7`.",
             "type": "integer",
-            "minimum": 7,
-            "default": 7
+            "minimum": 14,
+            "default": 14
+        },
+        "compile_sdk": {
+            "title": "Android compile SDK API Level",
+            "description": "Define the compile Android SDK API level.",
+            "type": "integer",
+            "minimum": 34,
+            "default": 34
         },
         "proguard": {
             "title": "ProGuard",
@@ -120,7 +127,7 @@
         },
         "gen_docs": {
             "title": "Docs Generator",
-            "description": "Enable to write docs in Markdown during build. It also generate blocks as PNG for App Inventor, Kodular, Niotron and AndroidBuilder.",
+            "description": "Enable to write docs in Markdown during build. It also generate blocks as PNG for App Inventor, Kodular, Niotron and AndroidBuilder. Pass `-b` as an additional argument to trigger the Docs Generator.",
             "type": "boolean",
             "default": false
         },
@@ -144,13 +151,13 @@
         },
         "mock_js": {
             "title": "Mock JS for each Component.",
-            "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory.",
+            "description": "The file name should be like `ComponentName.mock.js`. It should be present into assets directory. [Upcoming feature]",
             "type": "array",
             "default": []
         },
         "mock_css": {
             "title": "Mock Css for each Component.",
-            "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory.",
+            "description": "The file name should be like `ComponentName.mock.css`. It should be present into assets directory. [Upcoming feature]",
             "type": "array",
             "default": []
         }
