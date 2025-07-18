@@ -18,6 +18,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - 🏅 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) <small>(<kbd>Premium</kbd>)</small>.
 - 🏅 Support for bundled `JRE11` <small>(<kbd>Premium</kbd>)</small>.
 - 🏅 Ability to apply ProGuard rules from runtime AARs <small>(<kbd>Premium</kbd>)</small>.
+- 🔥 Dynamic Android compile SDK API Level.
 - 🔥 Added support for GitHub Actions workflows.
 - 🔥 Generates blocks as PNG for each builder.
 - 🔥 Generates docs in Markdown.
