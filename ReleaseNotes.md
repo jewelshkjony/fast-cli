@@ -4,6 +4,7 @@
 - Auto upgrade checker while running `fast sync`.
 - Support for migrates old FAST projects to new (`fast migrate this`).
 - A few changes in `logs.txt`.
+- GitHub Action workflows support dynamic JDK version.
 
 <kbd>Breaking changes:</kdb>
 - Availability to define project specific ProGuard version in `fast.yml`.
