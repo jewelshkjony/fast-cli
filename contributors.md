@@ -8,6 +8,7 @@
 ### 3. <img src="https://github.com/buxipro.png" height="20" width="20"/> [Bux Ali](https://github.com/buxipro/)
 - Contributor, who explained the installation process for Android Termux.
 - Identified bugs in Android Termux and assisting in finding solutions.
+- Record & edited a tutorial video for Android Termux users.
 
 ### 4. <img src="https://github.com/lilmujeeb.png" height="20" width="20"/> [Mujeeb Ur Rehman](https://github.com/lilmujeeb/)
 - Contributor, who identified bugs in Linux and assisting in finding solutions.
@@ -26,3 +27,6 @@
 
 ### 8. <img src="https://github.com/Joejsanz.png" height="20" width="20"/> [Joe J. Sanchez](https://github.com/Joejsanz/)
 - Contributor, who designed the `icon.png` for version 4.
+
+### 9. <img src="https://github.com/GXDEVS.png" height="20" width="20"/> [Gilderlan Xavier](https://github.com/GXDEVS/)
+- Contributor, who recorded tutorial videos for Linux & MacOS users.
