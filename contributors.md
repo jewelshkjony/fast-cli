@@ -1,19 +1,28 @@
-## <img src="https://github.com/jewelshkjony.png" height="20" width="20"/> [JEWEL](https://github.com/jewelshkjony/)
+### 1. <img src="https://github.com/jewelshkjony.png" height="20" width="20"/> [JEWEL](https://github.com/jewelshkjony/)
 - Author of this project & repository.
 
-## <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> [RiadDeveloper](https://github.com/RiadDeveloper/)
+### 2. <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> [RiadDeveloper](https://github.com/RiadDeveloper/)
 - Contributor, who inspired me to build this project.
 - Designed the `icon.png` for version 1.
 
-## <img src="https://github.com/buxipro.png" height="20" width="20"/> [Bux Ali](https://github.com/buxipro/)
+### 3. <img src="https://github.com/buxipro.png" height="20" width="20"/> [Bux Ali](https://github.com/buxipro/)
 - Contributor, who explained the installation process for Android Termux.
-- Identified bugs in Android Termux and am assisting in finding solutions.
+- Identified bugs in Android Termux and assisting in finding solutions.
 
-## <img src="https://github.com/patryk84a.png" height="20" width="20"/> [Patryk_F](https://github.com/patryk84a/)
+### 4. <img src="https://github.com/lilmujeeb.png" height="20" width="20"/> [Mujeeb Ur Rehman](https://github.com/lilmujeeb/)
+- Contributor, who identified bugs in Linux and assisting in finding solutions.
+- Inspired to continue this project.
+
+### 5. <img src="https://github.com/MahmoudHooda2019.png" height="20" width="20"/> [Aemo Developer](https://github.com/MahmoudHooda2019/)
+- Contributor, who shared awesome ideas to implement them into FAST-CLI.
+- Tried out a few beta updates and helped find some problems.
+- Inspired to continue this project.
+
+### 6. <img src="https://github.com/patryk84a.png" height="20" width="20"/> [Patryk_F](https://github.com/patryk84a/)
 - Contributor, who implemented the blocks generator.
 
-## <img src="https://github.com/TheKStudio25.png" height="20" width="20"/> [The K Studio](https://github.com/TheKStudio25/)
+### 7. <img src="https://github.com/TheKStudio25.png" height="20" width="20"/> [The K Studio](https://github.com/TheKStudio25/)
 - Contributor, who designed the `icon.png` for version 3.
 
-## <img src="https://github.com/Joejsanz.png" height="20" width="20"/> [Joe J. Sanchez](https://github.com/Joejsanz/)
+### 8. <img src="https://github.com/Joejsanz.png" height="20" width="20"/> [Joe J. Sanchez](https://github.com/Joejsanz/)
 - Contributor, who designed the `icon.png` for version 4.
