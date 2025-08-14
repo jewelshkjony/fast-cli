@@ -78,6 +78,6 @@ Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Upgradation) 
 * 🐛 Submit issues [here](https://github.com/jewelshkjony/fast-cli/issues).
 * 🤝 For getting additional supports, text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
 
-### Contributors <kbd>5</kbd>
-<a href="https://github.com/jewelshkjony" target="_blank"><img src="https://github.com/jewelshkjony.png" alt="Jewel" width="40" height="40"/></a> <a href="https://github.com/buxipro" target="_blank"><img src="https://github.com/buxipro.png" alt="Bux Ali" width="40" height="40"/></a> <a href="https://github.com/patryk84a" target="_blank"><img src="https://github.com/patryk84a.png" alt="patryk84a" width="40" height="40"/></a> <a href="https://github.com/TheKStudio25" target="_blank"><img src="https://github.com/TheKStudio25.png" alt="
+### Contributors <kbd>6</kbd>
+<a href="https://github.com/jewelshkjony" target="_blank"><img src="https://github.com/jewelshkjony.png" alt="Jewel" width="40" height="40"/></a> <a href="https://github.com/RiadDeveloper" target="_blank"><img src="https://github.com/RiadDeveloper.png" alt="Riad" width="40" height="40"/></a> <a href="https://github.com/buxipro" target="_blank"><img src="https://github.com/buxipro.png" alt="Bux Ali" width="40" height="40"/></a> <a href="https://github.com/patryk84a" target="_blank"><img src="https://github.com/patryk84a.png" alt="patryk84a" width="40" height="40"/></a> <a href="https://github.com/TheKStudio25" target="_blank"><img src="https://github.com/TheKStudio25.png" alt="
 Kiran Madde" width="40" height="40"/></a> <a href="https://github.com/Joejsanz" target="_blank"><img src="https://github.com/Joejsanz.png" alt="Joe J. Sanchez" width="40" height="40"/></a>
