@@ -29,4 +29,4 @@
 - Designed the `icon.png` for version 4.
 
 ### 9. <img src="https://github.com/GXDEVS.png" height="20" width="20"/> [Gilderlan Xavier](https://github.com/GXDEVS/) <kbd>Contributor</kbd>
-- Record & tutorial videos for Linux & MacOS users.
+- Record tutorial videos for Linux & MacOS users.
