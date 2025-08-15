@@ -12,31 +12,38 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 🏅 If you are interested in accessing its premium features, please consider making a [request for premium](https://buymeacoffee.com/jewelshkjony/e/412700) access.
 
 ## 🪶 Features
-- 🏅 Gradle Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
-- 🏅 Maven Dependency Resolver <small>(<kbd>Premium</kbd>)</small>.
-- 🏅 Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/2230) Libraries <small>(<kbd>Premium</kbd>)</small>.
-- 🏅 Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292) <small>(<kbd>Premium</kbd>)</small>.
-- 🏅 Support for bundled `JRE11` <small>(<kbd>Premium</kbd>)</small>.
-- 🏅 Ability to apply ProGuard rules from runtime AARs <small>(<kbd>Premium</kbd>)</small>.
-- 🔥 Dynamic Android compile SDK API Level.
-- 🔥 Added support for GitHub Actions workflows.
-- 🔥 Generates blocks as PNG for each builder.
-- 🔥 Generates docs in Markdown.
-- 🔥 Dynamic Kotlin Compiler.
-- 🔥 Integration of R8 Shrinker.
-- 🔥 Support `AAR` as dependencies.
-- 🔥 Seamless support for Java and Kotlin languages.
-- 🔥 Support for Multi-component in extension.
-- 🔥 Integration of new red <small><kbd>drop-down</kbd></small> helper blocks.
-- 🔥 All `@annotations` will be removed from built AIX even no ProGuard.
-- Up-to-date ProGuard library 7.7.0.
-- Java 8 support, including lambda expressions `()->`.
-- Generates a smaller size of extension.
-- Ability to declare manifest in AndroidManifest.xml.
+<kbd>🥇 Premium features</kbd>
+- Gradle Dependency Resolver.
+- Maven Dependency Resolver.
+- Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
+- Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
+- Ability to apply ProGuard/R8 rules from runtime AARs.
+
+<kbd>🔥 Hot features</kbd>
+- Dynamic Android compile SDK API level.
+- Generates docs in Markdown.
+- Generates blocks as PNG for each builder when `-b` passed.
+- Dynamic ProGuard library.
+- Integration of R8 Shrinker.
+- Dynamic Kotlin Compiler.
+- Seamless support for Java and Kotlin languages.
+- Support `AAR` as dependencies.
+- Support for multi-components in extension.
+- Integration of new red <small><kbd>drop-down</kbd></small> helper blocks.
+- All `@annotations` will be removed from built AIX even no ProGuard/R8.
+- Added support for GitHub Actions workflows.
+
+<kbd>💧 Cool features</kbd>
 - Code suggestions on VSCode, Eclipse, IntelliJ IDEA & Android Studio.
-- Ability to filter AI2 provided classes to reduce the AIX size.
+- Ability to declare manifest in AndroidManifest.xml.
+- Support shorthand class names `(e.g., .MyService)` in manifest.
+- Keep classes declared in manifest automatically when `-m` passed.
 - Auto Project migration from Rush, extension-template & AI2 source based project.
 - Jetifier to migrate Android support libraries to Androidx.
+- Java 8 support, including lambda expressions `()->`.
+- Generates a smaller size of extension.
+- Ability to filter AI2 provided classes to reduce the AIX size.
+- Ready for server side integration.
 
 #### 🤝 Supported OS
 - Windows
