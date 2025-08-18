@@ -1,6 +1,14 @@
 ## 📝 Release Notes
 
-**🆕4.1.1:**
+**🚩4.2.0:**
+- Deprecated desugaring features and will be removed in future release!
+- Support for using Gradle version 9+ with bundled or system JDK 17+.
+
+<kbd>Breaking changes:</kbd>
+- Updated `AndroidRuntime.jar` to be compatible with [nb202](https://github.com/mit-cml/appinventor-sources/milestone/48).
+- Changed default Android compile SDK to 35.
+
+**4.1.1:**
 - GitHub Action workflows support dynamic JDK version.
 - Added missing arguments to the default terminal prompts.
 
