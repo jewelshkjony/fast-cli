@@ -19,7 +19,7 @@
 - Tried out a few beta updates and helped find some problems.
 - Inspired to continue this project.
 
-#### 6. <img src="https://github.com/patryk84a.png" height="20" width="20"/> [Patryk_F](https://github.com/patryk84a/) <kbd>Contributor</kbd>
+#### 6. <img src="https://github.com/patryk84a.png" height="20" width="20"/> [Patryk Fraczek](https://github.com/patryk84a/) <kbd>Contributor</kbd>
 - Implemented the blocks generator.
 
 #### 7. <img src="https://github.com/TheKStudio25.png" height="20" width="20"/> [The K Studio](https://github.com/TheKStudio25/) <kbd>Contributor</kbd>
