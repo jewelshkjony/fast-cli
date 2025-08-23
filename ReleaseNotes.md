@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**😎4.2.1:**
+- Added support for defining `maxSdkVersion` using the `<uses-permission>` element in `AndroidManifest.xml`.
+- Support for running `fast sync` outside the project directory by passing the `self` argument. E.g., `fast sync -self`
+
 **🚩4.2.0:**
 - Deprecated desugaring features and will be removed in future release!
 - Support for using Gradle version 9+ with bundled or system JDK 17+.
