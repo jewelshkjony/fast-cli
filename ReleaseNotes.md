@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**👛4.3.0:**
+- Added support for Android Interface Definition Language (AIDL).
+- Shorthand class names should start with three dots. E.g: (`...MyService`)
+- A few minor bugs have been fixed.
+
 **🆒4.2.1:**
 - Added support for defining `maxSdkVersion` using the `<uses-permission>` element in `AndroidManifest.xml`.
 - Support for running `fast sync` outside the project directory by passing the `self` argument. E.g., `fast sync -self`
