@@ -18,6 +18,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
 - Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
 - Ability to apply ProGuard/R8 rules from runtime AARs.
+- Support for compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl).
 
 <kbd>🔥 Hot features</kbd>
 - Dynamic Android compile SDK API level.
