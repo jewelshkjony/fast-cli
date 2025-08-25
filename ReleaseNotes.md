@@ -1,7 +1,7 @@
 ## 📝 Release Notes
 
 **👛4.3.0:**
-- Added support for Android Interface Definition Language (AIDL).
+- Added support for Android Interface Definition Language (`AIDL`).
 - Shorthand class names should start with three dots. E.g: (`...MyService`)
 - A few minor bugs have been fixed.
 
