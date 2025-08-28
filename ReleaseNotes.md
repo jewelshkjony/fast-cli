@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**4.3.2:**
+- Deletes AIDL build caches on JVM exit.
+
 **🤖4.3.1:**
 - Added support for Android Interface Definition Language (`AIDL`).
 - Shorthand class names should start with three dots. E.g: (`...MyService`)
