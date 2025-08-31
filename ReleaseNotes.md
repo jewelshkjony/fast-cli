@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**4.4.0:**
+- Added support for <[uses-feature](https://github.com/mit-cml/appinventor-sources/pull/3570)> in `AndroidManifest.xml`.
+- Added the ability to define attachable AARs within `dependencies`. E.g: `groupId:artifactId:version:aar`
+- Updated the annotation processor.
+- Added AIDL compiler for Android Termux.
+
 **4.3.2:**
 - Deletes AIDL build caches on JVM exit.
 
