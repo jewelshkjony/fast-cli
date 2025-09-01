@@ -37,7 +37,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 <kbd>💧 Cool features</kbd>
 - Code suggestions on VSCode, Eclipse, IntelliJ IDEA & Android Studio.
 - Ability to declare manifest in AndroidManifest.xml.
-- Support shorthand class names `(e.g., ...MyService)` in manifest.
+- Support shorthand class names `(e.g: ...MyService)` in manifest.
 - Keep classes declared in manifest automatically when `-m` passed.
 - Auto Project migration from Rush, extension-template & AI2 source based project.
 - Jetifier to migrate Android support libraries to Androidx.
