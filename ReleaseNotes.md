@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**4.5.0:**
+- Moved naming convention checker to annotation processor.
+- Supports writing descriptions without declaring the description attribute. E.g: `@SimpleFunction("Hello description")`
+
 **4.4.0:**
 - Added support for <[uses-feature](https://github.com/mit-cml/appinventor-sources/pull/3570)> in `AndroidManifest.xml`.
 - Added the ability to define attachable AARs within `dependencies`. E.g: `groupId:artifactId:version:aar`
