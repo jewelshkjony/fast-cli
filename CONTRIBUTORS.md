@@ -30,3 +30,7 @@
 
 #### 9. <img src="https://github.com/GXDEVS.png" height="20" width="20"/> [Gilderlan Xavier](https://github.com/GXDEVS/) <kbd>Contributor</kbd>
 - Record tutorial videos for Linux & MacOS users.
+
+#### 10. <img src="https://github.com/iagolirapasssos.png" height="20" width="20"/> [Iago lira](https://github.com/iagolirapasssos/) <kbd>Contributor</kbd>
+- Beta testers as a Linux user.
+- Identified bugs in Linux and assisting in finding solutions.
