@@ -18,6 +18,7 @@
 - Updated `filter_mit_classes` entries.
 - Updated Java & Kotlin compilers.
 - Enhanced overall performance.
+- Updated Blocks generator.
 
 **4.5.0:**
 - Moved naming convention checker to annotation processor.
