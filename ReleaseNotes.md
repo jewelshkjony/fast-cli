@@ -1,5 +1,24 @@
 ## 📝 Release Notes
 
+**❤️‍🔥5.0.0:** <kbd>Breaking changes:</kbd>
+- Uses Android API specific `D8` library.
+- Changed local `AAR` parsing process.
+- Changed `AndroidHome` path.
+- Changed `KotlinHome` path.
+- Changed `AIDL` compiler path.
+- Modified `processor.jar`.
+- Changed `premium` token system.
+  - It'll affect all the existing premium users. (Get in touch to get new token)
+
+<kbd>Bug fixes:</kbd>
+- AIDL compiling issues for Termux have been resolved.
+- Some internal changes and minor bug fixes have been made.
+
+<kbd>Improvements:</kbd>
+- Updated `filter_mit_classes` entries.
+- Updated Java & Kotlin compilers.
+- Enhanced overall performance.
+
 **4.5.0:**
 - Moved naming convention checker to annotation processor.
 - Supports writing descriptions without declaring the description attribute. E.g: `@SimpleFunction("Hello description")`
