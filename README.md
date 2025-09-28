@@ -17,8 +17,9 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Maven Dependency Resolver.
 - Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
 - Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
+- Generates [Shadow](https://github.com/jewelshkjony/fast-cli/releases/tag/v5.1.0) blocks.
 - Ability to apply ProGuard/R8 rules from runtime AARs.
-- Support for compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
+- Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
 
 <kbd>🔥 Hot features</kbd>
 - Dynamic Android compile SDK API level.
@@ -28,16 +29,16 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Integration of R8 Shrinker.
 - Dynamic Kotlin Compiler.
 - Seamless support for Java and Kotlin languages.
-- Support `AAR` as dependencies.
-- Support for multi-components in extension.
-- Integration of new red <small><kbd>drop-down</kbd></small> helper blocks.
+- Supports `AAR` as dependencies.
+- Supports for multi-components in extension.
+- Supports red <small><kbd>drop-down</kbd></small> helper blocks.
 - All `@annotations` will be removed from built AIX even no ProGuard/R8.
-- Added support for GitHub Actions workflows.
+- Supports GitHub Actions workflows.
 
 <kbd>💧 Cool features</kbd>
 - Code suggestions on VSCode, Eclipse, IntelliJ IDEA & Android Studio.
 - Ability to declare manifest in AndroidManifest.xml.
-- Support shorthand class names `(e.g: ...MyService)` in manifest.
+- Supports shorthand class names `(e.g: ...MyService)` in manifest.
 - Keep classes declared in manifest automatically when `-m` passed.
 - Auto Project migration from Rush, extension-template & AI2 source based project.
 - Jetifier to migrate Android support libraries to Androidx.
