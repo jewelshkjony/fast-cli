@@ -1,5 +1,21 @@
 ## 📝 Release Notes
 
+**🚩5.1.0:** <kbd>🚩 Breaking changes:</kbd>
+- Shadow blocks added to the Blocks Generator.
+- Added a new annotation (`@Shadow`) to customize shadow blocks.
+- Added `value` tag to the `@IsColor` annotation to customize the color shadow blocks.
+- Updated the annotation processor.
+
+<kbd>💡 Improvements and bug fixes:</kbd>
+- Updated Docs writer to be compatible with Shadow blocks.
+- Check for valid class name while creating a new project.
+- Fixed a dependency merging issue.
+- Updated AARs process system.
+- Fixed IDE suggestion issues for local AARs.
+- Resolve sources.jar via Gradle if available.
+
+<ins>Note:</ins> Generating shadow blocks is a premium feature.
+
 **❤️‍🔥5.0.0:** <kbd>Breaking changes:</kbd>
 - Uses Android API specific `D8` library.
 - Changed local `AAR` parsing process.
