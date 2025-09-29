@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**5.2.0:**
+- Added new Shadow types `Getter`, `Method` & `Variable`.
+- Fixed a minor bug.
+- Updated the `upgrade.jar`.
+- Updated docs writer to be compatible with new shadow types.
+
 **🚩5.1.0:** <kbd>🚩 Breaking changes:</kbd>
 - Shadow blocks added to the Blocks Generator.
 - Added a new annotation (`@Shadow`) to customize shadow blocks.
