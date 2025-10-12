@@ -131,6 +131,12 @@
             "type": "boolean",
             "default": false
         },
+        "shadow_blocks": {
+            "title": "Shadow Generator",
+            "description": "Enable to generate blocks with shadow blocks. NOTE: Blocks generator should be enabled.",
+            "type": "boolean",
+            "default": false
+        },
         "auto_version": {
             "title": "Auto-increment version",
             "description": "Enable to increment the version number of each component during build.",
