@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**5.2.1:**
+- Updated Blocks generator.
+- Updated default `ProGuard` version to `7.8.0`.
+- Updated `processor.jar`.
+- Updated `Maven` resolver.
+
 **5.2.0:**
 - Added new Shadow types `Getter`, `Method` & `Variable`.
 - Fixed a minor bug.
