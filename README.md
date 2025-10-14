@@ -4,7 +4,7 @@
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
-🏃‍♂️ **FAST** is An Efficient Way to Build & Publish App Inventor Extensions.\
+🏃‍♂️ **FAST** (<ins>Feature-rich AppInventor Source Terminal</ins>) is An Efficient Way to Build & Publish App Inventor Extensions.\
 With **FAST**, you no longer need to use any class level annotations except `@DesignerComponent`.
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
