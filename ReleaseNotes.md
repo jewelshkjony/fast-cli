@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**5.2.2:**
+- Fixed a minor bug related to the Gradle resolver.
+- Pass `-ns` to skip downloading `sources.jar` while resolving dependencies with Gradle.
+
 **5.2.1:**
 - Updated Blocks generator.
 - Updated default `ProGuard` version to `7.8.0`.
