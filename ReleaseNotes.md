@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**5.3.0:**
+- Changes in `build_info` JSON writer.
+- Checks for assets & native libraries in AAR and write logs if has.
+- Minor changes in project synchronization.
+
 **5.2.2:**
 - Fixed a minor bug related to the Gradle resolver.
 - Pass `-ns` to skip downloading `sources.jar` while resolving dependencies with Gradle.
