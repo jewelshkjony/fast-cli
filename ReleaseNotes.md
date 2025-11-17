@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**5.3.1:**
+- Allow empty shadow value for Variable type.
+- Fixed a typo in default ProGuard rules writer.
+
 **5.3.0:**
 - Changes in `build_info` JSON writer.
 - Checks for assets & native libraries in AAR and write logs if has.
