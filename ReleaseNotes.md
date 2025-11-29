@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**5.3.2:**
+- These elements (`activity-alias`, `profileable`, `uses-library`, `uses-native-library`) are allowed to be declared in AndroidManifest.xml.
+
 **5.3.1:**
 - Allow empty shadow value for Variable type.
 - Fixed a typo in default ProGuard rules writer.
