@@ -13,8 +13,8 @@
 
 # ⚖️ License for FAST CLI  
 
-**Version 3.5**  
-**Effective Date: 09 June 2025**  
+**Version 5.3.2**  
+**Effective Date: 30 November 2025**  
 
 This license governs the use of the CLI tool (referred to as "the Tool") designed for building MIT App Inventor 2 (AI2) extensions. By purchasing and using the tool, you agree to the following terms and conditions:
 
@@ -22,10 +22,11 @@ This license governs the use of the CLI tool (referred to as "the Tool") designe
 - Purchasing the premium version of this tool is final, and there is no return or refund policy.
 
 ### 2. **Grant of Use**
-- You are granted as an individual user license to use the tool.
 - You are permitted to use the Tool for personal, non-commercial purposes only.  
 - Use of the Tool for organizational, corporate, or commercial purposes is strictly prohibited without prior written permission from the author.
+- One license will be valid for one device. If you have multiple devices, a separate license will be required for each device.
 - If you are interested in multiple user license, please contact the author by [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913) to discuss licensing options.
+- The license generated will be considered final. You should keep it safe. If you lose it, you will need to request a new license.
 
 ### 3. Updates
 - The author will provide free updates for minor updates, which include bug fixes, improvements, and minor feature enhancements.
