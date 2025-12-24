@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+**🏷5.4.0:**
+- The default sources writer has been updated.
+- The default ProGuard library has been updated to v7.8.2.
+- A new token system has been implemented to facilitate [weekly](https://buymeacoffee.com/jewelshkjony/e/412700), [monthly](https://buymeacoffee.com/jewelshkjony/e/491973), and [yearly](https://buymeacoffee.com/jewelshkjony/e/491976) premium access.
+
 **5.3.2:**
 - These elements (`activity-alias`, `profileable`, `uses-library`, `uses-native-library`) are allowed to be declared in AndroidManifest.xml.
 
