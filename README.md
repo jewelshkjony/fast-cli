@@ -9,7 +9,7 @@ With **FAST**, you no longer need to use any class level annotations except `@De
 
 Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for comprehensive overview and step-by-step instructions on FAST.
 
-🏅 If you are interested in accessing its premium features, please consider making a [request for premium](https://buymeacoffee.com/jewelshkjony/e/412700) access.
+🏅 If you are interested in accessing its premium features, please consider making a request for a ([weekly](https://buymeacoffee.com/jewelshkjony/e/491987)/[monthly](https://buymeacoffee.com/jewelshkjony/e/491973)/[yearly](https://buymeacoffee.com/jewelshkjony/e/491976)/[lifetime](https://buymeacoffee.com/jewelshkjony/e/412700)) premium access.
 
 ## 🪶 Features
 <kbd>🥇 Premium features</kbd>
