@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+**5.5.0:**
+- Optimized the new licensing system.
+
 **🏷5.4.0:**
 - The default sources writer has been updated.
 - The default ProGuard library has been updated to v7.8.2.
