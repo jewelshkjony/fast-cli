@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+**5.6.0:**
+- Updated Gradle library to v8.14.4
+- Download `sources.jar` only when -ns passed.
+
 **5.5.0:**
 - Optimized the new licensing system.
 
