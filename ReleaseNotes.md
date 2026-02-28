@@ -1,8 +1,14 @@
 ## 📝 Release Notes
 
+**5.7.0:**
+- Updated `MavenResolver` to v2.0.16
+- Allows sub-directory for icons & assets.
+- Fix `utf-8` encoding issue.
+
 **5.6.0:**
 - Updated Gradle library to v8.14.4
 - Download `sources.jar` only when -ns passed.
+- Ensure relative child directory for defined custom XML.
 
 **5.5.0:**
 - Optimized the new licensing system.
