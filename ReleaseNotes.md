@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**5.7.1:**
+- Performance tweaks. (2x for premium users)
+- Updated ProGuard Library to v7.9.0
+- Updated Yaml writer.
+- Added `--del-remote` flag to remove project's remote deps from cache. E.g: `fast sync --del-remote`.
+- Added `--del-local` flag to remove local parsed aars from cache.
+
 **5.7.0:**
 - Updated `MavenResolver` to v2.0.16
 - Allows sub-directory for icons & assets.
