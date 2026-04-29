@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+**5.8.1:**
+- A minor issue related to project sync has been resolved.
+
+**5.8.0:**
+- Updated the annotation processor.
+- Removed the upgrade.jar.
+
 **5.7.1:**
 - Performance tweaks. (2x for premium users)
 - Updated ProGuard Library to v7.9.0
