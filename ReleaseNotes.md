@@ -1,5 +1,17 @@
 ## 📝 Release Notes
 
+**🔥6.0.0:** <kbd>Breaking changes:</kbd>
+- Added support for `Xtend` programming language.
+- Added support for modern Java (9-25) syntax.
+- Added `manifests-merging` feature.
+- Updated `AndroidRuntime.jar` and `processor.jar` to support `YailProcedure`.
+- Fix helper classes written in Kotlin were not supported.
+- Allow creation of projects with `case-sensitive` project names and package names.
+- Updated ProGuard library to `v7.9.1`.
+- Removed unnecessary libraries from Kotlin Home.
+- Gradle and Maven resolvers use custom cache directories.
+- By scrapping the old licensing system, FAST now uses the new token system to determine premium users. (`Affects all users`)
+
 **5.8.1:**
 - A minor issue related to project sync has been resolved.
 
