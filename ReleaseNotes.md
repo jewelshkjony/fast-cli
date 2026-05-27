@@ -1,5 +1,13 @@
 ## 📝 Release Notes
 
+**6.2.0:**
+- Minor bug fixes.
+- Changes made to the YAML writer.
+
+**6.1.0:**
+- Modified migrate command.
+- Updated Gradle library to v8.14.5.
+
 **🔥6.0.0:** <kbd>Breaking changes:</kbd>
 - Added support for `Xtend` programming language.
 - Added support for modern Java (9-25) syntax.
