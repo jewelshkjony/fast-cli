@@ -15,6 +15,9 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 <kbd>🥇 Premium features</kbd>
 - Gradle Dependency Resolver.
 - Maven Dependency Resolver.
+- Support for `manifests-merging` feature.
+- Support for `Xtend` Programming Language.
+- Support for modern Java (9-25) syntax.
 - Attach [AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
 - Attach Custom [XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
 - Generates [Shadow](https://github.com/jewelshkjony/fast-cli/releases/tag/v5.1.0) blocks.
