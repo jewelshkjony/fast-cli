@@ -1,5 +1,19 @@
 ## 📝 Release Notes
 
+**6.3.0:**
+- Added support for event name mismatch check in `EventDispatcher.dispatchEvent`.
+- Added support for argument check in `EventDispatcher.dispatchEvent`.
+- Added support for sequentially variables names check in `EventDispatcher.dispatchEvent`.
+- Added new short annotations. E.g:
+````
+@DesignerComponent --> @Component
+@DesignerProperty --> @Designer
+@SimpleProperty --> @Property
+@SimpleFunction --> @Function
+@SimpleEvent --> @Event
+````
+- Updated sources writer with new short annotations.
+
 **6.2.0:**
 - Minor bug fixes.
 - Changes made to the YAML writer.
