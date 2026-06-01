@@ -2,7 +2,7 @@
 
 **6.3.0:**
 - Added support for event name mismatch check in `EventDispatcher.dispatchEvent`.
-- Added support for argument check in `EventDispatcher.dispatchEvent`.
+- Added support for arguments count check in `EventDispatcher.dispatchEvent`.
 - Added support for sequentially variables names check in `EventDispatcher.dispatchEvent`.
 - Added new short annotations. E.g:
 ````
