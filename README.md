@@ -1,5 +1,7 @@
 ![fast](https://github.com/user-attachments/assets/1af854f5-fdb8-493a-8f07-be58ed8c2af3)
 
+![](https://img.shields.io/badge/FAST--CLI-2024–2026-blue?label=FAST-ERA)
+
 <img src="https://raw.githubusercontent.com/jewelshkjony/fast-cli/refs/heads/main/schema/version.svg" alt="Version Badge"/>
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
