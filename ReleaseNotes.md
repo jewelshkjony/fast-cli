@@ -55,53 +55,56 @@
 - Added `--del-remote` flag to remove project's remote deps from cache. E.g: `fast sync --del-remote`.
 - Added `--del-local` flag to remove local parsed aars from cache.
 
-**5.7.0:**
+# 5.7.0
 - Updated `MavenResolver` to v2.0.16
 - Allows sub-directory for icons & assets.
 - Fix `utf-8` encoding issue.
 
-**5.6.0:**
+# 5.6.0
 - Updated Gradle library to v8.14.4
 - Download `sources.jar` only when -ns passed.
 - Ensure relative child directory for defined custom XML.
 
-**5.5.0:**
+# 5.5.0
 - Optimized the new licensing system.
 
-**🏷5.4.0:**
+# 🏷5.4.0
 - The default sources writer has been updated.
 - The default ProGuard library has been updated to v7.8.2.
 - A new token system has been implemented to facilitate [weekly](https://buymeacoffee.com/jewelshkjony/e/491987), [monthly](https://buymeacoffee.com/jewelshkjony/e/491973), and [yearly](https://buymeacoffee.com/jewelshkjony/e/491976) premium access.
 
-**5.3.2:**
+# 5.3.2
 - These elements (`activity-alias`, `profileable`, `uses-library`, `uses-native-library`) are allowed to be declared in AndroidManifest.xml.
 
-**5.3.1:**
+# 5.3.1
 - Allow empty shadow value for Variable type.
 - Fixed a typo in default ProGuard rules writer.
 
-**5.3.0:**
+# 5.3.0
 - Changes in `build_info` JSON writer.
 - Checks for assets & native libraries in AAR and write logs if has.
 - Minor changes in project synchronization.
 
-**5.2.2:**
+# 5.2.2
 - Fixed a minor bug related to the Gradle resolver.
 - Pass `-ns` to skip downloading `sources.jar` while resolving dependencies with Gradle.
 
-**5.2.1:**
+# 5.2.1
 - Updated Blocks generator.
 - Updated default `ProGuard` version to `7.8.0`.
 - Updated `processor.jar`.
 - Updated `Maven` resolver.
 
-**5.2.0:**
+# 5.2.0
 - Added new Shadow types `Getter`, `Method` & `Variable`.
 - Fixed a minor bug.
 - Updated the `upgrade.jar`.
 - Updated docs writer to be compatible with new shadow types.
 
-**🚩5.1.0:** <kbd>🚩 Breaking changes:</kbd>
+<img width="1014" height="110" alt="image" src="https://github.com/user-attachments/assets/91bbaacc-f34e-4175-8a3a-b7c05d63cedd" />
+
+# 5.1.0
+<kbd>🚩 Breaking changes:</kbd>
 - Shadow blocks added to the Blocks Generator.
 - Added a new annotation (`@Shadow`) to customize shadow blocks.
 - Added `value` tag to the `@IsColor` annotation to customize the color shadow blocks.
@@ -121,7 +124,8 @@
 The attached example values ​​are called shadow blocks. Learn more by exploring this [open-source](https://github.com/jewelshkjony/LabelView) project.
 <img width="475" height="385" alt="image" src="https://github.com/user-attachments/assets/66767805-f6b4-488f-9e04-76387a407935" />
 
-**❤️‍🔥5.0.0:** <kbd>Breaking changes:</kbd>
+# ❤️‍🔥5.0.0
+<kbd>Breaking changes:</kbd>
 - Uses Android API specific `D8` library.
 - Changed local `AAR` parsing process.
 - Changed `AndroidHome` path.
@@ -141,29 +145,29 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Enhanced overall performance.
 - Updated Blocks generator.
 
-**4.5.0:**
+# 4.5.0
 - Moved naming convention checker to annotation processor.
 - Supports writing descriptions without declaring the description attribute. E.g: `@SimpleFunction("Hello description")`
 
-**4.4.0:**
+# 4.4.0
 - Added support for <[uses-feature](https://github.com/mit-cml/appinventor-sources/pull/3570)> in `AndroidManifest.xml`.
 - Added the ability to define attachable AARs within `dependencies`. E.g: `groupId:artifactId:version:aar`
 - Updated the annotation processor.
 - Added AIDL compiler for Android Termux.
 
-**4.3.2:**
+# 4.3.2
 - Deletes AIDL build caches on JVM exit.
 
-**🤖4.3.1:**
+# 🤖4.3.1
 - Added support for Android Interface Definition Language (`AIDL`).
 - Shorthand class names should start with three dots. E.g: (`...MyService`)
 - A few minor bugs have been fixed.
 
-**🆒4.2.1:**
+# 🆒4.2.1
 - Added support for defining `maxSdkVersion` using the `<uses-permission>` element in `AndroidManifest.xml`.
 - Support for running `fast sync` outside the project directory by passing the `self` argument. E.g., `fast sync -self`
 
-**🚩4.2.0:**
+# 🚩4.2.0
 - Deprecated desugaring features and will be removed in future release!
 - Support for using Gradle version 9+ with bundled or system JDK 17+.
 
@@ -171,11 +175,11 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Updated `AndroidRuntime.jar` to be compatible with [nb202](https://github.com/mit-cml/appinventor-sources/milestone/48).
 - Changed default Android compile SDK to 35.
 
-**4.1.1:**
+# 4.1.1
 - GitHub Action workflows support dynamic JDK version.
 - Added missing arguments to the default terminal prompts.
 
-**💧4.1.0:**
+# 💧4.1.0
 - Auto upgrade checker while running `fast sync`.
 - Support for migrates old FAST projects to new (`fast migrate this`).
 - A few changes in `logs.txt`.
@@ -183,7 +187,8 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 <kbd>Breaking changes:</kdb>
 - Availability to define project specific ProGuard version in `fast.yml`.
 
-**🩸4.0.0:** <kbd>Breaking changes:</kdb>
+# 🩸4.0.0
+<kbd>Breaking changes:</kdb>
 - Bump default min SDK to 14.
 - Pass `-m` to keep `activity`, `service`, `receiver`, `provider` classes declared in manifest.
 - No need to specify the main component when uses multi-component elements in manifest.
@@ -535,10 +540,10 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added the `template` migrate command for extension-template projects.
 - Improved performance on Android/Linux/MacOS.
 
-**1.0.4:**
+# 1.0.4
 - Fixed compilation issues on Linux, Mac, and Android.
 
-**1.0.3:**
+# 1.0.3
 - Fixed manifest issue.
 - Removed the author’s name from `AndroidRuntime.jar`.
 - Replaced the `optimize` attribute with `proguard`.
@@ -546,13 +551,13 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added the `-o` argument for optimizing .aix size when ProGuard is disabled, especially useful for Kotlin libraries.
 - Enhanced VSCode code suggestions.
 
-**1.0.2:**
+# 1.0.2
 - Fixed compilation issue when file or directory path contains spaces.
 - Added the `propfix` command to automatically add missing `category` attributes on `@SimpleProperty`.
 - Author’s name is now included in `AndroidRuntime.jar`.
 
-**1.0.1:**
+# 1.0.1
 - Fixed code suggestions for Android Studio and IntelliJ IDEA.
 
-**1.0.0:**
+# 1.0.0
 - Initial release.
