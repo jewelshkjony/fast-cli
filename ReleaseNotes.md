@@ -1,12 +1,12 @@
 ## 📝 Release Notes
 
-**6.5.0:**
+# 6.5.0
 - Added provided libraries `override` feature.
 
-**6.4.0:**
+# 6.4.0
 - Removed `@SimpleObject` annotation from `AndroidRuntime.jar`.
 
-**6.3.0:**
+# 6.3.0
 - Added support for event name mismatch check in `EventDispatcher.dispatchEvent`.
 - Added support for arguments count check in `EventDispatcher.dispatchEvent`.
 - Added support for sequentially variables names check in `EventDispatcher.dispatchEvent`.
@@ -20,15 +20,16 @@
 ````
 - Updated sources writer with new short annotations.
 
-**6.2.0:**
+# 6.2.0
 - Minor bug fixes.
 - Changes made to the YAML writer.
 
-**6.1.0:**
+# 6.1.0
 - Modified migrate command.
 - Updated Gradle library to v8.14.5.
 
-**🔥6.0.0:** <kbd>Breaking changes:</kbd>
+# 🔥6.0.0
+<kbd>Breaking changes:</kbd>
 - Added support for `Xtend` programming language.
 - Added support for modern Java (9-25) syntax.
 - Added `manifests-merging` feature.
@@ -40,14 +41,14 @@
 - Gradle and Maven resolvers use custom cache directories.
 - By scrapping the old licensing system, FAST now uses the new token system to determine premium users. (`Affects all users`)
 
-**5.8.1:**
+# 5.8.1
 - A minor issue related to project sync has been resolved.
 
-**5.8.0:**
+# 5.8.0
 - Updated the annotation processor.
 - Removed the upgrade.jar.
 
-**5.7.1:**
+# 5.7.1
 - Performance tweaks. (2x for premium users)
 - Updated ProGuard Library to v7.9.0
 - Updated Yaml writer.
@@ -115,6 +116,10 @@
 - Resolve sources.jar via Gradle if available.
 
 <ins>Note:</ins> Generating shadow blocks is a premium feature.
+
+### What's called Shadow blocks⁉️
+The attached example values ​​are called shadow blocks. Learn more by exploring this [open-source](https://github.com/jewelshkjony/LabelView) project.
+<img width="475" height="385" alt="image" src="https://github.com/user-attachments/assets/66767805-f6b4-488f-9e04-76387a407935" />
 
 **❤️‍🔥5.0.0:** <kbd>Breaking changes:</kbd>
 - Uses Android API specific `D8` library.
