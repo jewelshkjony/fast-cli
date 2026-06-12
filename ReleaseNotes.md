@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+**6.5.0:**
+- Added provided libraries `override` feature.
+
+**6.4.0:**
+- Removed `@SimpleObject` annotation from `AndroidRuntime.jar`.
+
 **6.3.0:**
 - Added support for event name mismatch check in `EventDispatcher.dispatchEvent`.
 - Added support for arguments count check in `EventDispatcher.dispatchEvent`.
