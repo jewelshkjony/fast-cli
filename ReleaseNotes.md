@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+# 6.6.0
+- Optimized the dependencies merger.
+
 # 6.5.0
 - Added provided libraries `override` feature.
 
@@ -28,7 +31,7 @@
 - Modified migrate command.
 - Updated Gradle library to v8.14.5.
 
-# 🔥6.0.0
+# 6.0.0 🔥
 <kbd>Breaking changes:</kbd>
 - Added support for `Xtend` programming language.
 - Added support for modern Java (9-25) syntax.
@@ -68,7 +71,7 @@
 # 5.5.0
 - Optimized the new licensing system.
 
-# 🏷5.4.0
+# 5.4.0
 - The default sources writer has been updated.
 - The default ProGuard library has been updated to v7.8.2.
 - A new token system has been implemented to facilitate [weekly](https://buymeacoffee.com/jewelshkjony/e/491987), [monthly](https://buymeacoffee.com/jewelshkjony/e/491973), and [yearly](https://buymeacoffee.com/jewelshkjony/e/491976) premium access.
@@ -195,90 +198,90 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - The build process has been accelerated.
 - Dynamic Android compile SDK API level.
 
-**3.8.1:**
+# 3.8.1
 - Automatically trigger `-o` command when necessary.
 - Accept non-class files from runtime dependencies.
 - Pass `.kt` as an argument to accept `.kotlin_builtins`, `.kotlin_module` & `.kotlin_metadata` files.
 
-**3.8.0:**
+# 3.8.0
 - No watermark for non-premium user.
 - Updated `GradleResolver` to the latest version 4.14.3.
 - FAST is now compatible with JDK 26+.
 
-**3.7.2:**
+# 3.7.2
 - No watermark for `premium` users & reduced opacity for non-premium users.
 - Updated `Maven` resolver to version `2.0.10`.
 - Added `androidbuilder` to `.gitignore`.
 
-**3.7.1:**
+# 3.7.1
 - Generates PNG for `typeface` & `float` types of designer properties.
 - Removed `kodular`, `niotron` & `androidbuilder` from `.gitignore`.
 
-**3.7.0:**
+# 3.7.0
 - Manifest entries can now use shorthand class names `(e.g., .MyService)` for classes in the base package.
 
-**3.6.2:**
+# 3.6.2
 - Fixed a minor bug in PNG generation for designer properties.
 
-**3.6.1:**
+# 3.6.1
 - Some changes have been made to the default ProGuard rules writer to produce smaller extension. `❌`
 
-**3.6.0:**
+# 3.6.0
 - Executes blocks generator with the `-b` argument.
 - Generates `components.png` for each builder.
 
-**3.5.2:**
+# 3.5.2
 - Updated `GradleResolver` to the latest version 4.14.2.
 - Removed large watermark from `blocks.png`.
 - A few bugs have been fixed.
 
-**3.5.1:**
+# 3.5.1
 - A minor bug have been fixed.
 
-**❤️‍🔥3.5.0:**
+# ❤️‍🔥3.5.0
 - Generate all blocks in a single PNG as `blocks.png`.
 - Modified naming convention verifier.
 - Modified writing model of docs writer.
 - Docs writer won't skip deprecated blocks.
 - Generates PNGs for designer properties.
 
-**3.4.1:**
+# 3.4.1
 - The `GradleResolver` have been updated to v4.14.1
 - Log writer writes logs to `$PROJECT/.fast/.locks/logs.txt`.
 - Prints `Gradle` version in terminal.
 - The `MavenResolver` have been updated to v2.0.9
 - Changes in `proguard-rules.pro` writer.
 
-**3.4.0:**
+# 3.4.0
 - Updated the naming convention verifier.
 - Modified the `logs.txt` writer.
 
-**3.3.2:**
+# 3.3.2
 - Prints the extension size in terminal.
 - Prints `R8` & `D8` versions in terminal.
 - Updated the `logs.txt` writer.
 
-**3.3.1:**
+# 3.3.1
 - Fixed dependencies resolve issues for Action workflows.
 - Custom repositories are now given first priority.
 - A single change in terminal output.
 
-**3.3.0:**
+# 3.3.0
 - Performance have been optimized.
 - Added support for GitHub Actions workflows.
 
-**3.2.2:**
+# 3.2.2
 - Fixed a null pointer issue during debug build.
 - Fixed duplicate library resolving for Gradle Resolver.
 
-**3.2.1:**
+# 3.2.1
 - Updated `Gradle` resolver to latest version 8.14.
 - Optimized project synchronization tasks.
 - Updated logs.txt writer.
 - Updated bundled-jre to `JRE11`.
 - Added support for handle executable permission on bundled-jre.
 
-**3.2.0:**
+# 3.2.0
 - Optimized `Gradle` & `Maven` resolver.
 - Optimized code suggestion feature for IntelliJ IDEA.
 - Corrected a few typo.
@@ -286,7 +289,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Optimized `R8` Shrinker & Dexer.
 - Added `android-javadoc.jar` to `provided-deps.xml`.
 
-**3.1.0:**
+# 3.1.0
 - Fixed compile-time dependencies resolving issues for `GradleResolver`.
 - Added support for using the system's `GRADLE_HOME` if the bundle home is missing.
 - Fixed duplicates classes notes while using local JARs.
@@ -294,7 +297,8 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added `collect_rules` attribute in `fast.yml` to use ProGuard rules from runtime AARs.
 - The default `icon.png` have been changed by [Joe J. Sanchez](https://github.com/Joejsanz).
 
-**❤️‍🔥3.0.0:** <kbd>Breaking changes:</kdb>
+# ❤️‍🔥3.0.0
+<kbd>Breaking changes:</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
 - Added support for using bundled JDK/JRE <small>(version 8)</small>.
@@ -314,21 +318,21 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Moved `android.jar` to `$FAST_HOME/lib/android/android.jar` directory.
 - Non-premium users can use basic functions as usual.
 
-**2.8.4:**
+# 2.8.4
 - Fixed a bug for the Docs Generator.
 - Docs Generator does not add emojis for events, methods, and properties.
 
-**2.8.3:**
+# 2.8.3
 - Added support for assets & helper blocks to the docs generator.
 - Updated the `AnnotationProcessor` to accepts category for property and generate JSON in order to source by default.
 
-**2.8.2:**
+# 2.8.2
 - The `AnnotationProcessor` now skips missing default value exceptions.
 
-**2.8.1:**
+# 2.8.1
 - Updated the ProGuard library version to 7.7.0.
 
-**2.8.0:**
+# 2.8.0
 - The Maven resolver has been optimized.
 - `fast sync` now recommends the minimum SDK if the user is using lower than that.
 - The default ProGuard rules have been modified.
