@@ -1,7 +1,7 @@
 #### 1. <img src="https://github.com/jewelshkjony.png" height="20" width="20"/> [JEWEL](https://github.com/jewelshkjony/) <kbd>Owner</kbd>
 - Author of this project & repository.
 
-#### 2. <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> <del>[RiadDeveloper](https://github.com/RiadDeveloper/)</del> <kbd>Contributor</kbd>
+#### 2. <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> <del>[RiadDeveloper](https://github.com/RiadDeveloper/)</del> <kbd><del>Contributor</del></kbd>
 - <del>Inspired me to build this project.</del>
 - <del>Designed the `icon.png` for version 1.</del>
 - <mark>Building a new CLI (probablly Aixify) by stolen FAST's stuffs.</mark>
