@@ -1,9 +1,10 @@
 #### 1. <img src="https://github.com/jewelshkjony.png" height="20" width="20"/> [JEWEL](https://github.com/jewelshkjony/) <kbd>Owner</kbd>
 - Author of this project & repository.
 
-#### 2. <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> [RiadDeveloper](https://github.com/RiadDeveloper/) <kbd>Contributor</kbd>
-- Inspired me to build this project.
-- Designed the `icon.png` for version 1.
+#### 2. <img src="https://github.com/RiadDeveloper.png" height="20" width="20"/> <del>[RiadDeveloper](https://github.com/RiadDeveloper/)</del> <kbd>Contributor</kbd>
+- <del>Inspired me to build this project.</del>
+- <del>Designed the `icon.png` for version 1.</del>
+- <mark>Building a new CLI (probablly Aixify) by stolen FAST's stuffs.</mark>
 
 #### 3. <img src="https://github.com/buxipro.png" height="20" width="20"/> [Bux Ali](https://github.com/buxipro/) <kbd>Contributor</kbd>
 - Explained the installation process for Android Termux.
