@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+# 7.0.0 🐦‍🔥
+- Added `FastGuard` feature to obfuscate string literals.
+- Support obfuscating variables/classes using Java keywords with ProGuard/R8. E.g: `use_keywords: true`
+- Updated `annotation-processor` to process helper classes directly without pre-compiling them when JDK 8/11.
+- Added `manifest merging `support to `src/AndroidManifest.xml` with `sync` command. E.g: `fast sync -mani`
+- Optimized `manifest-merger` & `xtend-compiler`.
+
 # 6.6.0
 - Optimized the dependencies merger.
 
