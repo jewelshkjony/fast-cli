@@ -13,7 +13,7 @@
             "title": "Developer Name",
             "description": "This extension developer name will be included with the components_build_info.json.",
             "type": "string",
-            "default": "FAST"
+            "default": "JEWEL"
         },
         "min_sdk": {
             "title": "Android minimum SDK API Level",
@@ -23,32 +23,38 @@
             "default": 14
         },
         "compile_sdk": {
-            "title": "Android compile SDK API Level",
+            "title": "Android Compile SDK API Level",
             "description": "Define the compile Android SDK API level.",
             "type": "integer",
-            "minimum": 34,
-            "default": 34
+            "minimum": 35,
+            "default": 35
         },
-        "proguard": {
-            "title": "ProGuard",
-            "description": "If enabled, extension will be optimized using ProGuard.",
+        "syntax": {
+            "title": "Modern Java Syntax",
+            "description": "Enable to use modern Java (9-25) syntax.",
             "type": "boolean",
             "default": false
         },
-        "R8": {
-            "title": "R8",
-            "description": "If enabled, extension will be optimized using R8.",
+        "desugar_sources": {
+            "title": "Desugaring Sources",
+            "description": "Enable to desugar extension's source code.",
             "type": "boolean",
             "default": false
         },
-        "collect_rules": {
-            "title": "Collect ProGuard Rules",
-            "description": "Enable to collect ProGuard/R8 rules from runtime AARs",
+        "desugar_deps": {
+            "title": "Desugaring Dependencies",
+            "description": "Enable to desugar runtime dependencies.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_dex": {
+            "title": "Desugaring DEX",
+            "description": "If enabled, the D8 tool will generate desugared jar (classes.dex). If R8 also enabled with it, so the R8 shriker will generate desugared jar.",
             "type": "boolean",
             "default": false
         },
         "kotlin": {
-            "title": "Kotlin Support",
+            "title": "Kotlin Standard Libraries",
             "description": "If enabled, Kotlin Standard Libraries will be included with the extension.",
             "type": "boolean",
             "default": false
@@ -59,21 +65,41 @@
             "type": "string",
             "default": "1.9.24"
         },
-        "desugar_sources": {
-            "title": "Desugaring Sources",
-            "description": "Enable to desugar extension's source code.",
+        "R8": {
+            "title": "R8 Shrinker",
+            "description": "If enabled, extension will be optimized using R8.",
             "type": "boolean",
             "default": false
         },
-        "desugar_deps": {
-            "title": "Desugaring dependencies",
-            "description": "Enable to desugar runtime dependencies.",
+        "proguard": {
+            "title": "ProGuard Optimizer",
+            "description": "If enabled, extension will be optimized using ProGuard.",
             "type": "boolean",
             "default": false
         },
-        "desugar_dex": {
-            "title": "Desugaring DEX",
-            "description": "If enabled, the D8 tool will generate desugared jar (classes.dex). If R8 also enabled with it, so the R8 shriker will generate desugared jar.",
+        "use_keywords": {
+            "title": "Syntax-Level Obfuscation",
+            "description": "Enable to obfuscate variables/classes using Java keywords.",
+            "type": "boolean",
+            "default": false
+        },
+        "fastguard": {
+            "title": "FastGuard Obfuscator",
+            "description": "Enable to obfuscate hardcoded string literals. NOTE: Accepts true, false, or 'source'.",
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["source"]
+                }
+            ],
+            "default": false
+        },
+        "collect_rules": {
+            "title": "Collect ProGuard Rules",
+            "description": "Enable to collect ProGuard/R8 rules from runtime AARs",
             "type": "boolean",
             "default": false
         },
@@ -90,31 +116,31 @@
             "default": []
         },
         "dependencies": {
-            "title": "Runtime dependencies",
+            "title": "Runtime Dependencies",
             "description": "Runtime dependencies [Remote and Local]. NOTE: Run `fast sync` command before building the extension when you're using local .aar or any remote dependencies.",
             "type": "array",
             "default": []
         },
         "compile_time": {
-            "title": "Compile-time dependencies",
+            "title": "Compile-time Dependencies",
             "description": "Compile-time dependencies [Remote and Local]. NOTE: Run `fast sync` command before building the extension when you're using local .aar or any remote dependencies.",
             "type": "array",
             "default": []
         },
         "excludes": {
-            "title": "Exclusions dependencies",
+            "title": "Exclusions Dependencies",
             "description": "Define dependencies to skip during resolve. [Remote only]. NOTE: Run `fast sync` command before building the extension.",
             "type": "array",
             "default": []
         },
         "assets": {
-            "title": "Extension assets",
+            "title": "Extension Assets",
             "description": "Should be present into assets directory.",
             "type": "array",
             "default": []
         },
         "xmls": {
-            "title": "Attach custom XML",
+            "title": "Attach Custom XML",
             "description": "Attach custom XML to bundle it with APK. It should be present into assets directory within relative child directory.",
             "type": "array",
             "default": []
@@ -122,6 +148,12 @@
         "aars": {
             "title": "Attach AARs Libraries",
             "description": "Define AAR libraries to attach with extension. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies.",
+            "type": "array",
+            "default": []
+        },
+        "manifests": {
+            "title": "Manifest Merger",
+            "description": "Define AAR libraries to merge manifest from them. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies.",
             "type": "array",
             "default": []
         },
@@ -138,13 +170,13 @@
             "default": false
         },
         "auto_version": {
-            "title": "Auto-increment version",
+            "title": "Auto-increment Version",
             "description": "Enable to increment the version number of each component during build.",
             "type": "boolean",
             "default": false
         },
         "deannonate": {
-            "title": "De-annotate",
+            "title": "De-annonate",
             "description": "Enable to remove @annotations from the extension.",
             "type": "boolean",
             "default": false
