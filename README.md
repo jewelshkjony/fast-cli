@@ -13,6 +13,8 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 ## 🪶 Features
 <kbd>🥇 Premium features</kbd>
+- FastGuad (String Obfuscator).
+- Syntax-Level Obfuscation.
 - Gradle Dependency Resolver.
 - Maven Dependency Resolver.
 - Support for `manifests-merging` feature.
@@ -27,13 +29,15 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 <kbd>🔥 Hot features</kbd>
 - Dynamic Android compile SDK API level.
 - Generates docs in Markdown.
+- Copy blocks into Clipboard.
 - Generates blocks as PNG for each builder when `-b` passed.
 - Dynamic ProGuard library.
 - Integration of R8 Shrinker.
 - Dynamic Kotlin Compiler.
-- Seamless support for Java and Kotlin languages.
+- Seamless support for Java, Kotlin & Xtend languages.
 - Supports `AAR` as dependencies.
 - Supports for multi-components in extension.
+- Direct process helper classes without pre-compiling when JDK 8/11.
 - Supports red <small><kbd>drop-down</kbd></small> helper blocks.
 - All `@annotations` will be removed from built AIX even no ProGuard/R8.
 - Supports GitHub Actions workflows.
