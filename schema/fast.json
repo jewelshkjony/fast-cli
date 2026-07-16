@@ -93,6 +93,12 @@
                 {
                     "type": "string",
                     "enum": ["source"]
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
                 }
             ],
             "default": false
