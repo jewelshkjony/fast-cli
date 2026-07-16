@@ -85,7 +85,7 @@
         },
         "fastguard": {
             "title": "FastGuard Obfuscator",
-            "description": "Enable to obfuscate hardcoded string literals. NOTE: Accepts true, false, or 'source'.",
+            "description": "Enable to obfuscate hardcoded string literals. NOTE: Accepts boolean, string (source) or array.",
             "oneOf": [
                 {
                     "type": "boolean"
