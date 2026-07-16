@@ -10,7 +10,7 @@
     <rect transform="translate(195,0.0)" fill="#E5B4B4" x="80" rx="4" ry="4" y="5" height="16" width="160"/>
     <text transform="translate(195,0.0)" fill="white" x="10" y="18" font-family="Arial" font-size="11pt">
         <tspan>FAST-CLI</tspan>
-        <tspan dx="8" fill="black">7.0.0 15.07.26.20.30</tspan>
+        <tspan dx="8" fill="black">7.0.0 16.07.26.14.18</tspan>
         <tspan fill="#BF4343">▾</tspan>
     </text>
 </svg>
