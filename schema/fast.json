@@ -79,7 +79,7 @@
         },
         "use_keywords": {
             "title": "Syntax-Level Obfuscation",
-            "description": "Enable to obfuscate variables/classes using Java keywords.",
+            "description": "Enable to use Syntax-Level Obfuscation with ProGuard/R8.",
             "type": "boolean",
             "default": false
         },
