@@ -97,7 +97,14 @@
                 {
                     "type": "array",
                     "items": {
-                        "type": "string"
+                        "oneOf": [
+                            {
+                                "type": "boolean"
+                            },
+                            {
+                                "type": "string"
+                            }
+                        ]
                     }
                 }
             ],
