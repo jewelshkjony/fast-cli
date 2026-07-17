@@ -6,6 +6,8 @@
 - Updated `annotation-processor` to process helper classes directly without pre-compiling them when JDK 8/11.
 - Added `manifest merging `support to `src/AndroidManifest.xml` with `sync` command. E.g: `fast sync -mani`.
 - Added `copy` command to copy selected blocks into clipboard. E.g: `fast copy`.
+- Added an optional attribute (`java_home`) in `fast.yml`.
+- Added an optional attribute (`default_args`) in `fast.yml`.
 - Optimized `manifest-merger` & `xtend-compiler`.
 
 # 6.6.0
