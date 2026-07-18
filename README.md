@@ -25,6 +25,8 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Generates [Shadow](https://github.com/jewelshkjony/fast-cli/releases/tag/v5.1.0) blocks.
 - Ability to apply ProGuard/R8 rules from AARs.
 - Copy blocks into Clipboard.
+- Supports specifying project specific JDK/JRE.
+- Supports specifying defaults arguments.
 - Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
 
 <kbd>🔥 Hot features</kbd>
