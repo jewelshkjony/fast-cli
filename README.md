@@ -13,10 +13,9 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 ## 🪶 Features
 <kbd>🥇 Premium features</kbd>
+- Core Library Desugaring.
 - FastGuad (String Obfuscator).
-- Syntax-Level Obfuscation.
-- Gradle Dependency Resolver.
-- Maven Dependency Resolver.
+- Maven/Gradle Dependency Resolver.
 - Support for `manifests-merging` feature.
 - Support for `Xtend` Programming Language.
 - Support for modern Java (9-25) syntax.
