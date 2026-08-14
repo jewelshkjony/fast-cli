@@ -3,6 +3,7 @@
     "$id": "https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json",
     "title": "Fast Build Config",
     "description": "This file contains author name, min_sdk, dependencies, assets, and various build configurations. It also includes support for Kotlin, Java 8 features, and optimization settings.",
+    "fast_version": "7.0.0 14.08.26.02.01",
     "type": "object",
     "required": [
         "author",
@@ -29,115 +30,17 @@
             "minimum": 35,
             "default": 35
         },
-        "syntax": {
-            "title": "Modern Java Syntax",
-            "description": "Enable to use modern Java (9-25) syntax. (premium)",
-            "type": "boolean",
-            "default": false
+        "java_home": {
+            "title": "JAVA_HOME",
+            "description": "# Project specific JDK home. (premium)",
+            "type": "path",
+            "default": ""
         },
-        "desugar_sources": {
-            "title": "Desugaring Sources",
-            "description": "Enable to desugar extension's source code.",
-            "type": "boolean",
-            "default": false
-        },
-        "desugar_deps": {
-            "title": "Desugaring Dependencies",
-            "description": "Enable to desugar runtime dependencies.",
-            "type": "boolean",
-            "default": false
-        },
-        "desugar_dex": {
-            "title": "Desugaring DEX",
-            "description": "If enabled, the D8 tool will generate desugared jar (classes.dex). If R8 also enabled with it, so the R8 shriker will generate desugared jar.",
-            "type": "boolean",
-            "default": false
-        },
-        "kotlin": {
-            "title": "Kotlin Standard Libraries",
-            "description": "If enabled, Kotlin Standard Libraries will be included with the extension.",
-            "type": "boolean",
-            "default": false
-        },
-        "kotlin_version": {
-            "title": "Kotlin Compiler version",
-            "description": "Set the version of kotlin-compiler. NOTE: Run `fast sync` command before building the extension.",
+        "default_args": {
+            "title": "Default Arguments",
+            "description": "# Define default arguments using space-separated values. (premium)",
             "type": "string",
-            "default": "1.9.24"
-        },
-        "minimizer": {
-            "title": "Jar Minimizer",
-            "description": "If enabled, unused classes will be removed. [Accepts: boolean or array] (premium)",
-            "oneOf": [
-                {
-                    "type": "boolean"
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "oneOf": [
-                            {
-                                "type": "boolean"
-                            },
-                            {
-                                "type": "string"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "default": false
-        },
-        "R8": {
-            "title": "R8 Shrinker",
-            "description": "If enabled, extension will be optimized using R8.",
-            "type": "boolean",
-            "default": false
-        },
-        "proguard": {
-            "title": "ProGuard Optimizer",
-            "description": "If enabled, extension will be optimized using ProGuard.",
-            "type": "boolean",
-            "default": false
-        },
-        "use_keywords": {
-            "title": "Syntax-Level Obfuscation",
-            "description": "Enable to use Syntax-Level Obfuscation with ProGuard/R8. (premium)",
-            "type": "boolean",
-            "default": false
-        },
-        "fastguard": {
-            "title": "FastGuard Obfuscator",
-            "description": "Enable to obfuscate hardcoded string literals. NOTE: Accepts boolean, string (source) or array. (premium)",
-            "oneOf": [
-                {
-                    "type": "boolean"
-                },
-                {
-                    "type": "string",
-                    "enum": ["source"]
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "oneOf": [
-                            {
-                                "type": "boolean"
-                            },
-                            {
-                                "type": "string"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "default": false
-        },
-        "apply_rules": {
-            "title": "Collect ProGuard Rules",
-            "description": "Define AAR libraries to apply ProGuard rules from them. [Remote and Local] (premium)",
-            "type": "array",
-            "default": []
+            "default": ""
         },
         "resolver": {
             "title": "Resolver Tool",
@@ -175,9 +78,21 @@
             "type": "array",
             "default": []
         },
+        "apply_rules": {
+            "title": "Collect ProGuard Rules",
+            "description": "Define AAR libraries to apply ProGuard rules from them. [Remote and Local] (premium)",
+            "type": "array",
+            "default": []
+        },
         "aars": {
             "title": "Attach AARs Libraries",
             "description": "Define AAR libraries to attach with extension. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies. (premium)",
+            "type": "array",
+            "default": []
+        },
+        "manifests": {
+            "title": "Manifest Merger",
+            "description": "Define AAR libraries to merge manifest from them. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies. (premium)",
             "type": "array",
             "default": []
         },
@@ -187,11 +102,121 @@
             "type": "array",
             "default": []
         },
-        "manifests": {
-            "title": "Manifest Merger",
-            "description": "Define AAR libraries to merge manifest from them. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies. (premium)",
+        "shader": {
+            "title": "Package Relocator",
+            "description": "# Define packages to relocate them. (premium)",
             "type": "array",
             "default": []
+        },
+        "kotlin": {
+            "title": "Kotlin Standard Libraries",
+            "description": "If enabled, Kotlin Standard Libraries will be included with the extension.",
+            "type": "boolean",
+            "default": false
+        },
+        "kotlin_version": {
+            "title": "Kotlin Compiler version",
+            "description": "Set the version of kotlin-compiler. NOTE: Run `fast sync` command before building the extension.",
+            "type": "string",
+            "default": "1.9.24"
+        },
+        "xtend": {
+            "title": "Xtend Standard Libraries",
+            "description": "# If enabled, Xtend Standard Libraries will be included with the extension. (premium)",
+            "type": "boolean",
+            "default": false
+        },
+        "fastguard": {
+            "title": "FastGuard Obfuscator",
+            "description": "Enable to obfuscate hardcoded string literals. NOTE: Accepts boolean, string (source) or array. (premium)",
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["source"]
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {
+                                "type": "boolean"
+                            },
+                            {
+                                "type": "string"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "default": false
+        },
+        "minimizer": {
+            "title": "Jar Minimizer",
+            "description": "If enabled, unused classes will be removed. [Accepts: boolean or array] (premium)",
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {
+                                "type": "boolean"
+                            },
+                            {
+                                "type": "string"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "default": false
+        },
+        "R8": {
+            "title": "R8 Shrinker",
+            "description": "If enabled, extension will be optimized using R8.",
+            "type": "boolean",
+            "default": false
+        },
+        "proguard": {
+            "title": "ProGuard Optimizer",
+            "description": "If enabled, extension will be optimized using ProGuard.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_sources": {
+            "title": "Desugaring Sources",
+            "description": "Enable to desugar extension's source code. (Requires premium if JDK 11 or above)",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_deps": {
+            "title": "Desugaring Dependencies",
+            "description": "Enable to desugar runtime dependencies. (Requires premium if JDK 11 or above)",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_dex": {
+            "title": "Desugaring DEX",
+            "description": "If enabled, the D8 tool will generate desugared classes.dex.",
+            "type": "boolean",
+            "default": false
+        },
+        "desugar_core": {
+            "title": "coreLibraryDesugaring",
+            "description": "# Enable to run coreLibraryDesugaring task (beta). (premium)",
+            "type": "boolean",
+            "default": false
+        },
+        "syntax": {
+            "title": "Modern Java Syntax",
+            "description": "Enable to use modern Java (9-25) syntax. (premium)",
+            "type": "boolean",
+            "default": false
         },
         "gen_docs": {
             "title": "Docs Generator",
