@@ -33,7 +33,7 @@
         "java_home": {
             "title": "JAVA_HOME",
             "description": "# Project specific JDK home. (premium)",
-            "type": "path",
+            "type": "string",
             "default": ""
         },
         "default_args": {
