@@ -2,13 +2,25 @@
 
 # 7.0.0 🐦‍🔥
 - Added `FastGuard` feature to obfuscate string literals.
-- Support `Syntax-Label` Obfuscation with ProGuard/R8. E.g: `use_keywords: true`.
+- [Desugar](https://developer.android.com/studio/write/java8-support) feature is now compatible with JDK 8 to JDK 25+.
+- Added [relocator](https://gradleup.com/shadow/configuration/relocation/) feature to resolve duplicate class conflicts without performing full code optimization.
+- Added [minimizer](https://gradleup.com/shadow/configuration/minimizing/) feature to identify and strip unused classes, reducing extension size.
+- Added [coreLibraryDesugaring](https://developer.android.com/studio/write/java8-support#library-desugaring) feature to enable modern Java API support on older Android devices.
+- The `excludes` attribute now allows for excluding classes when merging dependencies.
 - Updated `annotation-processor` to process helper classes directly without pre-compiling them when JDK 8/11.
-- Added `manifest merging `support to `src/AndroidManifest.xml` with `sync` command. E.g: `fast sync -mani`.
+- Added [manifest merging](https://developer.android.com/build/manage-manifests#merge-manifests) support to `src/AndroidManifest.xml` with `sync` command. E.g: `fast sync -mani`.
 - Added `copy` command to copy selected blocks into clipboard. E.g: `fast copy`.
 - Added an optional attribute (`java_home`) in `fast.yml`.
 - Added an optional attribute (`default_args`) in `fast.yml`.
 - Optimized `manifest-merger` & `xtend-compiler`.
+- Replaced `collect_rules` with `apply_rules` in fast.yml.
+- Added missing commands in default usage prints.
+- Skips resolving dependencies twice when running `sync build`.
+- Updated `manifest-merger`.
+- Updated components version increaser to allow new short annotations.
+- Updated provided dependencies to [nb204](https://github.com/mit-cml/appinventor-sources/milestone/50).
+- Updated project migrators.
+- Updated `logs.txt` writer.
 
 # 6.6.0
 - Optimized the dependencies merger.
