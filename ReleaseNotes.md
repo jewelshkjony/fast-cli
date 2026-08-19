@@ -21,6 +21,7 @@
 - Updated provided dependencies to [nb204](https://github.com/mit-cml/appinventor-sources/milestone/50).
 - Updated project migrators.
 - Updated `logs.txt` writer.
+- Fixed ProGuard/R8 include rules issues.
 
 # 6.6.0
 - Optimized the dependencies merger.
