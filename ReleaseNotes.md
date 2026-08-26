@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+# 7.1.0
+- Updated ProGuard library to v7.1.0.
+- Updated AI2 provided exclusions for dependency resolver.
+
 # 7.0.0 🐦‍🔥
 - Added `FastGuard` feature to obfuscate string literals.
 - [Desugar](https://developer.android.com/studio/write/java8-support) feature is now compatible with JDK 8 to JDK 25+.
