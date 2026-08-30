@@ -1,5 +1,8 @@
 ## 📝 Release Notes
 
+# 7.1.1
+- Fixed a minor issue in attaching AARs.
+
 # 7.1.0
 - Updated ProGuard library to v7.1.0.
 - Updated AI2 provided exclusions for dependency resolver.
