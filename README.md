@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/jewelshkjony/fast-cli/refs/heads/main/schema/fast.svg" alt="FAST-CLI"/>
 
-<img src="https://raw.githubusercontent.com/jewelshkjony/fast-cli/refs/heads/main/schema/version.svg" alt="Version Badge"/>
+<img src="https://raw.githubusercontent.com/jewelshkjony/fast-cli/refs/heads/main/schema/version.png" alt="Version Badge"/>
 
 > Credit: The idea of the installation process and the project structures is inspired by [Rush](https://github.com/shreyashsaitwal/rush-cli/tree/main). Thanks a ton, Shreyash 👍🎁
 
