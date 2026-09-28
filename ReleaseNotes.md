@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+# 7.2.0
+- Updated [Android Compile SDK](https://github.com/mit-cml/appinventor-sources/pull/4061) to API 36.
+- Updated `AndroidRuntime.jar` to [nb207](https://community.appinventor.mit.edu/t/begin-testing-release-nb207/176026?u=jewel).
+
 # 7.1.1
 - Fixed a minor issue in attaching AARs.
 
