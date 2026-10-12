@@ -31,6 +31,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
 
 <kbd>🔥 Hot features</kbd>
+- Supports platform specific extension compilation.
 - Dynamic Android [Compile SDK](https://developer.android.com/build#android_sdk_settings) API level.
 - Generates docs in Markdown.
 - Generates blocks as PNG for each builder when `-b` passed.
