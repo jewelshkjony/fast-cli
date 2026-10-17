@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+# 7.4.0
+- Added Native C/C++ source compilation support.
+- Added Ability to attach application-level assets.
+- Added Support for bundling prebuilt JNI native libraries.
+- Resolved AAPT failure caused by shorthand XML tags in AARs.
+
 # 7.3.0
 - Added support for platform specific extension compilation.
 - Gradle version is updated to v8.14.6.
