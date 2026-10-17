@@ -1,7 +1,7 @@
 ## 📝 Release Notes
 
 # 7.4.0
-- Added Native C/C++ source compilation support.
+- Added Native C/C++ source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
 - Added Ability to attach application-level assets.
 - Added Support for bundling prebuilt JNI native libraries.
 - Resolved AAPT failure caused by shorthand XML tags in AARs.
