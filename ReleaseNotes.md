@@ -4,6 +4,7 @@
 - Added Native C/C++ source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
 - Added Ability to attach application-level assets.
 - Added Support for bundling prebuilt JNI native libraries.
+- Added ABI filtering for native library compilation and linking.
 - Resolved AAPT failure caused by shorthand XML tags in AARs.
 
 # 7.3.0
