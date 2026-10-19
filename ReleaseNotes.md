@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+# 7.5.0
+- Enabled full Java compilation support inside JRE environments (supports JRE 8–17+).
+- Auto-detects system Gradle and falls back to a resolved compatible version when needed.
+
 # 7.4.0
 - Added Native C/C++ source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
 - Added Ability to attach application-level assets.
