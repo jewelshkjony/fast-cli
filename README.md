@@ -22,7 +22,10 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - [Xtend](https://eclipse.dev/Xtext/xtend/) Programming Language.
 - Modern Java (9-25) syntax.
 - [Attach AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
+- Attach application-level assets.
 - Attach [Custom XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
+- Native C/C++ source compilation.
+- Attach prebuilt JNI native libraries.
 - Generates [Shadow blocks](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md#whats-called-shadow-blocks%EF%B8%8F).
 - Apply ProGuard/R8 rules from AARs.
 - Copy blocks into Clipboard.
@@ -31,6 +34,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
 
 <kbd>🔥 Hot features</kbd>
+- Supports Java compilation inside JRE environments (JRE 8–17+).
 - Supports platform specific extension compilation.
 - Dynamic Android [Compile SDK](https://developer.android.com/build#android_sdk_settings) API level.
 - Generates docs in Markdown.
@@ -50,6 +54,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Code suggestions on [VSCode](https://code.visualstudio.com/), [Eclipse](https://eclipseide.org/), [IntelliJ IDEA](https://www.jetbrains.com/idea/) & [Android Studio](https://developer.android.com/studio).
 - Declare manifest in AndroidManifest.xml.
 - Supports shorthand class names `(e.g: ...MyService)` in manifest.
+- Resolves shorthand XML tags in AARs.
 - Keep classes declared in manifest automatically when `-m` passed.
 - Auto Project migration from [Rush](https://github.com/shreyashsaitwal/rush-cli), [extension-template](https://github.com/mit-cml/extension-template) & [AI2 source](https://github.com/mit-cml/appinventor-sources/) based project.
 - [Jetifier](https://developer.android.com/tools/jetifier) to migrate Android support libraries to Androidx.
