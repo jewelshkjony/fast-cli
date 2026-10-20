@@ -27,6 +27,7 @@
 - Updated AI2 provided exclusions for dependency resolver.
 
 # 7.0.0 🐦‍🔥
+(15 Aug 2026)
 - Added `FastGuard` feature to obfuscate string literals.
 - [Desugar](https://developer.android.com/studio/write/java8-support) feature is now compatible with JDK 8 to JDK 25+.
 - Added [relocator](https://gradleup.com/shadow/configuration/relocation/) feature to resolve duplicate class conflicts without performing full code optimization.
@@ -50,15 +51,19 @@
 - Fixed ProGuard/R8 include rules issues.
 
 # 6.6.0
+(13 Jun 2026)
 - Optimized the dependencies merger.
 
 # 6.5.0
+(12 Jun 2026)
 - Added provided libraries `override` feature.
 
 # 6.4.0
+(05 Jun 2026)
 - Removed `@SimpleObject` annotation from `AndroidRuntime.jar`.
 
 # 6.3.0
+(01 Jun 2026)
 - Added support for event name mismatch check in `EventDispatcher.dispatchEvent`.
 - Added support for arguments count check in `EventDispatcher.dispatchEvent`.
 - Added support for sequentially variables names check in `EventDispatcher.dispatchEvent`.
@@ -73,14 +78,18 @@
 - Updated sources writer with new short annotations.
 
 # 6.2.0
+(27 May 2026)
 - Minor bug fixes.
 - Changes made to the YAML writer.
 
 # 6.1.0
+(17 May 2026)
 - Modified migrate command.
 - Updated Gradle library to v8.14.5.
 
 # 6.0.0 🔥
+(06 May 2026)
+
 <kbd>Breaking changes:</kbd>
 - Added support for `Xtend` programming language.
 - Added support for modern Java (9-25) syntax.
@@ -94,13 +103,16 @@
 - By scrapping the old licensing system, FAST now uses the new token system to determine premium users. (`Affects all users`)
 
 # 5.8.1
+(10 Apr 2026)
 - A minor issue related to project sync has been resolved.
 
 # 5.8.0
+(31 Mar 2026)
 - Updated the annotation processor.
 - Removed the upgrade.jar.
 
 # 5.7.1
+(28 Mar 2026)
 - Performance tweaks. (2x for premium users)
 - Updated ProGuard Library to v7.9.0
 - Updated Yaml writer.
@@ -108,46 +120,56 @@
 - Added `--del-local` flag to remove local parsed aars from cache.
 
 # 5.7.0
+(28 Feb 2026)
 - Updated `MavenResolver` to v2.0.16
 - Allows sub-directory for icons & assets.
 - Fix `utf-8` encoding issue.
 
 # 5.6.0
+(22 Feb 2026)
 - Updated Gradle library to v8.14.4
 - Download `sources.jar` only when -ns passed.
 - Ensure relative child directory for defined custom XML.
 
 # 5.5.0
+(18 Jan 2026)
 - Optimized the new licensing system.
 
 # 5.4.0
+(24 Dec 2025)
 - The default sources writer has been updated.
 - The default ProGuard library has been updated to v7.8.2.
 - A new token system has been implemented to facilitate [weekly](https://buymeacoffee.com/jewelshkjony/e/491987), [monthly](https://buymeacoffee.com/jewelshkjony/e/491973), and [yearly](https://buymeacoffee.com/jewelshkjony/e/491976) premium access.
 
 # 5.3.2
+(29 Nov 2025)
 - These elements (`activity-alias`, `profileable`, `uses-library`, `uses-native-library`) are allowed to be declared in AndroidManifest.xml.
 
 # 5.3.1
+(16 Nov 2025)
 - Allow empty shadow value for Variable type.
 - Fixed a typo in default ProGuard rules writer.
 
 # 5.3.0
+(03 Nov 2025)
 - Changes in `build_info` JSON writer.
 - Checks for assets & native libraries in AAR and write logs if has.
 - Minor changes in project synchronization.
 
 # 5.2.2
+(19 Oct 2025)
 - Fixed a minor bug related to the Gradle resolver.
 - Pass `-ns` to skip downloading `sources.jar` while resolving dependencies with Gradle.
 
 # 5.2.1
+(13 Oct 2025)
 - Updated Blocks generator.
 - Updated default `ProGuard` version to `7.8.0`.
 - Updated `processor.jar`.
 - Updated `Maven` resolver.
 
 # 5.2.0
+(30 Sep 2025)
 - Added new Shadow types `Getter`, `Method` & `Variable`.
 - Fixed a minor bug.
 - Updated the `upgrade.jar`.
@@ -156,6 +178,8 @@
 <img width="1014" height="110" alt="image" src="https://github.com/user-attachments/assets/91bbaacc-f34e-4175-8a3a-b7c05d63cedd" />
 
 # 5.1.0
+(28 Sep 2025)
+
 <kbd>🚩 Breaking changes:</kbd>
 - Shadow blocks added to the Blocks Generator.
 - Added a new annotation (`@Shadow`) to customize shadow blocks.
@@ -177,6 +201,8 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 <img width="475" height="385" alt="image" src="https://github.com/user-attachments/assets/66767805-f6b4-488f-9e04-76387a407935" />
 
 # 5.0.0 ❤️‍🔥
+(16 Sep 2025)
+
 <kbd>Breaking changes:</kbd>
 - Uses Android API specific `D8` library.
 - Changed local `AAR` parsing process.
@@ -198,28 +224,34 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Updated Blocks generator.
 
 # 4.5.0
+(07 Sep 2025)
 - Moved naming convention checker to annotation processor.
 - Supports writing descriptions without declaring the description attribute. E.g: `@SimpleFunction("Hello description")`
 
 # 4.4.0
+(31 Aug 2025)
 - Added support for <[uses-feature](https://github.com/mit-cml/appinventor-sources/pull/3570)> in `AndroidManifest.xml`.
 - Added the ability to define attachable AARs within `dependencies`. E.g: `groupId:artifactId:version:aar`
 - Updated the annotation processor.
 - Added AIDL compiler for Android Termux.
 
 # 4.3.2
+(28 Aug 2025)
 - Deletes AIDL build caches on JVM exit.
 
 # 4.3.1
+(25 Aug 2025)
 - Added support for Android Interface Definition Language (`AIDL`).
 - Shorthand class names should start with three dots. E.g: (`...MyService`)
 - A few minor bugs have been fixed.
 
 # 4.2.1 🆒
+(23 Aug 2025)
 - Added support for defining `maxSdkVersion` using the `<uses-permission>` element in `AndroidManifest.xml`.
 - Support for running `fast sync` outside the project directory by passing the `self` argument. E.g., `fast sync -self`
 
 # 4.2.0 🚩
+(18 Aug 2025)
 - Deprecated desugaring features and will be removed in future release!
 - Support for using Gradle version 9+ with bundled or system JDK 17+.
 
@@ -228,10 +260,12 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Changed default Android compile SDK to 35.
 
 # 4.1.1
+(08 Aug 2025)
 - GitHub Action workflows support dynamic JDK version.
 - Added missing arguments to the default terminal prompts.
 
 # 4.1.0 💧
+(06 Aug 2025)
 - Auto upgrade checker while running `fast sync`.
 - Support for migrates old FAST projects to new (`fast migrate this`).
 - A few changes in `logs.txt`.
@@ -240,6 +274,8 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Availability to define project specific ProGuard version in `fast.yml`.
 
 # 4.0.0 🩸
+(18 Jul 2025)
+
 <kbd>Breaking changes:</kdb>
 - Bump default min SDK to 14.
 - Pass `-m` to keep `activity`, `service`, `receiver`, `provider` classes declared in manifest.
