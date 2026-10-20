@@ -1,10 +1,12 @@
 ## 📝 Release Notes
 
 # 7.5.0
+(19 Oct 2026)
 - Enabled full Java compilation support inside JRE environments (supports JRE 8–17+).
 - Auto-detects system Gradle and falls back to a resolved one when needed.
 
 # 7.4.0
+(17 Oct 2026)
 - Added Native C/C++ source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
 - Added Ability to attach application-level assets.
 - Added Support for bundling prebuilt JNI native libraries.
@@ -12,17 +14,21 @@
 - Resolved AAPT failure caused by shorthand XML tags in AARs.
 
 # 7.3.0
+(08 Oct 2026)
 - Added support for platform specific extension compilation.
 - Gradle version is updated to v8.14.6.
 
 # 7.2.0
+(28 Sep 2026)
 - Updated [Android Compile SDK](https://github.com/mit-cml/appinventor-sources/pull/4061) to API 36.
 - Updated `AndroidRuntime.jar` to [nb207](https://community.appinventor.mit.edu/t/begin-testing-release-nb207/176026?u=jewel).
 
 # 7.1.1
+(30 Aug 2026)
 - Fixed a minor issue in attaching AARs.
 
 # 7.1.0
+(25 Aug 2026)
 - Updated ProGuard library to v7.1.0.
 - Updated AI2 provided exclusions for dependency resolver.
 
