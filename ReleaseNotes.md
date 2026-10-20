@@ -348,6 +348,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 
 # 3.0.0 ❤️‍🔥
 (16 Apr 2025)
+
 <kbd>Breaking changes:</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
