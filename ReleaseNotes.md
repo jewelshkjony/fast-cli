@@ -1,5 +1,10 @@
 ## 📝 Release Notes
 
+# 7.6.0
+(20 Oct 2026)
+- Added C/C++ compilation support for Termux.
+- Resolved NDK compatibility issues for macOS 10+.
+
 # 7.5.0
 (19 Oct 2026)
 - Enabled full Java compilation support inside JRE environments (supports JRE 8–17+).
