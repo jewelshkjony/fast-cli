@@ -347,6 +347,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - The default `icon.png` have been changed by [Joe J. Sanchez](https://github.com/Joejsanz).
 
 # 3.0.0 ❤️‍🔥
+(16 Apr 2025)
 <kbd>Breaking changes:</kdb>
 - Added `Gradle` as default resolver to fetch transitive dependencies.
 - Added support for [attaching AARs](https://github.com/mit-cml/appinventor-sources/pull/2230).
@@ -368,60 +369,74 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Non-premium users can use basic functions as usual.
 
 # 2.8.4
+(10 Apr 2025)
 - Fixed a bug for the Docs Generator.
 - Docs Generator does not add emojis for events, methods, and properties.
 
 # 2.8.3
+(08 Apr 2025)
 - Added support for assets & helper blocks to the docs generator.
 - Updated the `AnnotationProcessor` to accepts category for property and generate JSON in order to source by default.
 
 # 2.8.2
+(06 Apr 2025)
 - The `AnnotationProcessor` now skips missing default value exceptions.
 
 # 2.8.1
+(06 Apr 2025)
 - Updated the ProGuard library version to 7.7.0.
 
 # 2.8.0
+(24 Mar 2025)
 - The Maven resolver has been optimized.
 - `fast sync` now recommends the minimum SDK if the user is using lower than that.
 - The default ProGuard rules have been modified.
 
 # 2.7.0
+(16 Mar 2025)
 - Removed manifest related annotations from runtime jar.
 - Uses custom annotation processor to generate JSONs.
 - A few changes in default proguard rules.
 - Fixed colorized print issue for Termux.
 
 # 2.6.0 🔥
+(08 Mar 2025)
 - Added blocks generator for `AppInventor`, `Kodular`, `Niotron` & `AndroidBuilder` by [patryk84a](https://github.com/patryk84a).
 - `UTF-8` encoding issues have been resolved.
 
 # 2.5.0
+(04 Mar 2025)
 - AnnotationProcessors now also allows non-YailType parameters. ([ref](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/337?u=jewel))
 - The Maven resolver has been updated to the latest version.
 
 # 2.4.2
+(27 Jan 2025)
 - Added multi-threaded downloading technique on `fast upgrade`.
 
 # 2.4.1
+(26 Feb 2025)
 - Skips writing docs for deprecated events, methods & block properties.
 - Fixed some Maven Resolver related bugs.
 - Maven Resolver stores compressed JARs.
 - Added a `.readme` file.
 
 # 2.4.0 🔥
+(25 Feb 2025)
 - Added support for attaching custom [xml](https://github.com/mit-cml/appinventor-sources/pull/3292) to bundle it with APK. <mark>(Will be working from [nb201](https://github.com/mit-cml/appinventor-sources/milestone/46))</mark>
 - The Maven resolver has been updated to the latest version.
 
 # 2.3.1
+(17 Jan 2025)
 - The Maven resolver has been updated to the latest version.
 - A few minor tweaks to optimize overall performance.
 
 # 2.3.0 🔥
+(13 Jan 2025)
 - **FAST** will generates docs for your extension during build if `gen_docs` is enabled in [fast.yml](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml))
 - If [component specific](https://github.com/jewelshkjony/fast-cli/wiki/Android%E2%80%90Manifest%E2%80%90File#component-specific) elements are not defined, **FAST** will include manifest elements to the default component.
 
 # 2.2.0
+(06 Jan 2025)
 - Jetifier is now accepts remote dependencies to process.
 - Jetifier is now accepts AAR dependencies to process.
 - Added `-f` argument to `fast upgrade` command to force a clean install.
@@ -430,24 +445,29 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - A typo is corrected in default README.md
 
 # 2.1.0 🔥
+(01 Jan 2025)
 - Added `kotlin_version` attribute in the `fast.yml`.
 - kotlin-compiler version can be changed from `fast.yml` dynamically.
 - Added support for single line commands for `fast create`.
 
 # 2.0.9
+(24 Dec 2024)
 - Added select update type feature to `upgrade` command.
 - Optimized the `upgrade` feature.
 
 # 2.0.8
+(20 Dec 2024)
 - Fixed a reported bug for the Maven resolver. [(Reported here)](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/190?u=jewel)
 - Modified `fast.bat` to work with relative `fast.jar`.
 
 # 2.0.7
+(18 Dec 2024)
 - The exception catcher will print the line number of the source.
 - A few debug prints have been changed.
 - Optimized the Maven resolver.
 
 # 2.0.6 🔥
+(17 Dec 2024)
 - Added `fast upgrade` command to update FAST to latest version.
 - Added `fast sync build` command to run sync and build commands simultaneously.
 - The Java compiler will generate debugging information if `-d` is passed.
@@ -455,33 +475,39 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added missing argument to default prompt.
 
 # 2.0.5
+(14 Dec 2024)
 - The ProGuard library has been updated to version 7.6.1.
 - FAST will prioritize the `androidMinSdk` value specified in `fast.yml` or `@DesignerComponent` or `AndroidManifest.xml`, applying the higher value during the build process.
 - A few minor bugs have been fixed.
 
 # 2.0.4
+(12 Dec 2024)
 - R8 Shriker has been optimized.
 - Changed some comments in `fast.yml`.
 - Fixed some minor bugs.
 - Migrators have been updated for compatibility with version 2.0.4 and later.
 
 # 2.0.3
+(04 Dec 2024)
 - The processing of AAR has been optimized.
 - Updated compiler info.
 
 # 2.0.2
+(23 Nov 2024)
 - Added a few more additional debug info into the `logs.txt`.
 - Modified the by default created project.
 - Compiling `R.class` from `R.txt` for remote AAR dependencies.
 - This [exception](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103/155?u=jewel) is now handled and prints the root cause.
 
 # 2.0.1
+(22 Nov 2024)
 - Fixed dependency resolving for JDK11
 - Changes on terminal prints (debug info).
 - Downgraded Java version to `1.8` for `testing-support-R-classes.jar` to be compatible with JDK8 and above.
 - Added a few more debug info.
 
 # 2.0.0 🔥
+(22 Nov 2024)
 - Added Maven dependency resolver.
 - The `sync` command has been optimized.
 - Removed some duplicate libraries to optimize ProGuard task.
