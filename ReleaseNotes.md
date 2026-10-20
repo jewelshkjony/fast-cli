@@ -248,46 +248,57 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Dynamic Android compile SDK API level.
 
 # 3.8.1
+(12 Jul 2025)
 - Automatically trigger `-o` command when necessary.
 - Accept non-class files from runtime dependencies.
 - Pass `.kt` as an argument to accept `.kotlin_builtins`, `.kotlin_module` & `.kotlin_metadata` files.
 
 # 3.8.0
+(08 Jul 2025)
 - No watermark for non-premium user.
 - Updated `GradleResolver` to the latest version 4.14.3.
 - FAST is now compatible with JDK 26+.
 
 # 3.7.2
+(02 Jul 2025)
 - No watermark for `premium` users & reduced opacity for non-premium users.
 - Updated `Maven` resolver to version `2.0.10`.
 - Added `androidbuilder` to `.gitignore`.
 
 # 3.7.1
+(22 Jun 2025)
 - Generates PNG for `typeface` & `float` types of designer properties.
 - Removed `kodular`, `niotron` & `androidbuilder` from `.gitignore`.
 
 # 3.7.0
+(17 Jun 2025)
 - Manifest entries can now use shorthand class names `(e.g., .MyService)` for classes in the base package.
 
 # 3.6.2
+(16 Jun 2025)
 - Fixed a minor bug in PNG generation for designer properties.
 
 # 3.6.1
+(13 Jun 2025)
 - Some changes have been made to the default ProGuard rules writer to produce smaller extension. `❌`
 
 # 3.6.0
+(11 Jun 2025)
 - Executes blocks generator with the `-b` argument.
 - Generates `components.png` for each builder.
 
 # 3.5.2
+(09 Jun 2025)
 - Updated `GradleResolver` to the latest version 4.14.2.
 - Removed large watermark from `blocks.png`.
 - A few bugs have been fixed.
 
 # 3.5.1
+(09 Jun 2025)
 - A minor bug have been fixed.
 
 # 3.5.0 ❤️‍🔥
+(03 Jun 2026)
 - Generate all blocks in a single PNG as `blocks.png`.
 - Modified naming convention verifier.
 - Modified writing model of docs writer.
@@ -295,6 +306,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Generates PNGs for designer properties.
 
 # 3.4.1
+(24 May 2025)
 - The `GradleResolver` have been updated to v4.14.1
 - Log writer writes logs to `$PROJECT/.fast/.locks/logs.txt`.
 - Prints `Gradle` version in terminal.
@@ -302,28 +314,34 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Changes in `proguard-rules.pro` writer.
 
 # 3.4.0
+(21 May 2025)
 - Updated the naming convention verifier.
 - Modified the `logs.txt` writer.
 
 # 3.3.2
+(18 May 2025)
 - Prints the extension size in terminal.
 - Prints `R8` & `D8` versions in terminal.
 - Updated the `logs.txt` writer.
 
 # 3.3.1
+(15 May 2025)
 - Fixed dependencies resolve issues for Action workflows.
 - Custom repositories are now given first priority.
 - A single change in terminal output.
 
 # 3.3.0
+(12 May 2025)
 - Performance have been optimized.
 - Added support for GitHub Actions workflows.
 
 # 3.2.2
+(05 May 2025)
 - Fixed a null pointer issue during debug build.
 - Fixed duplicate library resolving for Gradle Resolver.
 
 # 3.2.1
+(01 May 2025)
 - Updated `Gradle` resolver to latest version 8.14.
 - Optimized project synchronization tasks.
 - Updated logs.txt writer.
@@ -331,6 +349,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added support for handle executable permission on bundled-jre.
 
 # 3.2.0
+(29 Apr 2025)
 - Optimized `Gradle` & `Maven` resolver.
 - Optimized code suggestion feature for IntelliJ IDEA.
 - Corrected a few typo.
@@ -339,6 +358,7 @@ The attached example values ​​are called shadow blocks. Learn more by explor
 - Added `android-javadoc.jar` to `provided-deps.xml`.
 
 # 3.1.0
+(22 Apr 2025)
 - Fixed compile-time dependencies resolving issues for `GradleResolver`.
 - Added support for using the system's `GRADLE_HOME` if the bundle home is missing.
 - Fixed duplicates classes notes while using local JARs.
