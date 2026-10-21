@@ -1,5 +1,9 @@
 ## 📝 Release Notes
 
+# 7.6.1
+(21 Oct 2026)
+- Resolved an issue that occurred when attempting to run the optimizer task following the completion of the Relocator task.
+
 # 7.6.0
 (20 Oct 2026)
 - Added C/C++ compilation support for Termux.
