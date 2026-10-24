@@ -24,17 +24,17 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - [Attach AAR](https://github.com/mit-cml/appinventor-sources/pull/3555) Libraries.
 - Attach application-level assets.
 - Attach [Custom XML](https://github.com/mit-cml/appinventor-sources/pull/3292).
-- Native C/C++ source compilation.
+- Native [C/C++](https://developer.android.com/studio/projects/add-native-code#new-project) source compilation.
 - Attach prebuilt JNI native libraries.
 - Generates [Shadow blocks](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md#whats-called-shadow-blocks%EF%B8%8F).
 - Apply ProGuard/R8 rules from AARs.
 - Copy blocks into Clipboard.
-- [Project specific JDK](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml)#java_home).
-- [Specifying defaults arguments](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml)#default_args).
-- Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
+- Specifying [Project Specific](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml)#java_home) JDK/JRE.
+- Specifying [defaults arguments](https://github.com/jewelshkjony/fast-cli/wiki/Config%E2%80%90File%E2%80%90(fast.yml)#default_args).
+- [AIDL](https://developer.android.com/develop/background-work/services/aidl) Sources Compilation.
 
 <kbd>🔥 Hot features</kbd>
-- Attaching Resources.
+- Attaching [App Resources](https://developer.android.com/guide/topics/resources/providing-resources).
 - [Java 8 Desugaring](https://developer.android.com/studio/write/java8-support).
 - Supports Java compilation inside JRE environments (JRE 8–17+).
 - Supports platform specific extension compilation.
