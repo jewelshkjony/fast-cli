@@ -1,5 +1,11 @@
 ## 📝 Release Notes
 
+# 7.7.0
+(24 Oct 2026)
+- Added support for attaching resources located in `$PROJECT_DIR/res/`.
+- Optimized the desugaring task for faster processing and fewer generated classes, resulting in a smaller extension size.
+- Resolved a minor issue in the `upgrade` command.
+
 # 7.6.1
 (21 Oct 2026)
 - Resolved an issue that occurred when attempting to run the optimizer task following the completion of the Relocator task.
