@@ -2,7 +2,7 @@
 
 # 7.7.0
 (24 Oct 2026)
-- Added support for attaching resources located in `$PROJECT_DIR/res/`.
+- Added support for attaching [app resources](https://developer.android.com/guide/topics/resources/providing-resources) located in `$PROJECT_DIR/res/`.
 - Optimized the desugaring task for faster processing and fewer generated classes, resulting in a smaller extension size.
 - Resolved a minor issue in the `upgrade` command.
 
@@ -12,7 +12,7 @@
 
 # 7.6.0
 (20 Oct 2026)
-- Added C/C++ compilation support for Termux.
+- Added [C/C++](https://developer.android.com/studio/projects/add-native-code#new-project) compilation support for Termux.
 - Resolved NDK compatibility issues for macOS 10+.
 
 # 7.5.0
@@ -22,7 +22,7 @@
 
 # 7.4.0
 (17 Oct 2026)
-- Added Native C/C++ source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
+- Added Native [C/C++](https://developer.android.com/studio/projects/add-native-code#new-project) source compilation support. E.g., `$PROJECT_DIR/cpp/CMakeLists.txt`
 - Added Ability to attach application-level assets.
 - Added Support for bundling prebuilt JNI native libraries.
 - Added ABI filtering for native library compilation and linking.
