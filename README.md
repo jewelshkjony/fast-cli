@@ -13,7 +13,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 ## 🪶 Features
 <kbd>🥇 Premium features</kbd>
-- [Core Library](https://developer.android.com/studio/write/java8-support#library-desugaring) & [Java 8 Desugaring](https://developer.android.com/studio/write/java8-support).
+- [Core Library](https://developer.android.com/studio/write/java8-support#library-desugaring) Desugaring.
 - FastGuad (String Obfuscator).
 - [Maven](https://mvnrepository.com/) & [Gradle](https://docs.gradle.org/current/userguide/dependency_resolution.html) Dependency Resolver.
 - Android [manifests-merging](https://developer.android.com/build/manage-manifests#merge-manifests).
@@ -34,6 +34,8 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - Supports compiling [AIDL](https://developer.android.com/develop/background-work/services/aidl) sources.
 
 <kbd>🔥 Hot features</kbd>
+- Attaching Resources.
+- [Java 8 Desugaring](https://developer.android.com/studio/write/java8-support).
 - Supports Java compilation inside JRE environments (JRE 8–17+).
 - Supports platform specific extension compilation.
 - Dynamic Android [Compile SDK](https://developer.android.com/build#android_sdk_settings) API level.
