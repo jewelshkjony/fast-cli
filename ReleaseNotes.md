@@ -1,5 +1,14 @@
 ## 📝 Release Notes
 
+# 8.0.0
+(29 Oct 2026)
+> **Important:** This is a major update with breaking changes requiring a clean installation. Please run `fast upgrade -f` to update.
+
+- Added `override` feature to replace provided libraries with updated ones.
+- Added `shared_deps` feature to bundle common libraries without optimization.
+- Replaced `filter_mit_classes` with `omit_provided_classes` in `fast.yml`.
+- Updated `AndroidRuntime.jar` to the latest version.
+
 # 7.7.0
 (24 Oct 2026)
 - Added support for attaching [app resources](https://developer.android.com/guide/topics/resources/providing-resources) located in `$PROJECT_DIR/res/`.
