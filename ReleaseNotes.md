@@ -1,5 +1,15 @@
 ## 📝 Release Notes
 
+# 8.1.0
+(03 Nov 2026)
+- Added support for using multiple configuration files within the same project. Example:
+```yaml
+fast build -yml kodular.yml
+```
+- Added support for generating blocks on Termux.
+- Updated the Dependencies map & merger.
+- The logs writer has been updated.
+
 # 8.0.0
 (29 Oct 2026)
 > **Important:** This is a major update with breaking changes requiring a clean installation. Please run `fast upgrade -f` to update.
