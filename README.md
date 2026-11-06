@@ -13,6 +13,8 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 
 ## 🪶 Features
 <kbd>🥇 Premium features</kbd>
+- Overriding [platform provided](https://github.com/mit-cml/appinventor-sources/tree/master/appinventor/lib/android/support) libraries.
+- Bundle common libraries as shared AARs.
 - [Core Library](https://developer.android.com/studio/write/java8-support#library-desugaring) Desugaring.
 - FastGuad (String Obfuscator).
 - [Maven](https://mvnrepository.com/) & [Gradle](https://docs.gradle.org/current/userguide/dependency_resolution.html) Dependency Resolver.
@@ -34,6 +36,7 @@ Explore the [wiki section](https://github.com/jewelshkjony/fast-cli/wiki) for co
 - [AIDL](https://developer.android.com/develop/background-work/services/aidl) Sources Compilation.
 
 <kbd>🔥 Hot features</kbd>
+- Supports multiple (`fast.yml`) config file.
 - Attaching [App Resources](https://developer.android.com/guide/topics/resources/providing-resources).
 - [Java 8 Desugaring](https://developer.android.com/studio/write/java8-support).
 - Supports Java compilation inside JRE environments (JRE 8–17+).
@@ -117,7 +120,7 @@ Refer to [this wiki](https://github.com/jewelshkjony/fast-cli/wiki/Upgradation) 
 * 📝 Release notes are [here](https://github.com/jewelshkjony/fast-cli/blob/main/ReleaseNotes.md).
 * 💡 Ideas are welcome [here](https://github.com/jewelshkjony/fast-cli/discussions).
 * 🐛 Submit issues [here](https://github.com/jewelshkjony/fast-cli/issues).
-* 🤝 For getting additional supports, text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/8801775668913).
+* 🤝 For getting additional supports, text me via [Telegram](https://t.me/jewelshkjony) or [WhatsApp](https://wa.me/jewelshkjony).
 
 ### Contributors <kbd>9</kbd>
 <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#1--jewel-owner" target="_blank"><img src="https://github.com/jewelshkjony.png" alt="Jewel" width="40" height="40"/></a> <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#3--bux-ali-contributor" target="_blank"><img src="https://github.com/buxipro.png" alt="Bux Ali" width="40" height="40"/></a> <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#4--mujeeb-ur-rehman-contributor" target="_blank"><img src="https://github.com/lilmujeeb.png" alt="Mujeeb Ur Rehman" width="40" height="40"/></a> <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#5--aemo-developer-contributor" target="_blank"><img src="https://github.com/MahmoudHooda2019.png" alt="MahmoudHooda" width="40" height="40"/></a> <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#6--patryk-fraczek-contributor" target="_blank"><img src="https://github.com/patryk84a.png" alt="patryk84a" width="40" height="40"/></a> <a href="https://github.com/jewelshkjony/fast-cli/blob/main/CONTRIBUTORS.md#7--the-k-studio-contributor" target="_blank"><img src="https://github.com/TheKStudio25.png" alt="
