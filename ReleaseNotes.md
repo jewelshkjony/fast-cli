@@ -19,6 +19,21 @@ fast build -yml kodular.yml
 - Replaced `filter_mit_classes` with `omit_provided_classes` in `fast.yml`.
 - Updated `AndroidRuntime.jar` to the latest version.
 
+Examples:
+```yaml
+shared_deps:
+  - groupId:artifactId:version
+  - aar-library.aar:groupId:artifactId # Defining groupId and artifactId is recommended for local AARs
+  - jar-library.jar:groupId:artifactId # Mandatory for local JARs
+```
+
+```yaml
+override:
+  - groupId:artifactId:version
+  - my-library.aar
+  - provided-library.jar # Note: JAR library name should match the provided one. Include the updated library inside the `dependencies` attribute.
+```
+
 # 7.7.0
 (24 Oct 2026)
 - Added support for attaching [app resources](https://developer.android.com/guide/topics/resources/providing-resources) located in `$PROJECT_DIR/res/`.
