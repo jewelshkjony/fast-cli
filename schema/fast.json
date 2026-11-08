@@ -30,15 +30,21 @@
             "minimum": 35,
             "default": 35
         },
+        "target_platform" : {
+            "title": "Target Platform",
+            "description": "Specify the target builder (AppInventor | Kodular | Niotron | AndroidBuilder)",
+            "type": "string",
+            "default": "appinventor"
+        },
         "java_home": {
             "title": "JAVA_HOME",
-            "description": "# Project specific JDK home. (premium)",
+            "description": "Project specific JDK home. (premium)",
             "type": "string",
             "default": ""
         },
         "default_args": {
             "title": "Default Arguments",
-            "description": "# Define default arguments using space-separated values. (premium)",
+            "description": "Define default arguments using space-separated values. (premium)",
             "type": "string",
             "default": ""
         },
@@ -66,6 +72,12 @@
             "type": "array",
             "default": []
         },
+        "shared_deps": {
+            "title": "Shared Dependencies",
+            "description": "Common libraries to include as-is without optimization at compile time. Packaged within the extension's AAR to avoid D8 duplicate class conflicts. (premium)",
+            "type": "array",
+            "default": []
+        },
         "excludes": {
             "title": "Exclusions Dependencies",
             "description": "Define dependencies to skip during resolve. [Remote only]. NOTE: Run `fast sync` command before building the extension.",
@@ -78,6 +90,12 @@
             "type": "array",
             "default": []
         },
+        "app_assets": {
+            "title": "Application Assets",
+            "description": "[Should be present in assets directory]  (premium)",
+            "type": "array",
+            "default": []
+        },
         "apply_rules": {
             "title": "Collect ProGuard Rules",
             "description": "Define AAR libraries to apply ProGuard rules from them. [Remote and Local] (premium)",
@@ -87,6 +105,12 @@
         "aars": {
             "title": "Attach AARs Libraries",
             "description": "Define AAR libraries to attach with extension. [Remote and Local]. NOTE: Remote libraries should be resolved as runtime or compile-time dependencies. (premium)",
+            "type": "array",
+            "default": []
+        },
+        "override": {
+            "title": "Overridable Libraries",
+            "description": "Define libraries to override them over provided libraries. [Remote and Local] (premium)",
             "type": "array",
             "default": []
         },
@@ -104,9 +128,21 @@
         },
         "shader": {
             "title": "Package Relocator",
-            "description": "# Define packages to relocate them. (premium)",
+            "description": "Define packages to relocate them. (premium)",
             "type": "array",
             "default": []
+        },
+        "jni_libs": {
+            "title": "JNI Native Libraries",
+            "description": "Attach JNI native libraries to bundle them with APK. [Should be present in assets directory within relative child directory] (premium)",
+            "type": "array",
+            "default": []
+        },
+        "target_abis": {
+            "title": "Target JNI ABIs",
+            "description": "Target ABIs for compiling/attaching native libraries. (premium) Defaults to all ABIs if not specified, or accepts only for the listed ABIs. Supported ABIs: arm64-v8a, armeabi-v7a, x86, x86_64",
+            "type": "string",
+            "default": "arm64-v8a, x86_64"
         },
         "kotlin": {
             "title": "Kotlin Standard Libraries",
@@ -122,7 +158,7 @@
         },
         "xtend": {
             "title": "Xtend Standard Libraries",
-            "description": "# If enabled, Xtend Standard Libraries will be included with the extension. (premium)",
+            "description": "If enabled, Xtend Standard Libraries will be included with the extension. (premium)",
             "type": "boolean",
             "default": false
         },
@@ -182,6 +218,12 @@
             "type": "boolean",
             "default": false
         },
+        "R8_fullMode": {
+            "title": "R8 Full Mode",
+            "description": "Full mode does not automatically keep classes or members that are only referenced via reflection.",
+            "type": "boolean",
+            "default": false
+        },
         "proguard": {
             "title": "ProGuard Optimizer",
             "description": "If enabled, extension will be optimized using ProGuard.",
@@ -208,7 +250,7 @@
         },
         "desugar_core": {
             "title": "coreLibraryDesugaring",
-            "description": "# Enable to run coreLibraryDesugaring task (beta). (premium)",
+            "description": "Enable to run coreLibraryDesugaring task. (premium)",
             "type": "boolean",
             "default": false
         },
@@ -242,9 +284,9 @@
             "type": "boolean",
             "default": false
         },
-        "filter_mit_classes": {
-            "title": "Filer MIT App Inventor Classes",
-            "description": "Enable to skip matching classes provided by AI2.",
+        "omit_provided_classes": {
+            "title": "Omit Platform Provided Classes",
+            "description": "Enable to remove platform provided classes from extension.",
             "type": "boolean",
             "default": false
         },
