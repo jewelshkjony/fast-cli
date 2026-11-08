@@ -3,7 +3,7 @@
     "$id": "https://raw.githubusercontent.com/jewelshkjony/fast-cli/main/schema/fast.json",
     "title": "Fast Build Config",
     "description": "This file contains author name, min_sdk, dependencies, assets, and various build configurations. It also includes support for Kotlin, Java 8 features, and optimization settings.",
-    "fast_version": "7.0.0 14.08.26.02.01",
+    "fast_version": "8.1.0 03.11.26.23.47",
     "type": "object",
     "required": [
         "author",
