@@ -1,5 +1,12 @@
 ## 📝 Release Notes
 
+# 8.1.1
+(12 Nov 2026)
+- Gradle Resolver has been updated to version `v8.14.7`.
+- The `R8 fullMode` attribute has been added to `fast.yml`.
+- Some minor bugs have been fixed.
+- Changes have been made to the terminal output.
+
 # 8.1.0
 (03 Nov 2026)
 - Added support for using multiple configuration files within the same project. Example:
